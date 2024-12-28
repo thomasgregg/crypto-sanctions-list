@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "lastUpdated": "2024-12-28T21:30:16.162Z",
+    "sources": [
+      "OFAC SDN List",
+      "OFAC Recent Actions"
+    ]
+  },
+  "addresses": {
+    "bc1qe7cjq79qw8nf7zc6mvq7vqlwy9phyqx8m5wqz4": {
+      "entity": "Lazarus Group",
+      "program": "North Korea Sanctions Program",
+      "date": "April 2022",
+      "reason": "Test entry for GitHub Action verification"
+    }
+  }
+}
