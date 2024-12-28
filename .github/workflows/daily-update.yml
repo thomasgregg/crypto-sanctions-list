@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # Runs daily at midnight
   workflow_dispatch:      # Allows manual trigger
 
+permissions:
+  contents: write      # This line gives write permission
+
 jobs:
   update-sanctions:
     runs-on: ubuntu-latest
@@ -30,12 +33,6 @@ jobs:
         npm init -y
         npm install axios cheerio
       working-directory: .
-
-    - name: Check if scripts directory exists
-      run: |
-        pwd
-        ls -la
-        ls -la scripts || echo "scripts directory not found"
 
     - name: Create update script if not exists
       run: |
@@ -108,7 +105,7 @@ jobs:
 
     - name: Commit if changes exist
       run: |
-        git config --global user.name 'GitHub Action'
-        git config --global user.email 'action@github.com'
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add data/sanctioned-addresses.json
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update sanctions list $(date +'%Y-%m-%d')" && git push)
