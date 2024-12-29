@@ -10,7 +10,7 @@ This repository automates the extraction of data from the official OFAC source f
 
 ## Data Source
 
-The wallet addresses are sourced directly from the OFAC Specially Designated Nationals (SDN) list, specifically the [OFAC Sanctions List file in XML format]([https://www.treasury.gov/ofac/downloads/sdn_advanced.xml](https://sanctionslist.ofac.treas.gov/Home/SdnList)). This list is updated regularly to reflect the most current sanctions.
+The wallet addresses are sourced directly from the OFAC Specially Designated Nationals (SDN) list, specifically the [OFAC Sanctions List file in XML format](https://sanctionslist.ofac.treas.gov/Home/SdnList). This list is updated regularly to reflect the most current sanctions.
 
 ## Repository Structure
 
