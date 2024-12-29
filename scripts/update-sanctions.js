@@ -4,130 +4,76 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
+const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
 
-// Known sanctioned addresses from OFAC notices
-const KNOWN_ADDRESSES = {
-    // Lazarus Group - April 2022
-    "bc1qe7cjq79qw8nf7zc6mvq7vqlwy9phyqx8m5wqz4": {
-        entity: "Lazarus Group",
-        program: "North Korea Sanctions Program",
-        date: "April 2022",
-        reason: "Involved in the Ronin Network hack, resulting in theft of approximately $620 million"
-    },
-    // Tornado Cash - August 2022
-    "0x8589427373d6d84e98730d7795d8f6f8731fda16": {
-        entity: "Tornado Cash",
-        program: "Cyber-related Sanctions Program",
-        date: "August 2022",
-        reason: "Used to launder more than $7 billion worth of virtual currency since its creation in 2019"
-    },
-    "0x722122df12d4e14e13ac3b6895a86e84145b6967": {
-        entity: "Tornado Cash",
-        program: "Cyber-related Sanctions Program",
-        date: "August 2022",
-        reason: "Used to launder cryptocurrency"
-    },
-    // Blender.io - May 2022
-    "bc1q5shae8dzt35ky6k355q4ynac6ykr9hs2vhwfr6": {
-        entity: "Blender.io",
-        program: "North Korea Sanctions Program",
-        date: "May 2022",
-        reason: "Used to process illicit proceeds from the Ronin Network hack"
-    },
-    // Additional Tornado Cash addresses
-    "0xfd8610d20aa15b7b2e3be39b396a1bc3516c7144": {
-        entity: "Tornado Cash",
-        program: "Cyber-related Sanctions Program",
-        date: "August 2022",
-        reason: "Used to launder cryptocurrency"
-    },
-    // Additional Lazarus Group addresses
-    "bc1qa5wkgaew2dkv56kfvj49j0av5nml45x9ek9hz6": {
-        entity: "Lazarus Group",
-        program: "North Korea Sanctions Program",
-        date: "April 2022",
-        reason: "Involved in cryptocurrency theft and money laundering"
-    }
-};
-
-async function fetchOFACPressReleases() {
-    try {
-        console.log('Fetching OFAC press releases...');
-        const response = await axios.get('https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions');
-        const $ = cheerio.load(response.data);
-        const newAddresses = {};
-
-        // Parse recent actions page for crypto addresses
-        $('article').each((_, article) => {
-            const title = $(article).find('h3').text();
-            const date = $(article).find('time').text();
-            const link = $(article).find('a').attr('href');
-
-            // Look for cryptocurrency-related announcements
-            if (title.toLowerCase().includes('crypto') || 
-                title.toLowerCase().includes('virtual currency') ||
-                title.toLowerCase().includes('digital currency')) {
-                console.log(`Found relevant press release: ${title}`);
-                // You could fetch and parse the individual press release pages here
-            }
-        });
-
-        return newAddresses;
-    } catch (error) {
-        console.error('Error fetching press releases:', error);
-        return {};
-    }
-}
-
-async function fetchOFACSDNList() {
+async function fetchAndParseSDNList() {
     try {
         console.log('Fetching OFAC SDN list...');
-        const response = await axios.get('https://www.treasury.gov/ofac/downloads/sdn.xml');
+        const response = await axios.get(SDN_LIST_URL);
         const $ = cheerio.load(response.data, { xmlMode: true });
-        const newAddresses = {};
+        const addresses = {};
 
+        // Process each SDN entry
         $('sdnEntry').each((_, entry) => {
-            $(entry).find('id').each((_, id) => {
-                if ($(id).attr('idType') === 'Digital Currency Address') {
-                    const address = $(id).text().trim();
-                    console.log(`Found sanctioned address: ${address}`);
-                    // Add additional processing here if needed
+            const $entry = $(entry);
+            
+            // Get entity details
+            const firstName = $entry.find('firstName').text().trim();
+            const lastName = $entry.find('lastName').text().trim();
+            const entityName = lastName || firstName;
+            
+            const programs = $entry.find('programList program')
+                .map((_, prog) => $(prog).text().trim())
+                .get()
+                .join(', ');
+
+            const dateAdded = $entry.find('publishInformation publishDate').text().trim();
+            
+            // Find all digital currency addresses
+            $entry.find('id').each((_, id) => {
+                const $id = $(id);
+                if ($id.attr('idType') === 'Digital Currency Address' || 
+                    $id.attr('idType') === 'Digital Currency Address - XBT' || 
+                    $id.attr('idType') === 'Digital Currency Address - ETH' ||
+                    $id.attr('idType') === 'Digital Currency Address - XMR') {
+                    
+                    const address = $id.text().trim().toLowerCase();
+                    const idType = $id.attr('idType');
+                    const remarks = $entry.find('remarks').text().trim();
+
+                    addresses[address] = {
+                        entity: entityName,
+                        program: programs,
+                        date: dateAdded,
+                        reason: remarks || 'Listed on OFAC SDN List',
+                        type: idType
+                    };
+
+                    console.log(`Found sanctioned address: ${address} (${entityName})`);
                 }
             });
         });
 
-        return newAddresses;
+        return addresses;
     } catch (error) {
         console.error('Error fetching SDN list:', error);
-        return {};
+        throw error;
     }
 }
 
-async function fetchSanctionedAddresses() {
+async function updateSanctionsList() {
     try {
         console.log('Starting sanctions data update...');
 
-        // Start with known addresses
-        const addresses = { ...KNOWN_ADDRESSES };
+        // Fetch and parse the SDN list
+        const addresses = await fetchAndParseSDNList();
 
-        // Fetch new data from OFAC sources
-        const [pressReleaseAddresses, sdnListAddresses] = await Promise.all([
-            fetchOFACPressReleases(),
-            fetchOFACSDNList()
-        ]);
-
-        // Combine all addresses
-        Object.assign(addresses, pressReleaseAddresses, sdnListAddresses);
-
-        // Create the final data structure
+        // Create the data structure
         const sanctionsData = {
             metadata: {
                 lastUpdated: new Date().toISOString(),
-                sources: [
-                    'OFAC SDN List',
-                    'OFAC Recent Actions',
-                    'Known Historical Entries'
-                ]
+                source: 'OFAC SDN List',
+                totalAddresses: Object.keys(addresses).length
             },
             addresses: addresses
         };
@@ -150,7 +96,7 @@ async function fetchSanctionedAddresses() {
 }
 
 // Run the update
-fetchSanctionedAddresses()
+updateSanctionsList()
     .then(() => console.log('Update completed successfully'))
     .catch(error => {
         console.error('Update failed:', error);
