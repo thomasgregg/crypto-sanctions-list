@@ -6,6 +6,28 @@ const { XMLParser } = require('fast-xml-parser');
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
 const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
 
+// Helper function to ensure array
+function ensureArray(item) {
+    if (!item) return [];
+    return Array.isArray(item) ? item : [item];
+}
+
+// Helper function to get proper date
+function extractDate(entry) {
+    try {
+        if (entry.publishInformation) {
+            const pubInfo = ensureArray(entry.publishInformation)[0];
+            if (pubInfo && pubInfo.publishDate) {
+                return pubInfo.publishDate;
+            }
+        }
+        return 'Date not specified';
+    } catch (error) {
+        console.error('Error extracting date:', error);
+        return 'Date not specified';
+    }
+}
+
 async function fetchAndParseSDNList() {
     try {
         console.log('Fetching OFAC SDN XML...');
@@ -36,7 +58,7 @@ async function fetchAndParseSDNList() {
         console.log('Parsing XML data...');
         const result = parser.parse(xmlContent);
         
-        const sdnEntries = result?.sdnList?.sdnEntry || [];
+        const sdnEntries = ensureArray(result?.sdnList?.sdnEntry);
         console.log(`Found ${sdnEntries.length} SDN entries to process...`);
 
         const addresses = {};
@@ -51,41 +73,37 @@ async function fetchAndParseSDNList() {
             }
 
             try {
-                // Get all IDs
-                const idList = entry.idList?.id;
-                if (!idList) continue;
-
-                const ids = Array.isArray(idList) ? idList : [idList];
-
+                const ids = ensureArray(entry.idList?.id);
+                
                 for (const id of ids) {
-                    // Track all ID types for debugging
                     if (id.idType) {
                         uniqueIdTypes.add(id.idType);
                     }
 
                     // Check if this is a cryptocurrency address
                     if (id.idType?.toLowerCase().includes('digital currency')) {
-                        const address = id.idNumber?.toLowerCase() || '';
-                        if (!address) continue;
+                        const address = (id.idNumber || '').toLowerCase();
+                        if (!address || address.length < 10) continue; // Basic validation
 
                         foundAddresses++;
 
                         // Get program list
-                        const programs = entry.programList?.program;
-                        const programString = Array.isArray(programs)
-                            ? programs.join(', ')
-                            : programs || 'Not specified';
+                        const programs = ensureArray(entry.programList?.program);
+                        const programString = programs.join(', ') || 'Not specified';
 
-                        // Get entity name
-                        const entityName = entry.firstName || entry.lastName || 'Unknown Entity';
+                        // Get entity name - try different name fields
+                        const entityName = entry.firstName || entry.lastName || 
+                                        entry.name || entry.title || 'Unknown Entity';
 
-                        // Get date if available
-                        const dateStr = entry.publishInformation?.publishDate || 'Date not specified';
+                        // Get date
+                        const dateStr = extractDate(entry);
 
                         console.log(`\nFound crypto address #${foundAddresses}:`);
                         console.log(`Address: ${address}`);
                         console.log(`Entity: ${entityName}`);
                         console.log(`Program: ${programString}`);
+                        console.log(`Date: ${dateStr}`);
+                        console.log(`Type: ${id.idType}`);
 
                         addresses[address] = {
                             entity: entityName,
@@ -98,14 +116,23 @@ async function fetchAndParseSDNList() {
                 }
             } catch (error) {
                 console.error(`Error processing entry ${processedEntries}:`, error.message);
+                console.error('Entry data:', JSON.stringify(entry).substring(0, 200));
             }
         }
 
-        console.log('\n\nProcessing complete:');
+        // Validation check
+        console.log('\n\nValidation Summary:');
         console.log(`Total entries processed: ${processedEntries}`);
         console.log(`Total addresses found: ${foundAddresses}`);
-        console.log('\nAll unique ID types found:');
-        uniqueIdTypes.forEach(type => console.log(`- ${type}`));
+        console.log(`Total unique addresses: ${Object.keys(addresses).length}`);
+        console.log('\nSample of dates found:');
+        Object.entries(addresses).slice(0, 5).forEach(([addr, data]) => {
+            console.log(`${addr.substring(0, 20)}... : ${data.date}`);
+        });
+
+        if (foundAddresses > Object.keys(addresses).length) {
+            console.log('\nNote: Found some duplicate addresses');
+        }
 
         return addresses;
 
@@ -155,4 +182,3 @@ updateSanctionsList()
         console.error('Fatal error:', error);
         process.exit(1);
     });
-    
