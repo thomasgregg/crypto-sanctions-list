@@ -4,33 +4,33 @@ const path = require('path');
 const { XMLParser } = require('fast-xml-parser');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
-const DEBUG_DIR = path.join(__dirname, '..', 'debug');
 const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
 
-async function dumpDebugInfo(rawXml, parsedData) {
-    await fs.mkdir(DEBUG_DIR, { recursive: true });
-    await fs.writeFile(path.join(DEBUG_DIR, 'raw_sdn.xml'), rawXml);
-    await fs.writeFile(
-        path.join(DEBUG_DIR, 'parsed_data.json'), 
-        JSON.stringify(parsedData, null, 2)
-    );
-}
-
 async function findAllCryptoAddresses(xmlContent) {
-    // Simple regex pattern to find lines containing "Digital Currency Address"
-    const pattern = /Digital Currency Address[^<]+<\/id>/g;
-    const matches = xmlContent.match(pattern) || [];
-    
-    console.log('\nDirect XML search results:');
-    console.log(`Found ${matches.length} potential crypto address entries in raw XML`);
-    
-    // Save matches to debug file
-    await fs.writeFile(
-        path.join(DEBUG_DIR, 'raw_matches.txt'),
-        matches.join('\n')
-    );
+    // Log first 1000 characters to see what we're dealing with
+    console.log('\nFirst 1000 characters of XML:');
+    console.log(xmlContent.substring(0, 1000));
 
-    return matches.length;
+    // More flexible pattern to match crypto addresses
+    const patterns = [
+        /<idType[^>]*>Digital Currency Address[^<]*<\/idType>/g,
+        /<id>[^<]*Digital Currency[^<]*<\/id>/g
+    ];
+
+    let allMatches = [];
+    for (const pattern of patterns) {
+        const matches = xmlContent.match(pattern) || [];
+        allMatches = [...allMatches, ...matches];
+    }
+
+    console.log('\nRegex search results:');
+    console.log(`Found ${allMatches.length} potential crypto address entries`);
+    if (allMatches.length > 0) {
+        console.log('Sample matches:');
+        allMatches.slice(0, 5).forEach(match => console.log(match));
+    }
+
+    return allMatches.length;
 }
 
 async function fetchAndParseSDNList() {
@@ -61,71 +61,67 @@ async function fetchAndParseSDNList() {
             trimValues: true,
             processEntities: true,
             removeNSPrefix: true,
-            isArray: (name, jpath, isLeafNode, isAttribute) => {
-                // Force these to always be arrays
-                return name === 'sdnEntry' || 
-                       name === 'id' || 
-                       name === 'program' ||
-                       name === 'publishInformation';
+            isArray: (name) => {
+                return ['sdnEntry', 'id', 'program', 'publishInformation'].includes(name);
             }
         });
 
         console.log('Parsing XML data...');
         const result = parser.parse(xmlContent);
         
-        // Save debug info
-        await dumpDebugInfo(xmlContent, result);
-
         const sdnEntries = result?.sdnList?.sdnEntry || [];
         console.log(`Found ${sdnEntries.length} SDN entries to process...`);
+
+        // Log sample entry to debug structure
+        if (sdnEntries.length > 0) {
+            console.log('\nSample entry structure:');
+            console.log(JSON.stringify(sdnEntries[0], null, 2));
+        }
 
         const addresses = {};
         let processedEntries = 0;
         let foundAddresses = 0;
 
-        // Create a map to track addresses and their sources
-        const addressSources = new Map();
-
         for (const entry of sdnEntries) {
             processedEntries++;
-            
+            if (processedEntries % 1000 === 0) {
+                console.log(`Processed ${processedEntries}/${sdnEntries.length} entries...`);
+            }
+
             try {
-                const ids = entry.idList?.id || [];
+                if (!entry.idList?.id) continue;
                 
+                // Ensure id is always an array
+                const ids = Array.isArray(entry.idList.id) ? entry.idList.id : [entry.idList.id];
+
                 for (const id of ids) {
-                    if (id?.idType?.toLowerCase().includes('digital currency')) {
+                    // Log all ID types for debugging
+                    if (id.idType) {
+                        console.log(`Found ID type: ${id.idType}`);
+                    }
+
+                    if (id.idType?.toLowerCase().includes('digital currency')) {
                         const address = (id.idNumber || '').toLowerCase();
                         if (!address || address.length < 10) continue;
 
                         foundAddresses++;
+                        console.log(`Found address #${foundAddresses}: ${address}`);
 
-                        // Track where we found this address
-                        if (!addressSources.has(address)) {
-                            addressSources.set(address, []);
+                        // Get publication date - log the structure
+                        console.log('Publication info:', entry.publishInformation);
+                        let dateStr = 'Date not specified';
+                        if (entry.publishInformation && entry.publishInformation[0]) {
+                            dateStr = entry.publishInformation[0].publishDate || dateStr;
                         }
-                        addressSources.get(address).push({
-                            entity: entry.firstName || entry.lastName || 'Unknown',
-                            id: id.idType
-                        });
 
                         // Get program list
-                        const programs = entry.programList?.program || [];
-                        const programString = programs.join(', ') || 'Not specified';
-
-                        // Get entity name
-                        const entityName = entry.firstName || entry.lastName || 'Unknown Entity';
-
-                        // Get publication date with debug info
-                        let dateStr = 'Date not specified';
-                        if (entry.publishInformation && entry.publishInformation.length > 0) {
-                            dateStr = entry.publishInformation[0].publishDate || dateStr;
-                            console.log(`Found date for ${address}: ${dateStr}`);
-                            console.log('Publication info:', JSON.stringify(entry.publishInformation[0]));
-                        }
+                        const programs = Array.isArray(entry.programList?.program) 
+                            ? entry.programList.program 
+                            : [entry.programList?.program || 'Not specified'];
 
                         addresses[address] = {
-                            entity: entityName,
-                            program: programString,
+                            entity: entry.firstName || entry.lastName || 'Unknown Entity',
+                            program: programs.join(', '),
                             date: dateStr,
                             reason: entry.remarks || 'Listed on OFAC SDN List',
                             type: id.idType
@@ -137,31 +133,11 @@ async function fetchAndParseSDNList() {
             }
         }
 
-        // Save address sources to debug file
-        const addressSourcesDebug = Object.fromEntries(addressSources);
-        await fs.writeFile(
-            path.join(DEBUG_DIR, 'address_sources.json'),
-            JSON.stringify(addressSourcesDebug, null, 2)
-        );
-
         console.log('\nProcessing Summary:');
         console.log(`Raw XML matches found: ${rawMatchCount}`);
         console.log(`Total entries processed: ${processedEntries}`);
         console.log(`Total addresses found: ${foundAddresses}`);
         console.log(`Unique addresses: ${Object.keys(addresses).length}`);
-
-        // Write a comparison file
-        const comparisonData = {
-            rawMatchCount,
-            processedCount: processedEntries,
-            foundAddressesCount: foundAddresses,
-            uniqueAddressesCount: Object.keys(addresses).length,
-            addressSources: Object.fromEntries(addressSources)
-        };
-        await fs.writeFile(
-            path.join(DEBUG_DIR, 'comparison.json'),
-            JSON.stringify(comparisonData, null, 2)
-        );
 
         return addresses;
 
@@ -188,6 +164,9 @@ async function updateSanctionsList() {
         await fs.mkdir(path.dirname(OUTPUT_FILE), { recursive: true });
         await fs.writeFile(OUTPUT_FILE, JSON.stringify(sanctionsData, null, 2));
 
+        console.log('\nSuccessfully updated sanctions list');
+        console.log(`Total addresses in output: ${Object.keys(addresses).length}`);
+
         return sanctionsData;
     } catch (error) {
         console.error('Error in updateSanctionsList:', error);
@@ -198,7 +177,6 @@ async function updateSanctionsList() {
 updateSanctionsList()
     .then(() => {
         console.log('\nUpdate completed successfully');
-        console.log('Debug files have been written to the debug directory');
         process.exit(0);
     })
     .catch(error => {
