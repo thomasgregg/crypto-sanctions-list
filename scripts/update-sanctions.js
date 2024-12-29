@@ -4,48 +4,38 @@ const path = require('path');
 const { XMLParser } = require('fast-xml-parser');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
-const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
-
-// Safe access to nested properties
-const safeGet = (obj, path) => {
-    try {
-        return path.split('.').reduce((acc, part) => acc && acc[part], obj);
-    } catch (e) {
-        return undefined;
-    }
-};
+const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml';
 
 async function fetchAndParseSDNList() {
     try {
-        console.log('Fetching OFAC SDN list...');
-        const response = await axios.get(SDN_LIST_URL);
-        console.log('Received response, size:', response.data.length);
+        console.log('Fetching OFAC SDN Advanced XML...');
+        const response = await axios.get(SDN_LIST_URL, {
+            validateStatus: status => status === 200,
+            maxContentLength: 50 * 1024 * 1024, // 50MB max
+            timeout: 30000 // 30 seconds timeout
+        });
 
+        // Log response size
+        const contentLength = parseInt(response.headers['content-length']);
+        console.log('Response size:', {
+            contentLength: contentLength ? `${Math.round(contentLength/1024)}KB` : 'unknown',
+            actualLength: `${Math.round(response.data.length/1024)}KB`
+        });
+
+        // Parse XML with specific options for advanced format
         const parser = new XMLParser({
             ignoreAttributes: false,
             attributeNamePrefix: '',
             parseAttributeValue: true,
             allowBooleanAttributes: true,
-            textNodeName: 'text',
-            preserveOrder: false,
-            numberParseOptions: {
-                skipLike: /[0-9]+/
-            }
+            textNodeName: 'text'
         });
 
-        let result;
-        try {
-            console.log('Parsing XML...');
-            result = parser.parse(response.data);
-            console.log('XML parsed successfully');
-        } catch (parseError) {
-            console.error('XML parsing error:', parseError);
-            throw parseError;
-        }
+        console.log('Parsing XML data...');
+        const result = parser.parse(response.data);
 
         if (!result || !result.sdnList || !result.sdnList.sdnEntry) {
-            console.error('Unexpected XML structure:', Object.keys(result || {}));
-            throw new Error('Invalid XML structure');
+            throw new Error('Invalid XML structure in advanced SDN list');
         }
 
         const sdnEntries = Array.isArray(result.sdnList.sdnEntry) 
@@ -55,69 +45,58 @@ async function fetchAndParseSDNList() {
         console.log(`Processing ${sdnEntries.length} SDN entries...`);
 
         const addresses = {};
-        let currentEntry = 0;
+        let processedEntries = 0;
+        let foundAddresses = 0;
 
         for (const entry of sdnEntries) {
-            currentEntry++;
+            processedEntries++;
+            if (processedEntries % 1000 === 0) {
+                console.log(`Processed ${processedEntries}/${sdnEntries.length} entries...`);
+            }
+
             try {
-                console.log(`Processing entry ${currentEntry}/${sdnEntries.length}`);
-                
-                // Safely get IDs
-                const idList = safeGet(entry, 'idList.id');
+                // Check for ID list
+                const idList = entry.idList?.id;
                 if (!idList) continue;
 
                 const ids = Array.isArray(idList) ? idList : [idList];
-                console.log(`Entry ${currentEntry}: Found ${ids.length} IDs`);
 
                 for (const id of ids) {
-                    try {
-                        const idType = safeGet(id, 'idType');
-                        console.log(`Processing ID type: ${idType}`);
+                    if (id.idType?.toLowerCase().includes('digital currency')) {
+                        const address = (id.text || id.idNumber || '').toLowerCase();
+                        if (!address) continue;
 
-                        if (idType && typeof idType === 'string' &&
-                            idType.toLowerCase().includes('digital currency')) {
-                            
-                            // Get address value safely
-                            const address = (safeGet(id, 'text') || safeGet(id, 'idNumber') || '').toLowerCase();
-                            if (!address) {
-                                console.log('No address found for digital currency ID');
-                                continue;
-                            }
+                        foundAddresses++;
+                        const entityName = entry.lastName || entry.firstName || 'Unknown Entity';
+                        const programs = entry.programList?.program;
+                        const programString = Array.isArray(programs)
+                            ? programs.join(', ')
+                            : (typeof programs === 'string' ? programs : 'Not specified');
 
-                            // Get entity details safely
-                            const entityName = safeGet(entry, 'lastName') || 
-                                            safeGet(entry, 'firstName') || 
-                                            'Unknown Entity';
+                        addresses[address] = {
+                            entity: entityName,
+                            program: programString,
+                            date: entry.publishInformation?.publishDate || 'Date not specified',
+                            reason: entry.remarks || 'Listed on OFAC SDN List',
+                            type: id.idType
+                        };
 
-                            const programs = safeGet(entry, 'programList.program');
-                            const programString = Array.isArray(programs)
-                                ? programs.join(', ')
-                                : (typeof programs === 'string' ? programs : 'Not specified');
-
-                            console.log(`Found crypto address: ${address} for ${entityName}`);
-
-                            addresses[address] = {
-                                entity: entityName,
-                                program: programString,
-                                date: safeGet(entry, 'publishInformation.publishDate') || 'Date not specified',
-                                reason: safeGet(entry, 'remarks') || 'Listed on OFAC SDN List',
-                                type: idType
-                            };
-                        }
-                    } catch (idError) {
-                        console.error(`Error processing ID in entry ${currentEntry}:`, idError);
+                        console.log(`Found crypto address #${foundAddresses}: ${address} (${entityName})`);
                     }
                 }
-            } catch (entryError) {
-                console.error(`Error processing entry ${currentEntry}:`, entryError);
+            } catch (error) {
+                console.error(`Error processing entry ${processedEntries}:`, error.message);
             }
         }
 
-        console.log(`Found ${Object.keys(addresses).length} cryptocurrency addresses`);
+        console.log(`\nProcessing complete:`);
+        console.log(`Total entries processed: ${processedEntries}`);
+        console.log(`Total addresses found: ${foundAddresses}`);
+
         return addresses;
 
     } catch (error) {
-        console.error('Fatal error in fetchAndParseSDNList:', error);
+        console.error('Error fetching or parsing SDN list:', error);
         throw error;
     }
 }
@@ -129,22 +108,21 @@ async function updateSanctionsList() {
         const sanctionsData = {
             metadata: {
                 lastUpdated: new Date().toISOString(),
-                source: 'OFAC SDN List',
+                source: 'OFAC SDN Advanced List',
                 totalAddresses: Object.keys(addresses).length,
                 url: SDN_LIST_URL
             },
             addresses: addresses
         };
 
+        // Ensure data directory exists
         await fs.mkdir(path.dirname(OUTPUT_FILE), { recursive: true });
+
+        // Write to file
         await fs.writeFile(OUTPUT_FILE, JSON.stringify(sanctionsData, null, 2));
 
-        if (Object.keys(addresses).length > 0) {
-            console.log('\nFirst few addresses found:');
-            Object.entries(addresses).slice(0, 3).forEach(([address, data]) => {
-                console.log(`- ${address} (${data.entity})`);
-            });
-        }
+        console.log('\nSuccessfully updated sanctions list');
+        console.log(`Total addresses in output: ${Object.keys(addresses).length}`);
 
         return sanctionsData;
     } catch (error) {
@@ -153,13 +131,10 @@ async function updateSanctionsList() {
     }
 }
 
-// Run the update with proper error handling
+// Run the update
 updateSanctionsList()
-    .then(() => {
-        console.log('Update completed successfully');
-        process.exit(0);
-    })
+    .then(() => process.exit(0))
     .catch(error => {
-        console.error('Update failed:', error);
+        console.error('Fatal error:', error);
         process.exit(1);
     });
