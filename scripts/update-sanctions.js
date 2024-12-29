@@ -10,32 +10,31 @@ async function fetchAndParseSDNList() {
     try {
         console.log('Fetching OFAC SDN Advanced XML...');
         const response = await axios.get(SDN_LIST_URL, {
-            validateStatus: status => status === 200,
-            maxContentLength: 50 * 1024 * 1024, // 50MB max
-            timeout: 30000 // 30 seconds timeout
+            maxContentLength: Infinity,
+            maxBodyLength: Infinity,
+            responseType: 'text',
+            decompress: true // Handle gzip compression
         });
 
-        // Log response size
-        const contentLength = parseInt(response.headers['content-length']);
-        console.log('Response size:', {
-            contentLength: contentLength ? `${Math.round(contentLength/1024)}KB` : 'unknown',
-            actualLength: `${Math.round(response.data.length/1024)}KB`
-        });
+        const xmlContent = response.data;
+        console.log('Received XML data, size:', Buffer.byteLength(xmlContent, 'utf8') / 1024 / 1024, 'MB');
 
-        // Parse XML with specific options for advanced format
         const parser = new XMLParser({
             ignoreAttributes: false,
             attributeNamePrefix: '',
             parseAttributeValue: true,
             allowBooleanAttributes: true,
-            textNodeName: 'text'
+            textNodeName: 'text',
+            numberParseOptions: {
+                skipLike: /[0-9]+/
+            }
         });
 
         console.log('Parsing XML data...');
-        const result = parser.parse(response.data);
+        const result = parser.parse(xmlContent);
 
         if (!result || !result.sdnList || !result.sdnList.sdnEntry) {
-            throw new Error('Invalid XML structure in advanced SDN list');
+            throw new Error('Invalid XML structure');
         }
 
         const sdnEntries = Array.isArray(result.sdnList.sdnEntry) 
@@ -55,7 +54,6 @@ async function fetchAndParseSDNList() {
             }
 
             try {
-                // Check for ID list
                 const idList = entry.idList?.id;
                 if (!idList) continue;
 
@@ -73,10 +71,21 @@ async function fetchAndParseSDNList() {
                             ? programs.join(', ')
                             : (typeof programs === 'string' ? programs : 'Not specified');
 
+                        // Get publication date
+                        const publishInfo = entry.publishInformation;
+                        let dateStr = 'Date not specified';
+                        if (publishInfo) {
+                            if (Array.isArray(publishInfo)) {
+                                dateStr = publishInfo[0]?.publishDate || dateStr;
+                            } else {
+                                dateStr = publishInfo.publishDate || dateStr;
+                            }
+                        }
+
                         addresses[address] = {
                             entity: entityName,
                             program: programString,
-                            date: entry.publishInformation?.publishDate || 'Date not specified',
+                            date: dateStr,
                             reason: entry.remarks || 'Listed on OFAC SDN List',
                             type: id.idType
                         };
@@ -96,7 +105,11 @@ async function fetchAndParseSDNList() {
         return addresses;
 
     } catch (error) {
-        console.error('Error fetching or parsing SDN list:', error);
+        console.error('Error fetching or parsing SDN list:', error.message);
+        if (error.response) {
+            console.error('Response status:', error.response.status);
+            console.error('Response headers:', error.response.headers);
+        }
         throw error;
     }
 }
@@ -115,10 +128,7 @@ async function updateSanctionsList() {
             addresses: addresses
         };
 
-        // Ensure data directory exists
         await fs.mkdir(path.dirname(OUTPUT_FILE), { recursive: true });
-
-        // Write to file
         await fs.writeFile(OUTPUT_FILE, JSON.stringify(sanctionsData, null, 2));
 
         console.log('\nSuccessfully updated sanctions list');
@@ -133,7 +143,10 @@ async function updateSanctionsList() {
 
 // Run the update
 updateSanctionsList()
-    .then(() => process.exit(0))
+    .then(() => {
+        console.log('Update completed successfully');
+        process.exit(0);
+    })
     .catch(error => {
         console.error('Fatal error:', error);
         process.exit(1);
