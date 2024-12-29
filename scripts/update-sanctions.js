@@ -19,114 +19,74 @@ async function fetchAndParseSDNList() {
         const xmlContent = response.data;
         console.log('Received XML data, size:', Buffer.byteLength(xmlContent, 'utf8') / 1024 / 1024, 'MB');
 
-        // Debug: Check first few characters of XML
-        console.log('First 500 characters of XML:', xmlContent.substring(0, 500));
-
-        // Debug: Check if it's valid XML structure
-        if (!xmlContent.trim().startsWith('<?xml')) {
-            console.error('Content does not start with XML declaration');
-            // Try to write the content to a file for inspection
-            await fs.writeFile('debug_response.txt', xmlContent.substring(0, 5000));
-            throw new Error('Invalid XML content received');
-        }
-
         const parser = new XMLParser({
             ignoreAttributes: false,
             attributeNamePrefix: '',
             parseAttributeValue: true,
             allowBooleanAttributes: true,
             textNodeName: 'text',
-            numberParseOptions: {
-                skipLike: /[0-9]+/
-            },
+            ignoreDeclaration: true,
+            ignorePiTags: true,
             parseTagValue: true,
             trimValues: true,
-            parseAttributeValue: false,
-            cdataPropName: "__cdata",
-            processEntities: true
+            processEntities: true,
+            removeNSPrefix: true // Remove namespace prefixes
         });
 
         console.log('Parsing XML data...');
-        let result;
-        try {
-            result = parser.parse(xmlContent);
-            // Debug: Log the parsed structure
-            console.log('Parsed XML structure keys:', Object.keys(result));
-            if (result.sdnList) {
-                console.log('SDN List keys:', Object.keys(result.sdnList));
-            }
-        } catch (parseError) {
-            console.error('XML parsing error:', parseError);
-            // Try to determine where the parsing failed
-            const errorPosition = parseError.message.match(/\d+/)?.[0];
-            if (errorPosition) {
-                console.log('XML content around error:', xmlContent.substring(
-                    Math.max(0, parseInt(errorPosition) - 100),
-                    parseInt(errorPosition) + 100
-                ));
-            }
-            throw parseError;
-        }
-
-        if (!result || !result.sdnList || !result.sdnList.sdnEntry) {
-            console.error('Unexpected XML structure:', JSON.stringify(result, null, 2).substring(0, 1000));
-            throw new Error('Invalid XML structure');
-        }
-
-        const sdnEntries = Array.isArray(result.sdnList.sdnEntry) 
-            ? result.sdnList.sdnEntry 
-            : [result.sdnList.sdnEntry];
-
-        console.log(`Processing ${sdnEntries.length} SDN entries...`);
+        const result = parser.parse(xmlContent);
+        
+        // Navigate to the DistinctParties section which contains the entries
+        const entries = result?.Sanctions?.DistinctParties?.DistinctParty || [];
+        console.log(`Found ${entries.length} distinct parties to process...`);
 
         const addresses = {};
         let processedEntries = 0;
         let foundAddresses = 0;
 
-        for (const entry of sdnEntries) {
+        for (const party of entries) {
             processedEntries++;
             if (processedEntries % 1000 === 0) {
-                console.log(`Processed ${processedEntries}/${sdnEntries.length} entries...`);
+                console.log(`Processed ${processedEntries}/${entries.length} entries...`);
             }
 
             try {
-                const idList = entry.idList?.id;
-                if (!idList) continue;
+                // Check for IDs section
+                const ids = party.IDs?.ID;
+                if (!ids) continue;
 
-                const ids = Array.isArray(idList) ? idList : [idList];
+                const idList = Array.isArray(ids) ? ids : [ids];
 
-                for (const id of ids) {
-                    if (id.idType?.toLowerCase().includes('digital currency')) {
-                        const address = (id.text || id.idNumber || '').toLowerCase();
+                for (const id of idList) {
+                    // Check if this is a cryptocurrency address
+                    if (id?.IDType?.text?.toLowerCase().includes('digital currency')) {
+                        const address = (id.IDNumber || '').toLowerCase();
                         if (!address) continue;
 
                         foundAddresses++;
-                        const entityName = entry.lastName || entry.firstName || 'Unknown Entity';
-                        const programs = entry.programList?.program;
-                        const programString = Array.isArray(programs)
-                            ? programs.join(', ')
-                            : (typeof programs === 'string' ? programs : 'Not specified');
 
-                        // Get publication date
-                        const publishInfo = entry.publishInformation;
-                        let dateStr = 'Date not specified';
-                        if (publishInfo) {
-                            if (Array.isArray(publishInfo)) {
-                                dateStr = publishInfo[0]?.publishDate || dateStr;
-                            } else {
-                                dateStr = publishInfo.publishDate || dateStr;
-                            }
-                        }
+                        // Get party details
+                        const partyName = party.PartyName?.[0]?.text || 'Unknown Entity';
+                        const programs = party.Sanctions?.SanctionsProgram;
+                        const programString = Array.isArray(programs)
+                            ? programs.map(p => p.text).join(', ')
+                            : (programs?.text || 'Not specified');
+
+                        // Get registration date
+                        let dateStr = party.Sanctions?.RegistrationDate || 'Date not specified';
+                        
+                        // Get remarks if any
+                        const remarks = party.Remarks || 'Listed on OFAC SDN List';
 
                         addresses[address] = {
-                            entity: entityName,
+                            entity: partyName,
                             program: programString,
                             date: dateStr,
-                            reason: entry.remarks || 'Listed on OFAC SDN List',
-                            type: id.idType
+                            reason: remarks,
+                            type: id.IDType.text
                         };
 
-                        console.log(`Found crypto address #${foundAddresses}: ${address} (${entityName})`);
+                        console.log(`Found crypto address #${foundAddresses}: ${address} (${partyName})`);
                     }
                 }
             } catch (error) {
@@ -137,6 +97,12 @@ async function fetchAndParseSDNList() {
         console.log(`\nProcessing complete:`);
         console.log(`Total entries processed: ${processedEntries}`);
         console.log(`Total addresses found: ${foundAddresses}`);
+
+        if (foundAddresses === 0) {
+            console.warn('Warning: No cryptocurrency addresses were found in the data');
+            // Log some sample data for debugging
+            console.log('Sample entry structure:', JSON.stringify(entries[0], null, 2).substring(0, 1000));
+        }
 
         return addresses;
 
