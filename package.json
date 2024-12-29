@@ -1,24 +1,13 @@
 {
   "name": "crypto-sanctions-list",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thomasgregg/crypto-sanctions-list.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thomasgregg/crypto-sanctions-list/issues"
-  },
-  "homepage": "https://github.com/thomasgregg/crypto-sanctions-list#readme",
-  "description": "",
+  "description": "OFAC Sanctions List Cryptocurrency Address Parser",
+  "main": "scripts/update-sanctions.js",
   "dependencies": {
-    "axios": "^1.7.9",
-    "cheerio": "^1.0.0"
+    "axios": "^1.6.2",
+    "fast-xml-parser": "^4.3.2"
+  },
+  "scripts": {
+    "update": "node scripts/update-sanctions.js"
   }
 }

@@ -1,7 +1,7 @@
 const axios = require('axios');
-const cheerio = require('cheerio');
 const fs = require('fs').promises;
 const path = require('path');
+const { XMLParser } = require('fast-xml-parser');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
 const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
@@ -10,53 +10,52 @@ async function fetchAndParseSDNList() {
     try {
         console.log('Fetching OFAC SDN list...');
         const response = await axios.get(SDN_LIST_URL);
-        const $ = cheerio.load(response.data, { xmlMode: true });
+        
+        // Use fast-xml-parser instead of cheerio for better XML handling
+        const parser = new XMLParser({
+            ignoreAttributes: false,
+            attributeNamePrefix: '@_'
+        });
+        
+        const result = parser.parse(response.data);
+        const sdnList = result.sdnList.sdnEntry;
         const addresses = {};
 
+        console.log(`Found ${sdnList.length} SDN entries to process`);
+
         // Process each SDN entry
-        $('sdnEntry').each((_, entry) => {
-            const $entry = $(entry);
-            
+        sdnList.forEach(entry => {
             // Get entity details
-            const firstName = $entry.find('firstName').text().trim();
-            const lastName = $entry.find('lastName').text().trim();
-            const entityName = lastName || firstName;
+            const entityName = entry.lastName || entry.firstName || 'Unknown Entity';
+            const programs = entry.programList?.program;
+            const programString = Array.isArray(programs) ? programs.join(', ') : programs;
             
-            const programs = $entry.find('programList program')
-                .map((_, prog) => $(prog).text().trim())
-                .get()
-                .join(', ');
-
-            const dateAdded = $entry.find('publishInformation publishDate').text().trim();
-            
-            // Find all digital currency addresses
-            $entry.find('id').each((_, id) => {
-                const $id = $(id);
-                if ($id.attr('idType') === 'Digital Currency Address' || 
-                    $id.attr('idType') === 'Digital Currency Address - XBT' || 
-                    $id.attr('idType') === 'Digital Currency Address - ETH' ||
-                    $id.attr('idType') === 'Digital Currency Address - XMR') {
-                    
-                    const address = $id.text().trim().toLowerCase();
-                    const idType = $id.attr('idType');
-                    const remarks = $entry.find('remarks').text().trim();
-
-                    addresses[address] = {
-                        entity: entityName,
-                        program: programs,
-                        date: dateAdded,
-                        reason: remarks || 'Listed on OFAC SDN List',
-                        type: idType
-                    };
-
-                    console.log(`Found sanctioned address: ${address} (${entityName})`);
-                }
-            });
+            // Process ID list
+            if (entry.idList?.id) {
+                const ids = Array.isArray(entry.idList.id) ? entry.idList.id : [entry.idList.id];
+                
+                ids.forEach(id => {
+                    if (id['@_idType']?.includes('Digital Currency Address')) {
+                        const address = id.idNumber.toLowerCase();
+                        console.log(`Processing address: ${address} for entity: ${entityName}`);
+                        
+                        addresses[address] = {
+                            entity: entityName,
+                            program: programString || 'Not specified',
+                            date: entry.publishInformation?.publishDate || 'Date not specified',
+                            reason: entry.remarks || 'Listed on OFAC SDN List',
+                            type: id['@_idType']
+                        };
+                    }
+                });
+            }
         });
 
+        console.log(`Total addresses found: ${Object.keys(addresses).length}`);
         return addresses;
+
     } catch (error) {
-        console.error('Error fetching SDN list:', error);
+        console.error('Error fetching or parsing SDN list:', error);
         throw error;
     }
 }
@@ -64,6 +63,14 @@ async function fetchAndParseSDNList() {
 async function updateSanctionsList() {
     try {
         console.log('Starting sanctions data update...');
+
+        // Install fast-xml-parser if not present
+        try {
+            require('fast-xml-parser');
+        } catch (e) {
+            console.log('Installing required dependencies...');
+            require('child_process').execSync('npm install fast-xml-parser');
+        }
 
         // Fetch and parse the SDN list
         const addresses = await fetchAndParseSDNList();
@@ -73,7 +80,8 @@ async function updateSanctionsList() {
             metadata: {
                 lastUpdated: new Date().toISOString(),
                 source: 'OFAC SDN List',
-                totalAddresses: Object.keys(addresses).length
+                totalAddresses: Object.keys(addresses).length,
+                url: SDN_LIST_URL
             },
             addresses: addresses
         };
@@ -88,6 +96,14 @@ async function updateSanctionsList() {
         );
 
         console.log(`Successfully updated sanctions list with ${Object.keys(addresses).length} addresses`);
+        
+        // Log first few addresses as verification
+        const addressList = Object.keys(addresses);
+        console.log('\nFirst few addresses found:');
+        addressList.slice(0, 5).forEach(addr => {
+            console.log(`- ${addr} (${addresses[addr].entity})`);
+        });
+
         return sanctionsData;
     } catch (error) {
         console.error('Error updating sanctions list:', error);
