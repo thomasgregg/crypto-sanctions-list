@@ -10,67 +10,86 @@ async function fetchAndParseSDNList() {
     try {
         console.log('Fetching OFAC SDN list...');
         const response = await axios.get(SDN_LIST_URL);
-        
-        // Use fast-xml-parser instead of cheerio for better XML handling
+        console.log('Response received, length:', response.data.length);
+
+        // Parse XML with detailed options
         const parser = new XMLParser({
             ignoreAttributes: false,
-            attributeNamePrefix: '@_'
+            attributeNamePrefix: '',
+            parseAttributeValue: true,
+            allowBooleanAttributes: true,
+            removeNSPrefix: true
         });
-        
+
+        console.log('Parsing XML data...');
         const result = parser.parse(response.data);
-        const sdnList = result.sdnList.sdnEntry;
+        
+        // Debug: Log the structure
+        console.log('XML structure:', Object.keys(result));
+        console.log('SDN List entries:', result.sdnList?.sdnEntry?.length || 0);
+
+        const sdnEntries = result.sdnList?.sdnEntry || [];
         const addresses = {};
 
-        console.log(`Found ${sdnList.length} SDN entries to process`);
+        console.log(`Processing ${sdnEntries.length} SDN entries...`);
 
-        // Process each SDN entry
-        sdnList.forEach(entry => {
-            // Get entity details
-            const entityName = entry.lastName || entry.firstName || 'Unknown Entity';
-            const programs = entry.programList?.program;
-            const programString = Array.isArray(programs) ? programs.join(', ') : programs;
-            
-            // Process ID list
-            if (entry.idList?.id) {
+        sdnEntries.forEach((entry, index) => {
+            if (entry.idList && entry.idList.id) {
                 const ids = Array.isArray(entry.idList.id) ? entry.idList.id : [entry.idList.id];
                 
+                // Debug: Log IDs being processed
+                console.log(`Entry ${index + 1}: Processing ${ids.length} IDs`);
+                
                 ids.forEach(id => {
-                    if (id['@_idType']?.includes('Digital Currency Address')) {
-                        const address = id.idNumber.toLowerCase();
-                        console.log(`Processing address: ${address} for entity: ${entityName}`);
-                        
+                    // Debug: Log ID type
+                    console.log(`ID type: ${id.idType}`);
+                    
+                    if (id.idType && id.idType.includes('Digital Currency Address')) {
+                        const address = id.idNumber?.toLowerCase();
+                        const entityName = entry.lastName || entry.firstName || 'Unknown Entity';
+                        const programs = entry.programList?.program;
+                        const programString = Array.isArray(programs) 
+                            ? programs.join(', ') 
+                            : programs || 'Not specified';
+
+                        console.log(`Found crypto address: ${address} for entity: ${entityName}`);
+
                         addresses[address] = {
                             entity: entityName,
-                            program: programString || 'Not specified',
+                            program: programString,
                             date: entry.publishInformation?.publishDate || 'Date not specified',
                             reason: entry.remarks || 'Listed on OFAC SDN List',
-                            type: id['@_idType']
+                            type: id.idType
                         };
                     }
                 });
             }
         });
 
-        console.log(`Total addresses found: ${Object.keys(addresses).length}`);
+        console.log(`\nTotal addresses found: ${Object.keys(addresses).length}`);
         return addresses;
 
     } catch (error) {
-        console.error('Error fetching or parsing SDN list:', error);
+        console.error('Error details:', {
+            message: error.message,
+            response: error.response?.status,
+            data: error.response?.data?.substring(0, 200) // First 200 chars of error response
+        });
         throw error;
     }
 }
 
 async function updateSanctionsList() {
     try {
-        console.log('Starting sanctions data update...');
+        // Ensure dependencies are installed
+        await new Promise((resolve, reject) => {
+            require('child_process').exec('npm install axios fast-xml-parser', (error) => {
+                if (error) reject(error);
+                else resolve();
+            });
+        });
 
-        // Install fast-xml-parser if not present
-        try {
-            require('fast-xml-parser');
-        } catch (e) {
-            console.log('Installing required dependencies...');
-            require('child_process').execSync('npm install fast-xml-parser');
-        }
+        console.log('\n--- Starting sanctions data update ---\n');
 
         // Fetch and parse the SDN list
         const addresses = await fetchAndParseSDNList();
@@ -95,26 +114,28 @@ async function updateSanctionsList() {
             JSON.stringify(sanctionsData, null, 2)
         );
 
-        console.log(`Successfully updated sanctions list with ${Object.keys(addresses).length} addresses`);
-        
-        // Log first few addresses as verification
-        const addressList = Object.keys(addresses);
-        console.log('\nFirst few addresses found:');
-        addressList.slice(0, 5).forEach(addr => {
-            console.log(`- ${addr} (${addresses[addr].entity})`);
-        });
+        console.log('\n--- Update Summary ---');
+        console.log(`Total addresses found: ${Object.keys(addresses).length}`);
+        if (Object.keys(addresses).length > 0) {
+            console.log('\nFirst few addresses:');
+            Object.entries(addresses).slice(0, 3).forEach(([address, data]) => {
+                console.log(`- ${address} (${data.entity})`);
+            });
+        }
 
         return sanctionsData;
     } catch (error) {
-        console.error('Error updating sanctions list:', error);
+        console.error('\n--- Error in updateSanctionsList ---');
+        console.error('Error:', error);
         throw error;
     }
 }
 
 // Run the update
 updateSanctionsList()
-    .then(() => console.log('Update completed successfully'))
+    .then(() => console.log('\n--- Update completed successfully ---'))
     .catch(error => {
-        console.error('Update failed:', error);
+        console.error('\n--- Update failed ---');
+        console.error('Fatal error:', error);
         process.exit(1);
     });
