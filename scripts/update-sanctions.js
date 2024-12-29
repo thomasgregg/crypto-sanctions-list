@@ -4,11 +4,11 @@ const path = require('path');
 const { XMLParser } = require('fast-xml-parser');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
-const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml';
+const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
 
 async function fetchAndParseSDNList() {
     try {
-        console.log('Fetching OFAC SDN Advanced XML...');
+        console.log('Fetching OFAC SDN XML...');
         const response = await axios.get(SDN_LIST_URL, {
             maxContentLength: Infinity,
             maxBodyLength: Infinity,
@@ -36,82 +36,63 @@ async function fetchAndParseSDNList() {
         console.log('Parsing XML data...');
         const result = parser.parse(xmlContent);
         
-        // Log reference value sets to see ID types
-        console.log('\nAvailable ID Types:');
-        const idTypes = result?.Sanctions?.ReferenceValueSets?.IDTypeValues?.IDType || [];
-        idTypes.forEach(type => {
-            console.log(`- ${type.text} (ID: ${type.ID})`);
-        });
-
-        const entries = result?.Sanctions?.DistinctParties?.DistinctParty || [];
-        console.log(`\nFound ${entries.length} distinct parties to process...`);
-
-        // Sample the first few entries that have IDs
-        console.log('\nSampling first few entries with IDs:');
-        let sampledEntries = 0;
-        for (const party of entries) {
-            if (party.IDs?.ID && sampledEntries < 5) {
-                console.log('\nParty:', party.PartyName?.[0]?.text);
-                const ids = Array.isArray(party.IDs.ID) ? party.IDs.ID : [party.IDs.ID];
-                console.log('ID Types found:', ids.map(id => id?.IDType?.text));
-                sampledEntries++;
-            }
-        }
+        const sdnEntries = result?.sdnList?.sdnEntry || [];
+        console.log(`Found ${sdnEntries.length} SDN entries to process...`);
 
         const addresses = {};
         let processedEntries = 0;
         let foundAddresses = 0;
         let uniqueIdTypes = new Set();
 
-        for (const party of entries) {
+        for (const entry of sdnEntries) {
             processedEntries++;
             if (processedEntries % 1000 === 0) {
-                console.log(`Processed ${processedEntries}/${entries.length} entries...`);
+                console.log(`Processed ${processedEntries}/${sdnEntries.length} entries...`);
             }
 
             try {
-                const ids = party.IDs?.ID;
-                if (!ids) continue;
+                // Get all IDs
+                const idList = entry.idList?.id;
+                if (!idList) continue;
 
-                const idList = Array.isArray(ids) ? ids : [ids];
+                const ids = Array.isArray(idList) ? idList : [idList];
 
-                // Collect all ID types for debugging
-                idList.forEach(id => {
-                    if (id?.IDType?.text) {
-                        uniqueIdTypes.add(id.IDType.text);
+                for (const id of ids) {
+                    // Track all ID types for debugging
+                    if (id.idType) {
+                        uniqueIdTypes.add(id.idType);
                     }
-                });
 
-                for (const id of idList) {
-                    // Check for various cryptocurrency-related ID types
-                    const idType = id?.IDType?.text;
-                    if (idType && (
-                        idType.toLowerCase().includes('digital currency') ||
-                        idType.toLowerCase().includes('virtual currency') ||
-                        idType.toLowerCase().includes('crypto') ||
-                        idType.toLowerCase().includes('wallet')
-                    )) {
-                        const address = (id.IDNumber || '').toLowerCase();
+                    // Check if this is a cryptocurrency address
+                    if (id.idType?.toLowerCase().includes('digital currency')) {
+                        const address = id.idNumber?.toLowerCase() || '';
                         if (!address) continue;
 
-                        console.log(`\nFound potential crypto address:`);
-                        console.log(`Type: ${idType}`);
-                        console.log(`Address: ${address}`);
-                        console.log(`Entity: ${party.PartyName?.[0]?.text}`);
-
                         foundAddresses++;
-                        const partyName = party.PartyName?.[0]?.text || 'Unknown Entity';
-                        const programs = party.Sanctions?.SanctionsProgram;
+
+                        // Get program list
+                        const programs = entry.programList?.program;
                         const programString = Array.isArray(programs)
-                            ? programs.map(p => p.text).join(', ')
-                            : (programs?.text || 'Not specified');
+                            ? programs.join(', ')
+                            : programs || 'Not specified';
+
+                        // Get entity name
+                        const entityName = entry.firstName || entry.lastName || 'Unknown Entity';
+
+                        // Get date if available
+                        const dateStr = entry.publishInformation?.publishDate || 'Date not specified';
+
+                        console.log(`\nFound crypto address #${foundAddresses}:`);
+                        console.log(`Address: ${address}`);
+                        console.log(`Entity: ${entityName}`);
+                        console.log(`Program: ${programString}`);
 
                         addresses[address] = {
-                            entity: partyName,
+                            entity: entityName,
                             program: programString,
-                            date: party.Sanctions?.RegistrationDate || 'Date not specified',
-                            reason: party.Remarks || 'Listed on OFAC SDN List',
-                            type: idType
+                            date: dateStr,
+                            reason: entry.remarks || 'Listed on OFAC SDN List',
+                            type: id.idType
                         };
                     }
                 }
@@ -145,7 +126,7 @@ async function updateSanctionsList() {
         const sanctionsData = {
             metadata: {
                 lastUpdated: new Date().toISOString(),
-                source: 'OFAC SDN Advanced List',
+                source: 'OFAC SDN List',
                 totalAddresses: Object.keys(addresses).length,
                 url: SDN_LIST_URL
             },
