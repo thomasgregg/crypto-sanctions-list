@@ -1,9 +1,4546 @@
 {
   "metadata": {
-    "lastUpdated": "2024-12-29T08:29:55.402Z",
+    "lastUpdated": "2024-12-29T08:40:24.746Z",
     "source": "OFAC SDN List",
-    "totalAddresses": 0,
+    "totalAddresses": 648,
     "url": "https://www.treasury.gov/ofac/downloads/sdn.xml"
   },
-  "addresses": {}
+  "addresses": {
+    "12qtd5bfwrsdnsazy76uve1xycgntojh9h": {
+      "entity": "YAN",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1kuf2rd8mdyaviwbozgtnynvwl8uyfrkvo": {
+      "entity": "YAN",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "13f59kum5fu8mftg7dceugyardhsd7xcoc": {
+      "entity": "YAN",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1p3zfgflezzygg9k5svzqmnjyh7nrumf2y": {
+      "entity": "YAN",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1epmizkqvekm5ij12nmiewttfpcdk9xhx6": {
+      "entity": "YAN",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1jrejdzupifhe7zzqptasumcvvpxc7wrsc": {
+      "entity": "YAN",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "149w62ry42azbox8fgcmqnsxuzsstkeq8c": {
+      "entity": "KHORASHADIZADEH",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1ajzpmsnmpdk2rv9kqnfmurtxinscvro9v": {
+      "entity": "GHORBANIYAN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "17ezujot3xbbdcwfzbktnrxbup11f4uhiy": {
+      "entity": "ZHENG",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dh2xdh7tngrdu6lxciprkcbkncpa1xx8a": {
+      "entity": "ZHENG",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "33kja69sqvc8kozpop7qw6hftgxhkiwztz": {
+      "entity": "ZHENG",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3mkunscqf21ecfwq6t4x2mfgbestqhb5t6": {
+      "entity": "ZHENG",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "18ukfaujgg52rvexei3wxnveww7zzuecte": {
+      "entity": "ZHENG",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "laizkts5duhpup1ntqcc83ms7hwk6vk85z": {
+      "entity": "ZHENG",
+      "program": "SDNTK",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - LTC"
+    },
+    "0x098b716b8aaf21512996dc57eb0615e2383e2f96": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xa0e1c89ef1a489c9c7de96311ed5ce5d32c20e4b": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x3cffd56b47b7b41c56258d9c7731abadc360e073": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x53b6936513e738f44fb50d2b9476730c0ab3bfc1": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x35fb6f6db4fb05e6a4ce86f2c93691425626d4b1": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x3e37627deaa754090fbfbb8bd226c1ce66d255e9": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x08723392ed15743cc38513c4925f5e6be5c17243": {
+      "entity": "LAZARUS GROUP",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "134r8ihv69xdt6p5qvktshrcueubvzayak": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15yk647qtozqdznrvy6hjl6qwxdulhft28": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1pfwhnxunkpfkk9mkjmqzr3xq3kctq9u17": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "14kqryjuxm3a7aei117kx9holuw592wsmr": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1f2gdug9ib9nqmhkmggjczzmk5suenoqrp": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3f2sz4jbhvdkqdgbhypc6zxfxeau2m5lqj": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1axutu9y3h8w4wyx4bjyfwgrhzkdhmcmrn": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1hn9ertcprp6j5udbeuxpguq5rtrjfjxjq": {
+      "entity": "TIAN",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1efmvkxqquzfbdocpju6ruscjvenqwbqye": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "17uvsmegvrzfobkc82dhxpzltlcqzw9stf": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "39eboeqynfe2volc3mugx4dh6gnhlb3d2q": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "39fhob2dohisgbbhvvfmkdpdsht75cnhdx": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3e6ry4dscdw6y2bzjnwrjvttdmmqjb6yeh": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3eer8fbcpbkcgj77d6ttnejxmsr3nu7kgv": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hqrveqzpifzorzldxhernc5zjozax8u9f": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3jxkq81jzbqvbb8vhdv9jtd7auwokkdpgy": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3khfxu24bt3yd5ef4j7unp2bucuhrxfgen": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3lbdu1ruxhnyiz4i8eb3kwkssbmf7c583d": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3mn8nyo1tt5hlxmwmbxdkxwd7xu522hb9p": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3n6wez6i34tax8ditser6lkwbcxmt2xxl4": {
+      "entity": "LI",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1q9uaqbcdezmyoufrzt94t4dsmxgsufw1x": {
+      "entity": "POTEKHIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1kys8fqden8ngfuj6afcxffw5qquuth4eh": {
+      "entity": "POTEKHIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x7f367cc41522ce07553e823bf3be79a889debe1b": {
+      "entity": "POTEKHIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "lnwgtmxckuq51dw7bql1ypqjbvzh6qeqsd": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - LTC"
+    },
+    "t1g7wowvq8gn2v8jru1biyj26sienqnsbjy": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ZEC"
+    },
+    "xnpfsrwtasgivauosewq6deitgyxgwznz2": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - DASH"
+    },
+    "gpwg61xohqqpnmaucfacuq5h9sgcdv9tps": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - BTG"
+    },
+    "0xd882cfc20f52f2599d84b8e8d58c7fb62cfe344b": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "1q6sanmqkkyfb9mfr68ck8f7dp7dtopf2w": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dda93ozpn7wte2er1abwcfoxufxkkmwcf": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "5be5543ff73456ab9f2d207887e2af87322c651ea1a873c5b25b7ffae456c320": {
+      "entity": "KARASAVIDI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XMR"
+    },
+    "leo3j36nn1jcsuqruytqhfudcdch5yhmr3": {
+      "entity": "LIFSHITS",
+      "program": "ELECTION-EO13848, CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - LTC"
+    },
+    "xs3vzqmnvaxra3xo8xzqqub3bmgb9eogf4": {
+      "entity": "LIFSHITS",
+      "program": "ELECTION-EO13848, CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - DASH"
+    },
+    "12udabs2tkx7nxcsj6kpqxfakje52zplhz": {
+      "entity": "LIFSHITS",
+      "program": "ELECTION-EO13848, CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dt3tenf14cxz9wfnxmyrxfbb6tfivwa9u": {
+      "entity": "LIFSHITS",
+      "program": "ELECTION-EO13848, CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x901bb9583b24d97e995513c6778dc6888ab6870e": {
+      "entity": "LIFSHITS",
+      "program": "ELECTION-EO13848, CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xa7e5d5a720f06526557c513402f2e6b5fa20b008": {
+      "entity": "LIFSHITS",
+      "program": "ELECTION-EO13848, CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "lwnbjlyufqeokfbwm4fcu7uk2fp2dsxuws": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - LTC"
+    },
+    "layuy1dgfvsusf5kbphblrm8krotqiwujn": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - LTC"
+    },
+    "t1wskwcdl1qyrrurccknes5tdlhtgvyu9km": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ZEC"
+    },
+    "12sjrrhofesednrhtgwvvrqjfth8fztdx9": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - BSV"
+    },
+    "1fz29bqp82pe3vxxcszomnq3kshfmzfme3": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1aesq93wdndloej92sex7t8xqzoyym8bts": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1aoxtfibq22dvbhqan9ctb8sulmrhrdwtr": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "18qj1thhuetfyhurdzycxjbwwdmgw73poa": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1mnbhwe5wr7ut45reyqsm96pwnm9jd7kah": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dyfj6cubvrxyoqsubzvsncety9tvdsrag": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15pt4nwzaummuws2bqbyyncc7mzgwshtv8": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1phqqpagcrqsxq6qdxcv14qcd1u98zp34e": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "13ybqr2cp1yy3xqq2qngapb7ca1o4ugeq6": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1kgudqxmfyagzqaa7ms4dcsqejtmteqhix": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1fryl9gmfgbzfydab4iy9836dje3ksnjp9": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dbshx4r8i2xesthodbf5ekywz5dskeusv": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x8576acc5c05d6ce88f4e49bf65bdf0c62f91353c": {
+      "entity": "ANDREYEV",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "lqahywwk5ar1jqiqpr7vu8pu4b6qcxxvnb": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - LTC"
+    },
+    "lgwmgynrau2ubwhvfudgamfcpyj5yw8c9l": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - LTC"
+    },
+    "lekvndnezgqkzvvnrdv3fau2dsf1nlsnw6": {
+      "entity": "RAZA",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: SECONDEYE SOLUTION)",
+      "type": "Digital Currency Address - LTC"
+    },
+    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - BCH"
+    },
+    "1ne2nighhbkfpseynwwj7hkghgdedbtsrq": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "19d8phbjzh29us1upz4m3svyqqff8ufg9o": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1eyitrwbynwutbcjzfbeudqhppe2ralpaf": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1g9ckrha3mx22dot1qynyrh85vsq19y1em": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "182ngzbpjxwg2wdrhrppr7tpigqknpf844": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1naylevf3beebdtdf2cwso1vdetvvnh2qx": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16phxy3hnnmto8kpujx2emh713kbwpkqci": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1gqchmwqgtsalrgbhfgdrv5nkvahtjjuxr": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "18ke1qwe9nqfxuhjijhggzupj5zyxapobk": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1qjuinsnfji6mr1fjawf6eg9nxxhpoxpwl": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dtggdci9vpkz2bpq8gqhuqepnq5hwat9n": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x7db418b5d567a4e0e8c59ad71be1fce48f3e6107": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x72a5843cc08275c8171e582972aa4fda8c397b2a": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x7f19720a857f834887fc9a7bc0a0fbe7fc7f8102": {
+      "entity": "SECONDEYE SOLUTION",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: INTERNET RESEARCH AGENCY LLC)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "1ksabh5trmctzwhinsuuqvfttsstt8zqrk": {
+      "entity": "RAZA",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: SECONDEYE SOLUTION)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1biufjzh6wst73u3tfy4axhcqsyqhzjk5h": {
+      "entity": "RAZA",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: SECONDEYE SOLUTION)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "dffjhnqnzf8rf67tynespu7mugupytzv7z": {
+      "entity": "RAZA",
+      "program": "CYBER2, ELECTION-EO13848",
+      "date": "Date not specified",
+      "reason": "(Linked To: SECONDEYE SOLUTION)",
+      "type": "Digital Currency Address - XVG"
+    },
+    "t1mmxtbrsp1xg38lx9cepcnucjj5vdwfuwl": {
+      "entity": "ASSOCIATION FOR FREE RESEARCH AND INTERNATIONAL COOPERATION",
+      "program": "CYBER2, ELECTION-EO13848, UKRAINE-EO13661",
+      "date": "Date not specified",
+      "reason": "(Linked To: PRIGOZHIN, Yevgeniy Viktorovich)",
+      "type": "Digital Currency Address - ZEC"
+    },
+    "xyarkoupuaryttoa2s6ymdnoqudcdabsat": {
+      "entity": "ASSOCIATION FOR FREE RESEARCH AND INTERNATIONAL COOPERATION",
+      "program": "CYBER2, ELECTION-EO13848, UKRAINE-EO13661",
+      "date": "Date not specified",
+      "reason": "(Linked To: PRIGOZHIN, Yevgeniy Viktorovich)",
+      "type": "Digital Currency Address - DASH"
+    },
+    "3gbs4rjcvutqd8p3cifucxplzwrqurezrz": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qv7k70u2zynvem59u88ctdlaw7hc735d8xep9rq": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qw4cxpe6sxa5dg6sdwxjph959cw6yztrzl4r54s": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x9f4cda013e354b8fc285bf4b9a60460cee7f7ea9": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x3cbded43efdaf0fc77b9c55f6fc9988fcc9b757d": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "884bz8uh63aysjvdkfwfscrywzggnbjfl7pztqvwnsrtyt4refswyvkcj9keguthehhhmuj87citbfyzoesrmj4l1fvsoxl": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - XMR"
+    },
+    "49hqitrzdnhyjgteahggpcfsjdtembutu6cyr4jv1r7k2eej9rgt8jpfiyda4tzm6rzifrhmmzgsrhheqpdykbe5b2ufnsl": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - XMR"
+    },
+    "qpf2cphc5dkuclkqur7lhj2yuqq9pk3hmukle77vhq": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - BCH"
+    },
+    "qzjv8hrdvz6edu4gkzpnd4w6jc7zf296g5e9kkq4lx": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - BCH"
+    },
+    "qq3vlashthktqpeppuv7trmw070e3mydgq63zq348v": {
+      "entity": "SOUTHFRONT",
+      "program": "CYBER2, ELECTION-EO13848, NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: FEDERAL SECURITY SERVICE)",
+      "type": "Digital Currency Address - BCH"
+    },
+    "17a5bpkvep1j1trs4qtbcnzrby53jbas9c": {
+      "entity": "FAYZIMATOV",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "tlnrt524dzl5ff1njhdhyemfpewjljrbz1": {
+      "entity": "AL-JAMAL",
+      "program": "IFSR, SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: ISLAMIC REVOLUTIONARY GUARD CORPS (IRGC)-QODS FORCE)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "thh5wor8qfmdsnknq3agpyzqsirtmnksth": {
+      "entity": "AL-JAMAL",
+      "program": "IFSR, SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: ISLAMIC REVOLUTIONARY GUARD CORPS (IRGC)-QODS FORCE)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "tv5ztpkdszltf6xcmnpongs33pwbgf91by": {
+      "entity": "AL-JAMAL",
+      "program": "IFSR, SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: ISLAMIC REVOLUTIONARY GUARD CORPS (IRGC)-QODS FORCE)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "ttahmdqoom4f2vtwniropwqhctrz4caoh4": {
+      "entity": "AL-JAMAL",
+      "program": "IFSR, SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: ISLAMIC REVOLUTIONARY GUARD CORPS (IRGC)-QODS FORCE)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "tffvv7nawmbcvfa7qn81mmvuc25twj1wjx": {
+      "entity": "AL-JAMAL",
+      "program": "IFSR, SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: ISLAMIC REVOLUTIONARY GUARD CORPS (IRGC)-QODS FORCE)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "1jpfvv5cwrlx1js9nwxg46dg2cgberz4th": {
+      "entity": "HEBEI ATUN TRADING CO., LTD.",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x2f389ce8bd8ff92de3402ffce4691d17fc4f6535": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x19aa5fe80d33a56d56c78e82ea5e50e5d80b4dff": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "1kuujpkydhamzxgpsyxqngc3x1qpxtdhgz": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1cf46rfbp97absrs7zb7dffzs6qbxum9ep": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1lrxsrd7znuxpjcl5rttnoejfy1y4affyy": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1df883c96lvauvsx9fegnsourd8delwcuq": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16iwn2j1mcqjtoylhssays6en3qa8yq91h": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    },
+    "12hqdsicffsbaydj6bhne22sfjtesmmzkx": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1l4ncif9hh9tnuveqwq77hfwwt6cjwtrnb": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "13mnk8svdgqsqthbigihbxqtaqcukfcsnp": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1edue8xzcwnodbnzgnqkccivdyr9geo4x6": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1ecezbxcvj8wm2jsn3cyc6rge2gnvd3w5k": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1j9ogoaiherfemzeunj9w7rpv55cdktgye": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1295rkvynffpqzpxvkghdqwhp1jzcnndmv": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1linmtupsjed92zgvjjav3rt9bzujvuckx": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qdt3gml5z5n50y5hm04u2yjdphefkm0fl2zdj68": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1b64qrxfaa35mvkf7sdjuguyap5izqt7qi": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0xe7aa314c77f4233c18c6cc84384a9247c0cf367b": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x308ed4b7b49797e1a98d3818bff6fe5385410370": {
+      "entity": "SUEX OTC, S.R.O.",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "3e7ybpxuhh3cwfks1jmvwov8y5dvsfze6n": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3nrj8axduizdhaifx9epx3dhghzcei14fq": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3k7pmjymnvnxqsfpmk9r9njdtzdw9wnwnv": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3h3rh85qpagly2w6618yznah7i8ashv46b": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3mtrjtfhyk9v1c6pjhtuwezsopfza4b1wb": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "347qfbejdbdmzftxpmn6evvvqyxiqztcd7": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "33xwfzivzesgo83u5izdncbvtnrtbpswk7": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32wdqwx3zcex3dhaveckwxcegdzgbnx1r9": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3n9ycpbdky9usmx1rtk33tl4jdkzfsnspk": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q90zrdysy4flyacw7hsury3ajs9yzwtwp6guqpypx94w0d3p58hysvz6pde": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qw7vfgv3r5vnehafl0y95sclg3uqsj87wxs9ad628yjjcq33cwessr6ndyw": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q86tl9255vg5wldamfymaaz36uqxzm30gs7fhkljvzdlt9t38s3lqgdwdfq": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3m7cgbpujwxxsrowuz6h5jiprdkcyf7v5m": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "34kwckf2wcbe6uinit2ul4nd6d8yxsuxkm": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qe95l438kzjcvnsm3kn8n5augf9gpctdlhsq7f7hpnkyvlr7rc7cqupapf7": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32vgtk8kgvbsqkhhkvtnoogdtqzm46jtvo": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3npognmsbzya2jyw2fpkvkwybmi2xtq2zt": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3mzltbq4lz9j6w4qu55tktgxfkzwxywrp6": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "36ygn5dgzqrxmomthdkt6cyvmnwbw8s7hd": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q4rzdtlt0uslyw86cp29sctl6ct29g9a95cuup7pn5md9ddj7xgmqpp5m73": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "39kqvzihwue2vddbpfc5wkqev72qbqhxuh": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qw9fn19gcnga9lfhfpm99agzuqxbnjr2i": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x67d40ee1a85bf4a4bb7ffae16de985e8427b6b45": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x6f1ca141a28907f78ebaa64fb83a9088b02a8352": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x48549a34ae37b12f6a30566245176994e17c6b4a": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x5512d943ed1f7c8a43f3435c85f7ab68b30121b0": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xc455f7fd3e0e12afd51fba5c106909934d8a0e4a": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "3ltcapbcj87cwjhnrx3vh7c2y9rzqqesy8": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    },
+    "rnxyvqzgxze7tr1epztkgj2jxh4lmjyh66": {
+      "entity": "CHATEX",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XRP"
+    },
+    "158trevzbgmbthoaympxccpdzptqufyrt9": {
+      "entity": "POLYANIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "389sft4njfkpghbagk9fn4jxnca9piytuu": {
+      "entity": "POLYANIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "39te8mbphsgs7npdjpj2hbnzhke61ntcnb": {
+      "entity": "POLYANIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "31p6wov4e55hufc2agynfhzqngojfw26cd": {
+      "entity": "POLYANIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3dnsaqnauz7wkqny1zdsmtz6qfbeshxodd": {
+      "entity": "POLYANIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3ajyprby5yhijicjuc5nujutgbwhd3aqde": {
+      "entity": "POLYANIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0xfec8a60023265364d066a1212fde3930f6ae8da7": {
+      "entity": "POLYANIN",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    },
+    "35qplwykvd3alhjbge5bk2kd7hfhycdmu3": {
+      "entity": "VASINSKYI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3nq1aa9ceirmj1jvrq3exefvxj1l639fzx": {
+      "entity": "VASINSKYI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3bsyz7qrfsi3nsaov1ff724qagrepjvuhm": {
+      "entity": "VASINSKYI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "372wk9nlrmkjzkgqjdatwjy4byrfxfjgat": {
+      "entity": "VASINSKYI",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3e6zckrrsdpc35cha9eftp1h3dlw18nfnv": {
+      "entity": "GARANTEX EUROPE OU",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    },
+    "3lpoy53k625zvee47zasig5jgkaxj27kh1": {
+      "entity": "GARANTEX EUROPE OU",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x7ff9cfad3877f21d41da833e2f775db0569ee3d9": {
+      "entity": "GARANTEX EUROPE OU",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "3k4rjdh8a5yi6lwvft2rbmyzvqebpsssx4": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "17mhyebx617abz1ffthhutjkhucmvckfd5": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35qwvtmeohwddbwricsr7azop5cby8sg1q": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35kadta2vqnjzitf2xiuzzn1gmcas2y465": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35lscrj8hzdvvwh9t9ua8bhgngnvz3yefa": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1pjp8dina89cvhpit1vpu7eq8lxym5hx6v": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "17v7thwhmidjmdwzk4unhe5hgkfjkx7vce": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3picnzrbvgfwakq9hr4ccpfadjy64ynspe": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "14gm1hulvdelnhafu22qpabjtiwek4hhv1": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1gyuu9d5hpikafbys3k5q3drjq6debgsob": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3gxdta6kbb4m5aqzzm5qqxcfdfrmw8lqdj": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1b11ezqg3axjfhmdrq5uppdpnyriynvtkn": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16spdqffzgsonspifftfs8dw8llxqia4oc": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "19ppbudvosbzafkucykd2z9akuqqv6swm7": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3bqactimxyb9jpumpkewt9m8bzswpghq4x": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dgsy4ww3bjnwxtsnmtgwa6uwdorxga1px": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1gckluuxodtqclcpd7vlmgvcc4hs5q775": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1evhbad5wczyhboasgaciv6avmz1oslpej": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qsmv6lkrw65l30yazdqpdjjtwzpvk9f8gfh0cy7": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qs9u6j78e3utj08mwvqkkmqm9de5xk3g4yh8qtq": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "12vryzgs1nmf9khhped24xbb1allrpv2ct": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q202ajnhxgg9d9jjczmg0g4usp6haqldyy2eakl": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1nbgwqwt4uehg2srakpplf8qaf6fbp3pzg": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "13lqjq1oj9k7psqsgfjnhovv6ueu6hgzqz": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1cg1ascxunbmv9g34ofxtqohtuvnmljtqv": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3kp8qc5z7yevdeoqxhs5rssknei5x7aq43": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "331ts6dyasy7iu5cra8urybnkps78fp2b1": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1nvjm3jfzxennyqws5bkqvhklxg9chljdo": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1licqjca74n8pmnaoarxllqctuthfpxbxh": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "175buqf8jcu1uog1itrktacda4uvjducw2": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1anpca7g93bwptujg1zv116v49zn9gjdi3": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1bcwmwpr4m1nyuuuye2bmzrnuwgof9zaba": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "18cfgadycvnhkuhxlbe7izqkcyuw8tzcje": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1qhxyulgrmhfbnpjikv4dwhfx45hwfumwb": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1gnfty5f9qi5mfarzfgdg2jkyt5xtahvd8": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1quyc6j8ca84q9gjej5jjd2n8hra0vfu0j60fefs57p6e5rerkq07q0l5u3w": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16p2uwtzwxryk5bthnvjddyy1d3eqgszf2": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1cddrqw7osprt4tt5oxkyx2lihjdpszy7y": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1hhe61bwxs8hd2wxzwy9fqyzicbizgesnw": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1d3guas9eqkw8dwj9jfqtnufdrtysjslxz": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1pwrkxkr5au7tc9zpqjdhtu1egw1qzzs4y": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1d1ej7zqzywwbdnxknypmh7hso2u9kodg4": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3kgq3hx6efytbjtbfsdvdkzhmwzyywlrqh": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1lke3xa9bf5jfqtgtchzwj5qgxkgwmfxzw": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1mtsqsw6n2jvjcwhpcw7jiftfd9q3rbbvg": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1kkakujnqwjf7cbm7jkazgf3x9d4685m8n": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1ge8jodc2hibieut7d3moh6fak6xrct9kf": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qsmqpalp3gtgkltag4x3ygevmhh9y2hzk73t2ug": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1e9uunlbyftoazo95vmm3ysynzgkrl7gec": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1hh8eiuatmuctnyvgcumavmczctdmi8sqk": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "19fqzhibwdhsp8pkmjs3uagfyoisxtehzw": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3dlgfn7hgswxxsp9euxcnmwxlpfqusww2t": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1pxxwpvtyxzicrp9lkq7akmdfrhaqztvue": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1q4tjjh2abr3ajrzxqa4z3jppf5sdgf4jk": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1pytgfs2t6i57wddvbra7kpcsaggmbxzfg": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16zsaefyppcj3d94fsnt2okyj9ue8mxy6t": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qvlzfn6kmezv44d8kw0p5jsmxe6wchv3zc7gsxs": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qvyoh4u3qt88uchaejvhfb3r6mazt431y": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1ffs6px1tcktny668mbk2lyoem1qb48kyx": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dpddb1tmjvmnqeydqgyd1ww6cmwpjrdsk": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3ajiwiudkb5mcguss9mbeohceyjw3zo8r6": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1etmubpqnpca3cecerdsh1szydxnhbtmw": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3ccmt5ljq5ykkafy1dwc2sbervetwrnsrd": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1mqbderwsijbf7k1vgjj7pwel6gjxmfmlg": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1mbtt2zsttlp7ekzuv9r74ctyqvsmttp2m": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "36ys87pluw7serlg1ty26wzavartim7acc": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3ayu365tcjef7j9pdkf9xe8rwpepsh196t": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "148lkmyzt3fge4x1gjsfn6rsawcjzk5iue": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16ektes8ahd8xvwisqjc2xsnlig3fdhatw": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3guqjr7kkrr5ejpanmgyauxulgrjeuwe21": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35eanez5iyg2eyaxctmrr4scoypfqrbwuh": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qwudp5tap4grruuevdud1ewetb7hc3wdh": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3czhm6xqn8odwz6jgtcjrrujog28v6avs8": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1f7ul41qym6tvnexzzphbcyeenvx3xdems": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "123wbudmsjv4gctdvez6qq6z8nxskrj4kx": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3bcn3wgmrjwultz1vseq7nzrbjwaubf5ca": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35swvfxosv3asvnrbfzdxarqavrbvdyyxv": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32pcmcwejwhklwh5bglnaebqfp5gi1hv81": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1g64tfmfvjtjhjxra6x74bbhsfsyiwaftt": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1a3iyy4c3dkgnygewzyzr7esqfbuwxibgo": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3gaubtrttwp1d9yexgr3wmg8b599qha5m5": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hjn4jra4mdfkey9jr9juhr86ypwl86a3c": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1euumpbcztsd5pvvfeqmrqusfu1qy6asul": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1pu1naw7kcosmthms8qcpm8jxubyqdzgh": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qnwe5gvfqu3wvav91rufkqip4ti4nwqay": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1cnbhgxgrzvswnehotfxge7k2e1upzbdc7": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hszc4blnqbznjsq7jvxgqnczuus3m9fzz": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "37ddbcexfprakw4jgsqke3nyg52yezqbjx": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1h8sdttgjpbkw83ebzdlhxvetcbxzummzm": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1bvjrbrp9zz6zlyuzazsv7g3xp6jokdzqw": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q237mvl0heyw0r38wd3xz8h5mar96rrwpams8pp": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "34dxzvijpbm1ykpybczbq7dugukanuldfs": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1gkln7dba9mathnzqwnpancdwbefaz4gzm": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "13hfsqm6ocadzehfybsmfijvai1jsl6sqd": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1sf6e4xqv8mumzqyptdrff3e5o5ewcg9f": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qj6j6p0jdefl6pvdzx3kx8245yy5mz6q4luhzes": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1b3u21itzjgktm7qsnqncbpskwzzedhqrw": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3jhpsvv3knl9dbygszals9ebrlr97r865a": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qqf8kcc9m57xjqcvsvuf989nnl48ve6d2s24cx3": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1huyfoewsfhgzirhbhjrcd5st3iksa8kex": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1j9wjh2bamzvxscxavodh4jvtgkb7syfdm": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "34wwxwfkasxl9zyxbenpapv6vdamkjqluo": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3pdmrwottkrafrlgturuccerp2jdm1q4ar": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3afce2mbssndcpyfghoexsmjuc26ef2gqh": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3p6pzdfetr4275gn3velkcydxa1jv8fhkm": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hrexd8gkfskzc5inmvcpiyy9uwg7fva6o": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3mp7ybgsw2gkxvre8s84t2j4kvgph3rezv": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1k2fme9hfhbrnszobvcbwzavss5idtuxbg": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3es6pqcuedpcnc4hcqhhyuey6gyirjzw6e": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3kvbx3jo69qn8jhy44m33ryoeycf8ddrbd": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3k26amkmnrv97pj6yifcqixk2lxehfhng3": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3bwp6zqahc4j5wr1b95zjathjefvhdees7": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3jusgfrwnrnfuhvr4gpwapmejvot4xreae": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1dkgrgjxgnlattefb9snpnhtrkz87q7qki": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "361akmknnwywzrsce8ppnmoh5aqf4v7g4p": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "33fwcmdmsb2ey4cebvwbjgfkuevbsyp9ng": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35atjkbh4yetypjsi9nutdomkhtsawkvgx": {
+      "entity": "HYDRA MARKET",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3k35dyl85fr9ht7ugzpfd1glrrxqtntqe3": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3q5dgflkkwqwswytbmuyc8xgjn5lrrvik4": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3epqguw2q89pwpz1uf8fjspe2ayojstjdu": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3lhnvmcbq4gsr7adarr9xmuo17cuybv4fn": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3f6bbvs1krsc1qr8fsbtdfyqyvkmm3qvmr": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3jhmz3mtna1gvczspp8ngrfiy7phkv5ma8": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32daxszuhlbhy2wgswqyibshnrsfqzrrrp": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3mtrvm5qryzhko8gh5qkcrpk3rljxcdcze": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "34pfgssybweritxncw9unztqqe9dksvkku": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "38ncxqt932n9ccfnfyuhgzgcyr85hdkwbw": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3md3rifb6u8pykypf6qkvsj8r2sgdudpn3": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3juwas7sel3fh5hxwh9fu3hciezjuqltfg": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3eujqe9upmyxcfd6jeu69hotzndmrfxw9m": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qejbipzw6wzul4mymmmu6dy1y25avbpqu": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3n3ysdvp4cbhegngabqxtn39kezjmwg8ah": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3j19qffpt6mxqucv6k5yvurgztdhpdgr4y": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "33kkjn4exdbjqkttdwxqpdvswxrw3lareg": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3gsxnxzycdoq1rhsc7f1jjjfe7dgchhdcm": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qjyt8ntheqakbfqgx86yjck1sp9hfncuw": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35hh9dg3wsvujz9vfk1fsezle5fx3hudk2": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3ndzzvxilbus1wpvvgrfcydtad2ua2pvw4": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3dccgmykozczkfbzyb1a2x8abzcpautppk": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3mvq4gthf4mmuo49p4dbnchcmfhbrznyfx": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3fbgejdhibe22uospp51vd8dphva2a4wzx": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hqdryzwm82mfmlwtmyikdm9jqetvt6vap": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "31t4nepcwyqjt1vuxdaoqztt5givrdpsnp": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "39aaln7etjdpzlb99hhhd6f7j8qwb3r2rd": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3ldbnudkkmlae5r3a5icpa5cqg2y8f7ogw": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3jlyylbwciwac6re87d7mrknxakr4ybnud": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3anwhunhujdwbw2jeugsrh6bvfsd9bqey9": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32fbazmtaqxnd2faue1pgsipgwfcshbqqt": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hupeufkmmhvhxqf8tmopayqdcrc1kpe65": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "34keygpijvcmjvahrxxqenbh76ugjvx2wg": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3gybbykvqvjf5oyhakcgqycvcve1jenk6j": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3bazbatp8eljuefpbv9z5hxedgbziv9p7w": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3gmfgedymtq9g8dehet1zltufjwywsna3y": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "38ljcaprrjew7w2zwbys15p9d9ugpjws44": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "36xqywgvuqwbrylrvuegn4pjjjspwl1weu": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "37g6wgqedzzx6nx51tygssng8hnknyj5nl": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qadoc1rdct8dii1gvpjxvvk6cejlzcrzw": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32psit8itbref84ebdaf82ybuecz5wc6uy": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3b4g1m8ef3cthbemwhewkkzczw9qontgak": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "34etihfqweyfccaxmeeqwvmhfh5vz2jmvd": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3pyzsbfj3hbqqjtzdzylsgvfvdjb7yw4cj": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15pggtg7yhjkie6b16vkkza1ydtzipxex4": {
+      "entity": "BLENDER.IO",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1h939dom7i4wdlckygbxup3fs9cstnrzgl": {
+      "entity": "NIKAEEN RAVARI",
+      "program": "CYBER2, IFSR, IRGC",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q3y5v2khlyvemcz042wl98dzflywr8ghglqws6s": {
+      "entity": "KHATIBI AGHADA",
+      "program": "CYBER2, IFSR, IRGC",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qx3e2axj3wsfn0ndtvlwmkghmmgm4583nqg8ngk": {
+      "entity": "KHATIBI AGHADA",
+      "program": "CYBER2, IFSR, IRGC",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qsxf77cvwcd6jv6j8d8j3uhh4g0xqw4meswmwuc": {
+      "entity": "NIKAEEN RAVARI",
+      "program": "CYBER2, IFSR, IRGC",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q9lvynkfpaw330uhqmunzdz6gmafsvapv7y3zty": {
+      "entity": "NIKAEEN RAVARI",
+      "program": "CYBER2, IFSR, IRGC",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qpaly5nm7pfka9v92d6qvl4fc2l9xzee8a6ys3s": {
+      "entity": "NIKAEEN RAVARI",
+      "program": "CYBER2, IFSR, IRGC",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "tx5gv4dyfxnb3rpkzzjhmqz1efvml4reqg": {
+      "entity": "TASK FORCE RUSICH",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    },
+    "bc1ql7dlyh8xz6tpqk92vztrhqh88dmjvcwrmsemrm": {
+      "entity": "TASK FORCE RUSICH",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q2lpgjntr348pfvxhfy33ehmdzy3gmx8w4052z6": {
+      "entity": "TASK FORCE RUSICH",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0xc2a3829f459b3edd87791c74cd45402ba0a20be3": {
+      "entity": "TASK FORCE RUSICH",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x3ad9db589d201a710ed237c829c7860ba86510fc": {
+      "entity": "TASK FORCE RUSICH",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "qpusmp64rajses77x95g9ah825mtyyv74smwwkxhx3": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - BCH"
+    },
+    "1dbvk8p6imbulcwh2vruis4xsub8yawjqf": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1g6duwdknhiuwqks2lgu44cesu7fffblk7": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3aqsmmk5n3c6tkeg9b2wyzyapm33gjjaa4": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "129zkflovad9jtxsmdkejolcsjhgr7b3vr": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "12yyr9epvhxbjjkjtwqfkqeyownvcraxpw": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1kctqenex5qkqmpnmc3zh9yrazkmblppcr": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hqa7i3tteclvgqvq69hnxxup5bl7z5yga": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1g9a8wrjgxdnyy4tnevrrcahsmtana4ncf": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1js6gocey2naqpqptilanlqguk4d6mowjp": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "13rh4jafhacxdgpyye9emjp2adxdx18uba": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1fe2cuvkq8n5vgwj5hi8yyqxskwjpovpyv": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1djoemvp95yjywyxazy8ddbzuvjnrtvrsn": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1n6xqsf3ulpnjko9lrjmhudrolitjwketn": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qwa6zu6qhl6wqnlxp642vcf89nptsassle25ulf": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "386wa1um6na798awnh64jdrejzyedexgun": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15udzbmgpa2latd3abtgpphgkhlfwftv4r": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16tbycyzxuwin8kf9frk9jjy6eqylvkq1i": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1nphuti9nsm9fvtxlkvsdu4anhqgq5n53d": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x83e5bc4ffa856bb84bb88581f5dd62a433a25e0d": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x08b2efdcdb8822efe5ad0eae55517cf5dc544251": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x04dba1194ee10112fe6c3207c0687def0e78bacf": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x0ee5067b06776a89ccc7dc8ee369984ad7db5e06": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x502371699497d08d5339c870851898d6d72521dd": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x5a14e72060c11313e38738009254a90968f58f51": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xefe301d259f525ca1ba74a7977b80d5b060b3cca": {
+      "entity": "PEIJNENBURG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "qqyuc9s700plhzr6awzru7g5z2d2p906uyrm6ht0r0": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - BCH"
+    },
+    "qz9f2vz3033sg5vc5mf7m7xshmj0jugy4ummf05jk8": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - BCH"
+    },
+    "1lpykb3sxzpve9hsh2qejzfx279wjvgowi": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15uqdxqnxqwvf5h7yzpz4tmegescccwdor": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1fjubfhv4mpyjbmvjsehzssyiia4tnmnm2": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1lah7pqwpd1ugilhae5c5xz9qxse3y2phq": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15yqwq4sqr7jzcwdtz3u1kaca8wmey7mm2": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "19grl5jnukgmhxvcrab1etv5rxcanelwpq": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "39ng2lcgrhxxsr1irpevnjmw4ydl231sen": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3he6eydacugmdr4gxqhxbetqukaglcbyu2": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "12npckhddsnidkd9rryuchstt9remnijjg": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32jgfkzstejmfabvxjnyvjeetnktmq5b32": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1hpj6qm9i7nmf3vkkfbftjhedpejxhwvgv": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "194xmrza53ubszau2pnjldmvvw9m5fees": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "361np7ycbpq4kklt3y2qzedev4m3yi65ar": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1ludimd95df4i2bcvrfw47t2gkpllxaqmz": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3a1hh3pseymkh2nsrbb4kkvt3815kunvvc": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1f317n2ejemaemgiwcqtd5xcu3wf7jzpew": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hwjh69cvqvcpelwvcyvmxeq72nydsj5zp": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1r6s9vpuzps5rb6gsdwv2bvsfcn3usq4q": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3jpf9b5p8cvekssgp9ces3upbms8vrnxub": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3el5vcyeu1cnivltr7tnax3bbirr9atnal": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1lbqd4zxtqyysdwrczk4umxhbjvxmyzs3m": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1lqv6yubcftjawvfu3xphdtgjqihss7i1z": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1miqrekg4batj12qbisgnnaklld8xblmcg": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "12mnkr2yp4m3ceqvcvvqzsvxucg47lhmu1": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1j6cguvezrkyjhpxjghwx7ymzkdnhralhf": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3pumtuvaw3lkkg53fz7f97vdbitw4ugwnm": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3h4qawi5ds6fmwyzrg9xrrud3qc5duvn2u": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "13vicdzyjxxv5czzpddse7adq3y552zpah": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1juv2ks3jjfues8jegxwgt6t6csbrqmmrw": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "35vypisvqsxrit3yzzgrgvaduusx67yszb": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3llunf3ezw6mcbq2zczmgu5rzulzkhxqi7": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3qrukkuibrn23rfukugasnd1wywnk7wdsv": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3b3vmabbbedrnvrjvvq3hm85zvb4v5bwfc": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "31nadacwrgpeaqxkrmabhn3fphnhi3hjka": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "343w3xh64q5upgpvapqmsuzxrknde8pqhb": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1c7rpjne19hgefzwvcsauqrthawgafkbyv": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0xd0975b32cea532eadddfc9c60481976e39db3472": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x1967d8af5bd86a497fb3dd7899a020e47560daaf": {
+      "entity": "GRIMM",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x910cbd523d972eb0a6f4cae4618ad62622b39dbf": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xa160cdab225685da1d56aa342ad8841c3b53f291": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd4b88df4d29f5cedd6857912842cff3b20c8cfa3": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xfd8610d20aa15b7b2e3be39b396a1bc3516c7144": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x07687e702b410fa43f4cb4af7fa097918ffd2730": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x23773e65ed146a459791799d01336db287f25334": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x22aaa7720ddd5388a3c0a3333430953c68f1849b": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x03893a7c7463ae47d46bc7f091665f1893656003": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x2717c5e28cf931547b621a5dddb772ab6a35b701": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd21be7248e0197ee08e0c20d4a96debdac3d20af": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x4736dcf1b7a3d580672cce6e7c65cd5cc9cfba9d": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xdd4c48c0b24039969fc16d1cdf626eab821d3384": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd96f2b1c14db8458374d9aca76e26c3d18364307": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x169ad27a470d064dede56a2d3ff727986b15d52b": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x0836222f2b2b24a3f36f98668ed8f0b38d1a872f": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x178169b423a011fff22b9e3f3abea13414ddd0f1": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x610b717796ad172b316836ac95a2ffad065ceab4": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xbb93e510bbcd0b7beb5a853875f9ec60275cf498": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x84443cfd09a48af6ef360c6976c5392ac5023a1f": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd47438c816c9e7f2e2888e060936a499af9582b3": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x330bdfade01ee9bf63c209ee33102dd334618e0a": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x1e34a77868e19a6647b1f2f47b51ed72dede95dd": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xdf231d99ff8b6c6cbf4e9b9a945cbacef9339178": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xaf4c0b70b2ea9fb7487c7cbb37ada259579fe040": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xa5c2254e4253490c54cef0a4347fddb8f75a4998": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xaf8d1839c3c67cf571aa74b5c12398d4901147b3": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x6bf694a291df3fec1f7e69701e3ab6c592435ae7": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x3aac1cc67c2ec5db4ea850957b967ba153ad6279": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x723b78e67497e85279cb204544566f4dc5d2aca0": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x0e3a09dda6b20afbb34ac7cd4a6881493f3e7bf7": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x76d85b4c0fc497eecc38902397ac608000a06607": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xcc84179ffd19a1627e79f8648d09e095252bc418": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd5d6f8d9e784d0e26222ad3834500801a68d027d": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x407cceeaa7c95d2fe2250bf9f2c105aa7aafb512": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x833481186f16cece3f1eeea1a694c42034c3a0db": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd8d7de3349ccaa0fde6298fe6d7b7d0d34586193": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x8281aa6795ade17c8973e1aedca380258bc124f9": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x57b2b8c82f065de8ef5573f9730fc1449b403c9f": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x05e0b5b40b7b66098c2161a5ee11c5740a3a7c45": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x23173fe8b96a4ad8d2e17fb83ea5dcccdca1ae52": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x538ab61e8a9fc1b2f93b3dd9011d662d89be6fe6": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x94be88213a387e992dd87de56950a9aef34b9448": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x242654336ca2205714071898f67e254eb49acdce": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x776198ccf446dfa168347089d7338879273172cf": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xedc5d01286f99a066559f60a585406f3878a033e": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd692fd2d0b2fbd2e52cfa5b5b9424bc981c30696": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xca0840578f57fe71599d29375e16783424023357": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xdf3a408c53e5078af6e8fb2a85088d46ee09a61b": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x743494b60097a2230018079c02fe21a7b687eaa5": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x94c92f096437ab9958fc0a37f09348f30389ae79": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x5efda50f22d34f262c29268506c5fa42cb56a1ce": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x2f50508a8a3d323b91336fa3ea6ae50e55f32185": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xcee71753c9820f063b38fdbe4cfdaf1d3d928a80": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xffbac21a641dcfe4552920138d90f3638b3c9fba": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x179f48c78f57a3a78f0608cc9197b8972921d1d2": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xb04e030140b30c27bcdfaafffa98c57d80eda7b4": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x77777feddddffc19ff86db637967013e6c6a116c": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x3efa30704d2b8bbac821307230376556cf8cc39e": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x746aebc06d2ae31b71ac51429a19d54e797878e9": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x5f6c97c6ad7bdd0ae7e0dd4ca33a4ed3fdabd4d7": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xf4b067dd14e95bab89be928c07cb22e3c94e0daa": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x58e8dcc13be9780fc42e8723d8ead4cf46943df2": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x01e2919679362dfbc9ee1644ba9c6da6d6245bb1": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x2fc93484614a34f26f7970cbb94615ba109bb4bf": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x26903a5a198d571422b2b4ea08b56a37cbd68c89": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xb20c66c4de72433f3ce747b58b86830c459ca911": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x2573bac39ebe2901b4389cd468f2872cf7767faf": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x653477c392c16b0765603074f157314cc4f40c32": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x88fd245fedec4a936e700f9173454d1931b4c307": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x09193888b3f38c82dedfda55259a82c0e7de875e": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x5cab7692d4e94096462119ab7bf57319726eed2a": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x756c4628e57f7e7f8a459ec2752968360cf4d1aa": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x722122df12d4e14e13ac3b6895a86e84145b6967": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x94a1b5cdb22c43faab4abeb5c74999895464ddaf": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xb541fc07bc7619fd4062a54d96268525cbc6ffef": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd82ed8786d7c69dc7e052f7a542ab047971e73d2": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xf67721a2d8f736e75a49fdd7fad2e31d8676542a": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x9ad122c22b14202b4490edaf288fdb3c7cb3ff5e": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xd691f27f38b395864ea86cfc7253969b409c362d": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xaeaac358560e11f52454d997aaff2c5731b6f8a6": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x1356c899d8c9467c7f71c195612f8a395abf2f0a": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xa60c772958a3ed56c1f15dd055ba37ac8e523a0d": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xba214c1c1928a32bffe790263e38b4af9bfcd659": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xb1c8094b234dce6e03f10a5b673c1d8c69739a00": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xf60dd140cff0706bae9cd734ac3ae76ad9ebc32a": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x8589427373d6d84e98730d7795d8f6f8731fda16": {
+      "entity": "TORNADO CASH",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "bc1qfg4gfg0y6t6xjnpmlhuwx5k0wlw6nmfzxn2psc": {
+      "entity": "ZIMENKOV",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "(Linked To: ZIMENKOV, Igor Vladimirovich; Linked To: ROSOBORONEKSPORT OAO)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x39d908dac893cbcb53cc86e0ecc369aa4def1a29": {
+      "entity": "ZIMENKOV",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "(Linked To: ZIMENKOV, Igor Vladimirovich; Linked To: ROSOBORONEKSPORT OAO)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "3pkihs4gy4rfg8dpppnvpxgpqmx6k2cbml": {
+      "entity": "WANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: WUHAN SHUOKANG BIOLOGICAL TECHNOLOGY CO., LTD; Linked To: YAO, Huatao)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1986ryhckybjpgqjy6ornumyd2n5mtqwdt": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "125w5ek3dt6zqy5s2ipt4fhqdnmcbza3fu": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1kc6egxevyleaetxlfa1zyw7guhcn8jqtt": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "12w6v1qaabc4w8h8c2cu5skfakdsv3eruw": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1cpjak9zyddbawmgjpyehcijlxxb4syv8n": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1djovlgn1fojhhngdurpjvrbwpafekxvxd": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15kzoblkd6hzgeectz4os2vz21xhtnnfsg": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15qyvrzvvvgvb7gwiaz82tncz6qwmku3kx": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "12ycfvaezkezxbyhutyjjarkgmxifxjgcu": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1mkcnca9ags5t6v1b15bzusbgyecb4lfwp": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1nubzqxjpyyqgfobib8wwbdpzmbtkja5ba": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "14rjad8zp5xal571cmre98qgxxbg1s8man": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "18ywcu6agtxyqaermxiz9sghrk3viezzga": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "12jvcww1zhtla5yvnroejswqkwsfizksax": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1j378pbmtkn2sew6nbrswvfjzlbzw3dzem": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "18aqbrhhupgvc9k8qeqd78phmtqqws7b5d": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "16ti2exaae5izfkuz1zc59hmcsdnhpp5qj": {
+      "entity": "WU",
+      "program": "DPRK3",
+      "date": "Date not specified",
+      "reason": "(Linked To: LAZARUS GROUP)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x4f47bc496083c727c5fbe3ce9cdf2b0f6496270c": {
+      "entity": "SIM",
+      "program": "NPWMD",
+      "date": "Date not specified",
+      "reason": "(Linked To: KOREA KWANGSON BANKING CORP)",
+      "type": "Digital Currency Address - BSC"
+    },
+    "0x38735f03b30fbc022ddd06abed01f0ca823c6a94": {
+      "entity": "HANAFIN",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "(Linked To: HURIYA PRIVATE FZE LLE)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "1d6gg9ikehpittcwrjiniuj1jym2hneafj": {
+      "entity": "KIM",
+      "program": "DPRK4",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1fcngfzwpymeyhy9t18aaktbu8asdoac1z": {
+      "entity": "KIM",
+      "program": "DPRK4",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x97b1043abd9e6fc31681635166d430a458d14f9c": {
+      "entity": "KIM",
+      "program": "DPRK4",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40": {
+      "entity": "KIM",
+      "program": "DPRK4",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDC"
+    },
+    "lnf2jdiuunbz7gmdkfyhn4rq5mexwxiwfb": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - LTC"
+    },
+    "bc1q4namcagg5wljs0u20z6h2sqgsq4q5lts8rt2rr": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qdpazd6smrkq5hmw6lupq98za2fqtgmq3azv3av": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qwz0l2ceddckwdy5rh6zyrm3x4ha6gn5f2da5zg": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qw8evftpgc8wsmkemd8yl5fg2husza5z802xaym": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qv4krhj2qmpd9qz9xj9nhvj99fq8s9xsw05d485": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qu5vngdtcx8nc9d68pq8nv7pzcjrswsy87s66gk": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qtsl3ufenrv3zgrgm9z8xarcx22x8mfztuartyn": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qtrrfhr0f3ufsrjxfv8a7p3yuqj0spe4cm6vaws": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qte9ret332gwrk6e7vqc87d807npzvdj5savg4h": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qtdupwe722vcc5e0vh94cgwfs0ep4gzwyfsf75q": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qnykkrlk67f9kdqvzyw2ndu3xmef5z2e52886yl": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qllmlvy5u038yvwywu803p53g8udcm8w7k4qxu9": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qlfpg2xn39u580cmwq6rymt8jdhcmj8520jhgh0": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1ql7rnd70aejdxt3f9fzdlfazjlc9hvdmut8ad8s": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1ql526s72gycmvq7hek6j3tuwwmcpv4rgs0auxu7": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qh3lw22uqwrywr8lpun20q2ma528a4yqmgf3uqp": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qgffxa65gr579tsz55n87pal2a777ygzg69d2yz": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qedvcgh32dud85yt7fu6s7qavthlh38gtwa7rhx": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qau9pmgc8l6rxpdwwap3fd6zprh5yp9mpe9jl0h": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qakycg2zp8hydg95lc9cheumpa9yfpdeyrqqh5f": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q9ua9ypl4dhj0zut5kzasj5c2kxclhh8v2k9djd": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q8q7z3kt37z6jalv5ujung5lem6pzlk9r3kt66k": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q8pw85s83mdx2f3rfu64mmfd9wexqu2y856arwp": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q7xfqqw9htr88t7vafg80p4qrlpjfyaps452x5g": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q7hhdygx05kyfyzjku2u7lywvx5pgyng6a0nefp": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q6w463k7mhsgguwgqtcratm4vm42rncwhvvkeck": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q68uswkjvu7nj7mhrvfzkx7cm6u5s9puvpm5dc2": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q5zd0cwzd09k9r8xfk68sn5ytqp8f5aae80yfsm": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q49ax787wv0mnn8wjgp3sx772qz7eun822rkv5k": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q3ael5my37nklgnqcrkwmnndfx9qdnp67j0739c": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q362njxy39gnwrvj7zytn84ax39fwnhvk7n2999": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q2jys00x2rgdkm3xnewuucqacytu0a7echupu8y": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q05aktddf9ce4p7hh3stgsf253m4vweu7nkhtmw": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qtywfzxx6snut2mdrum8dyr5nnd5qhqd29wmvqt": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qrc2gchg2fmxua5u7twu4luv5p9twmny4jjmg9x": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q9ws2gcq7uumm4mk3l9xezwve7w5tmcs5js5cup": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qh33xtpjqhgysq5xlmjzkm28uewj08885n95drr": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qe8wclszdtshkjk7gph57crc72vpp9rylujgwa5": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q2q8uxjznmurg363dvd98xjg54mrr7z6mw9t825": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qhvzl5w99m458nm7sc6hwf5qfhxndw28sgtatk8": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qavwamr74qlzj8txy6jaxqnpym9062h090x6kz4": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qe9lz50jq0a5pmtry0h3ekng3kjdg09vejg7355": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qup656lpfqfckhl580kwf62thmn5azmj2pal0sz": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qa2xr7dmz5lztplp9yfp7k382nf4ma8gwrl7zgg": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qrskwdw9unhlkt87ltcqq2d5pn9s6w2f35gz3z6": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1narx1gzgtz7e8ixo8yudttnb8rak5qfja": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0xe1d865c3d669dcc8c57c8d023140cb204e672ee4": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "tbhtjqay4dhhhmt3dncejynrz4sdloflre": {
+      "entity": "WANG",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - TRX"
+    },
+    "0x9c2bc757b66f24d60f016b6237f8cdd414a879fa": {
+      "entity": "JIMENEZ CASTRO",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "bc1qq7p0es3dv5hcynjjf40f2xjjr6qp5py47d2f6n847vduuq9gvnyq7y9ecd": {
+      "entity": "SINBAD",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1jhdqhkbziim1cb4hyuh2pbzebbg6z2trf": {
+      "entity": "SINBAD",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "tvacwx7f5wgmgn49l5frdf9klgdyy8nphl": {
+      "entity": "SHAFIU",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: ISIL KHORASAN)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "0xdcbeffbecce100cce9e4b153c4e15cb885643193": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x5a7a51bfb49f190e5a6060a5bc6052ac14a3b59f": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0xed6e0a7e4ac94d976eebfb82ccf777a3c6bad921": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x797d7ae72ebddcdea2a346c1834e04d1f8df102b": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x931546d9e66836abf687d2bc64b30407bac8c568": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x43fa21d92141ba9db43052492e0deee5aa5f0a93": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x6be0ae71e6c41f2f9d0d1a3b8d0f75e6f6a0b46e": {
+      "entity": "SEMENOV",
+      "program": "CYBER2, DPRK3",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "1ljk8rnnabkz9bfdyqbn98xffozjhtjqcz": {
+      "entity": "ZHDANOVA",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3685seusmtwzbikj4cgv73eahpvd1nbgbe": {
+      "entity": "ZHDANOVA",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "39p8qwp1bkbnhi4vppftetkpth7goqndzf": {
+      "entity": "ZHDANOVA",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "tefph7dzoun5233cgezf6xfwrpjpf8fqds": {
+      "entity": "GAMBASHIDZE",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "(Linked To: SOCIAL DESIGN AGENCY)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "tmglqrq4twjw8wjhvh1mqr7nuthpghusn3": {
+      "entity": "GAMBASHIDZE",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "(Linked To: SOCIAL DESIGN AGENCY)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+      "entity": "SHEN",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    },
+    "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
+      "entity": "SHEN",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x530a64c0ce595026a4a556b703644228179e2d57": {
+      "entity": "SHEN",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
+      "entity": "VALERIAN LABS, INC.",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
+      "entity": "VALERIAN LABS, INC.",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDC"
+    },
+    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
+      "entity": "WANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "tmstbg5fgb4utv7fk1geyf9hkazp3sipsg": {
+      "entity": "WANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - TRX"
+    },
+    "ttknv2s1295urpr7n67tp9yknl7xx2z4uj": {
+      "entity": "XIA",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - TRX"
+    },
+    "38tftw1heypqvkbiaht4ttnbqkuppooxad": {
+      "entity": "XIA",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qkfqh5p2qsakseg5gnwen6zh5xf3elmku2xaup29mw3l0wnncy3es880dss": {
+      "entity": "XIA",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3nu9zkd8ccvgvmynnnsn7pbu9ssfqbm5uv": {
+      "entity": "ZHANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: HEBEI CROVELL BIOTECH CO., LTD.)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x961c5be54a2ffc17cf4cb021d863c42dacd47fc1": {
+      "entity": "ZHANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: HEBEI CROVELL BIOTECH CO., LTD.)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "trbacioxdrdsyezhvjwiudzcmdbppee5ub": {
+      "entity": "ZHANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: HEBEI CROVELL BIOTECH CO., LTD.)",
+      "type": "Digital Currency Address - TRX"
+    },
+    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
+      "entity": "WANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: HEBEI GUANLANG BIOTECHNOLOGY CO., LTD.)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "1mlpqwaffubzeptjpr3nxrok19cv9mpcc7": {
+      "entity": "WANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: HEBEI GUANLANG BIOTECHNOLOGY CO., LTD.)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "3hepkztpu6usdenxnyqhfrdza6evkemtvz": {
+      "entity": "WANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: HEBEI GUANLANG BIOTECHNOLOGY CO., LTD.)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "tucstq7toftcjrrohk6rvhmos2mjlm5yzq": {
+      "entity": "WANG",
+      "program": "ILLICIT-DRUGS-EO14059",
+      "date": "Date not specified",
+      "reason": "(Linked To: HEBEI GUANLANG BIOTECHNOLOGY CO., LTD.)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "19d1igzdr7fyadiy3zzdxmd6tthj1kj6ww": {
+      "entity": "BUY CASH MONEY AND MONEY TRANSFER COMPANY",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "ttgcttnbnufdbrhvbjmzvrdu5kalyzdapw": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "tgjvc32ig2u8tqsymle7kxht5ndqroavnu": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "txesk1seskjz1xthitnyaaoqw3wldydrnw": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "th96tfmn8kgiysliwcv3e2uiajc8jmcbz3": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "0x175d44451403edf28469df03a9280c1197adb92c": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "3q8h2zwmtc4r1m3mkmhntjcoyktecfigdp": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0xe950dc316b836e4eefb8308bf32bf7c72a1358ff": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x21b8d56bda776bbe68655a16895afd96f5534fed": {
+      "entity": "GAZA NOW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HAMAS; Linked To: AYASH, Mustafa)",
+      "type": "Digital Currency Address - ETH"
+    },
+    "18gaxypkj9m23s2zt9qzfl9ipblfm372q5": {
+      "entity": "SUNGATOV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q5jqgm7nvrhaw2rh2vk0dk8e4gg5g373g0vz07r": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "32ptjxtni7snk8sodrgfmdkao3den1nvjm": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "15crqr3txs1jehbgweruxfe8nhwzzfoeeu": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "1a7ske2dqtezlktcy8pelsdatkqxv9r1dc": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1q8ew45w2agdffrnwp6adt2gqrc9n4mkev9ns29c": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qagp0gy58v8hqvw4p2wsphcxg067rrppp45hexr": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qn6segn8km4nfdp9vueu6msfjsaxaqgun9h60n9": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "bc1qx9upga7f09tsetqf78wa3qrmcjar58mkwz6ng6": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0xf3701f445b6bdafedbca97d1e477357839e4120d": {
+      "entity": "KONDRATIEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "twbapzppizarfvsy2blxealhnhurn4wkwg": {
+      "entity": "AL-LAW",
+      "program": "SDGT",
+      "date": "Date not specified",
+      "reason": "(Linked To: HIZBALLAH)",
+      "type": "Digital Currency Address - USDT"
+    },
+    "tfdtr9c3bqqrzkbxqsxjfazfth8uwbafsg": {
+      "entity": "OKO DESIGN BUREAU",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - TRX"
+    },
+    "13fhnkmpbbwxuqucjd6efwvxdej78dkavk": {
+      "entity": "OKO DESIGN BUREAU",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x19f8f2b0915daa12a3f5c9cf01df9e24d53794f7": {
+      "entity": "OKO DESIGN BUREAU",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "bc1qvhnfknw852ephxyc5hm4q520zmvf9maphetc9z": {
+      "entity": "KHOROSHEV",
+      "program": "CYBER2",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "tlm3za3ewycodx4zx4gkze7sgfbdknttum": {
+      "entity": "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU KONSTRUKTORSKOE BYURO VOSTOK",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    },
+    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
+      "entity": "CRYPTEX",
+      "program": "CYBER2, RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - LTC"
+    },
+    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
+      "entity": "CRYPTEX",
+      "program": "CYBER2, RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - TRX"
+    },
+    "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
+      "entity": "CRYPTEX",
+      "program": "CYBER2, RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - XBT"
+    },
+    "0x0931ca4d13bb4ba75d9b7132ab690265d749a5e7": {
+      "entity": "CRYPTEX",
+      "program": "CYBER2, RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "0x1999ef52700c34de7ec2b68a28aafb37db0c5ade": {
+      "entity": "MAGOMEDOV",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - ETH"
+    },
+    "tddbrfobteme3qir69y6rkrsg1hof65qae": {
+      "entity": "CHIRKINYAN",
+      "program": "RUSSIA-EO14024",
+      "date": "Date not specified",
+      "reason": "Listed on OFAC SDN List",
+      "type": "Digital Currency Address - USDT"
+    }
+  }
 }
