@@ -6,33 +6,6 @@ const { XMLParser } = require('fast-xml-parser');
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
 const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
 
-async function findAllCryptoAddresses(xmlContent) {
-    // Log first 1000 characters to see what we're dealing with
-    console.log('\nFirst 1000 characters of XML:');
-    console.log(xmlContent.substring(0, 1000));
-
-    // More flexible pattern to match crypto addresses
-    const patterns = [
-        /<idType[^>]*>Digital Currency Address[^<]*<\/idType>/g,
-        /<id>[^<]*Digital Currency[^<]*<\/id>/g
-    ];
-
-    let allMatches = [];
-    for (const pattern of patterns) {
-        const matches = xmlContent.match(pattern) || [];
-        allMatches = [...allMatches, ...matches];
-    }
-
-    console.log('\nRegex search results:');
-    console.log(`Found ${allMatches.length} potential crypto address entries`);
-    if (allMatches.length > 0) {
-        console.log('Sample matches:');
-        allMatches.slice(0, 5).forEach(match => console.log(match));
-    }
-
-    return allMatches.length;
-}
-
 async function fetchAndParseSDNList() {
     try {
         console.log('Fetching OFAC SDN XML...');
@@ -45,9 +18,6 @@ async function fetchAndParseSDNList() {
 
         const xmlContent = response.data;
         console.log('Received XML data, size:', Buffer.byteLength(xmlContent, 'utf8') / 1024 / 1024, 'MB');
-
-        // Direct search for crypto addresses in raw XML
-        const rawMatchCount = await findAllCryptoAddresses(xmlContent);
 
         const parser = new XMLParser({
             ignoreAttributes: false,
@@ -62,7 +32,7 @@ async function fetchAndParseSDNList() {
             processEntities: true,
             removeNSPrefix: true,
             isArray: (name) => {
-                return ['sdnEntry', 'id', 'program', 'publishInformation'].includes(name);
+                return ['sdnEntry', 'id', 'program', 'aka'].includes(name);
             }
         });
 
@@ -72,59 +42,41 @@ async function fetchAndParseSDNList() {
         const sdnEntries = result?.sdnList?.sdnEntry || [];
         console.log(`Found ${sdnEntries.length} SDN entries to process...`);
 
-        // Log sample entry to debug structure
-        if (sdnEntries.length > 0) {
-            console.log('\nSample entry structure:');
-            console.log(JSON.stringify(sdnEntries[0], null, 2));
-        }
-
         const addresses = {};
         let processedEntries = 0;
         let foundAddresses = 0;
+        let digitalCurrencyTypes = new Set();
 
         for (const entry of sdnEntries) {
             processedEntries++;
-            if (processedEntries % 1000 === 0) {
-                console.log(`Processed ${processedEntries}/${sdnEntries.length} entries...`);
-            }
-
+            
             try {
-                if (!entry.idList?.id) continue;
+                // Get IDs (including crypto addresses)
+                const ids = entry.idList?.id || [];
                 
-                // Ensure id is always an array
-                const ids = Array.isArray(entry.idList.id) ? entry.idList.id : [entry.idList.id];
+                // Get entity name
+                const entityName = entry.firstName ? 
+                    `${entry.firstName} ${entry.lastName || ''}` : 
+                    (entry.lastName || 'Unknown Entity');
 
+                // Get program list
+                const programs = entry.programList?.program || [];
+                const programString = programs.join(', ');
+
+                // Process all digital currency addresses
                 for (const id of ids) {
-                    // Log all ID types for debugging
-                    if (id.idType) {
-                        console.log(`Found ID type: ${id.idType}`);
-                    }
-
-                    if (id.idType?.toLowerCase().includes('digital currency')) {
+                    if (id?.idType?.includes('Digital Currency')) {
+                        digitalCurrencyTypes.add(id.idType);
                         const address = (id.idNumber || '').toLowerCase();
                         if (!address || address.length < 10) continue;
 
                         foundAddresses++;
-                        console.log(`Found address #${foundAddresses}: ${address}`);
-
-                        // Get publication date - log the structure
-                        console.log('Publication info:', entry.publishInformation);
-                        let dateStr = 'Date not specified';
-                        if (entry.publishInformation && entry.publishInformation[0]) {
-                            dateStr = entry.publishInformation[0].publishDate || dateStr;
-                        }
-
-                        // Get program list
-                        const programs = Array.isArray(entry.programList?.program) 
-                            ? entry.programList.program 
-                            : [entry.programList?.program || 'Not specified'];
 
                         addresses[address] = {
-                            entity: entry.firstName || entry.lastName || 'Unknown Entity',
-                            program: programs.join(', '),
-                            date: dateStr,
-                            reason: entry.remarks || 'Listed on OFAC SDN List',
-                            type: id.idType
+                            entity: entityName.trim(),
+                            program: programString,
+                            type: id.idType,
+                            uid: entry.uid
                         };
                     }
                 }
@@ -134,10 +86,11 @@ async function fetchAndParseSDNList() {
         }
 
         console.log('\nProcessing Summary:');
-        console.log(`Raw XML matches found: ${rawMatchCount}`);
         console.log(`Total entries processed: ${processedEntries}`);
         console.log(`Total addresses found: ${foundAddresses}`);
         console.log(`Unique addresses: ${Object.keys(addresses).length}`);
+        console.log('\nDigital Currency Types found:');
+        digitalCurrencyTypes.forEach(type => console.log(`- ${type}`));
 
         return addresses;
 
@@ -165,7 +118,7 @@ async function updateSanctionsList() {
         await fs.writeFile(OUTPUT_FILE, JSON.stringify(sanctionsData, null, 2));
 
         console.log('\nSuccessfully updated sanctions list');
-        console.log(`Total addresses in output: ${Object.keys(addresses).length}`);
+        console.log(`Total addresses saved: ${Object.keys(addresses).length}`);
 
         return sanctionsData;
     } catch (error) {
