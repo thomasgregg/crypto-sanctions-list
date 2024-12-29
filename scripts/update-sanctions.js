@@ -13,11 +13,22 @@ async function fetchAndParseSDNList() {
             maxContentLength: Infinity,
             maxBodyLength: Infinity,
             responseType: 'text',
-            decompress: true // Handle gzip compression
+            decompress: true
         });
 
         const xmlContent = response.data;
         console.log('Received XML data, size:', Buffer.byteLength(xmlContent, 'utf8') / 1024 / 1024, 'MB');
+
+        // Debug: Check first few characters of XML
+        console.log('First 500 characters of XML:', xmlContent.substring(0, 500));
+
+        // Debug: Check if it's valid XML structure
+        if (!xmlContent.trim().startsWith('<?xml')) {
+            console.error('Content does not start with XML declaration');
+            // Try to write the content to a file for inspection
+            await fs.writeFile('debug_response.txt', xmlContent.substring(0, 5000));
+            throw new Error('Invalid XML content received');
+        }
 
         const parser = new XMLParser({
             ignoreAttributes: false,
@@ -27,13 +38,38 @@ async function fetchAndParseSDNList() {
             textNodeName: 'text',
             numberParseOptions: {
                 skipLike: /[0-9]+/
-            }
+            },
+            parseTagValue: true,
+            trimValues: true,
+            parseAttributeValue: false,
+            cdataPropName: "__cdata",
+            processEntities: true
         });
 
         console.log('Parsing XML data...');
-        const result = parser.parse(xmlContent);
+        let result;
+        try {
+            result = parser.parse(xmlContent);
+            // Debug: Log the parsed structure
+            console.log('Parsed XML structure keys:', Object.keys(result));
+            if (result.sdnList) {
+                console.log('SDN List keys:', Object.keys(result.sdnList));
+            }
+        } catch (parseError) {
+            console.error('XML parsing error:', parseError);
+            // Try to determine where the parsing failed
+            const errorPosition = parseError.message.match(/\d+/)?.[0];
+            if (errorPosition) {
+                console.log('XML content around error:', xmlContent.substring(
+                    Math.max(0, parseInt(errorPosition) - 100),
+                    parseInt(errorPosition) + 100
+                ));
+            }
+            throw parseError;
+        }
 
         if (!result || !result.sdnList || !result.sdnList.sdnEntry) {
+            console.error('Unexpected XML structure:', JSON.stringify(result, null, 2).substring(0, 1000));
             throw new Error('Invalid XML structure');
         }
 
