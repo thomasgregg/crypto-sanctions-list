@@ -19,19 +19,18 @@ async function fetchAndParseSDNList() {
         const xmlContent = response.data;
         console.log('Received XML data, size:', Buffer.byteLength(xmlContent, 'utf8') / 1024 / 1024, 'MB');
 
-        // Count raw instances in XML
         const rawMatches = xmlContent.match(/Digital Currency Address/g) || [];
         console.log(`\nFound ${rawMatches.length} raw Digital Currency Address mentions in XML`);
 
         const parser = new XMLParser({
             ignoreAttributes: false,
             attributeNamePrefix: '',
-            parseAttributeValue: true,
+            parseAttributeValue: false,  // Changed to false to preserve original values
             allowBooleanAttributes: true,
             textNodeName: 'text',
             ignoreDeclaration: true,
             ignorePiTags: true,
-            parseTagValue: true,
+            parseTagValue: false,  // Changed to false to preserve original values
             trimValues: true,
             processEntities: true,
             removeNSPrefix: true,
@@ -47,13 +46,11 @@ async function fetchAndParseSDNList() {
         console.log(`Found ${sdnEntries.length} SDN entries to process...`);
 
         const addresses = {};
-        const missingAddresses = new Set();
+        const problematicEntries = new Set();
         let processedEntries = 0;
         let totalDigitalCurrencyIds = 0;
         let foundAddresses = 0;
         let digitalCurrencyTypes = new Set();
-
-        // Track what we've found by type
         const addressesByType = {};
 
         for (const entry of sdnEntries) {
@@ -65,19 +62,26 @@ async function fetchAndParseSDNList() {
                     `${entry.firstName} ${entry.lastName || ''}` : 
                     (entry.lastName || 'Unknown Entity');
 
-                // Count all digital currency IDs
+                // Process IDs
                 for (const id of ids) {
-                    if (id?.idType?.includes('Digital Currency')) {
+                    // Skip if no ID type
+                    if (!id || !id.idType || typeof id.idType !== 'string') continue;
+
+                    if (id.idType.includes('Digital Currency')) {
                         totalDigitalCurrencyIds++;
                         digitalCurrencyTypes.add(id.idType);
-
-                        // Initialize counter for this type
                         addressesByType[id.idType] = (addressesByType[id.idType] || 0) + 1;
 
-                        const address = (id.idNumber || '').toLowerCase();
+                        // Handle idNumber carefully
+                        let address = '';
+                        if (typeof id.idNumber === 'string') {
+                            address = id.idNumber.toLowerCase();
+                        } else if (id.idNumber !== undefined && id.idNumber !== null) {
+                            address = String(id.idNumber).toLowerCase();
+                        }
+
                         if (!address || address.length < 10) {
-                            console.log(`Warning: Invalid address found for ${entityName}: ${address}`);
-                            missingAddresses.add(`${entityName}: ${id.idType} (Invalid address: ${address})`);
+                            problematicEntries.add(`Entry ${entry.uid}: ${entityName} - ${id.idType} - Invalid address: ${address}`);
                             continue;
                         }
 
@@ -92,7 +96,8 @@ async function fetchAndParseSDNList() {
                     }
                 }
             } catch (error) {
-                console.error(`Error processing entry ${processedEntries}:`, error.message);
+                console.error(`Error processing entry ${processedEntries} (${entry.uid}):`, error.message);
+                problematicEntries.add(`Entry ${entry.uid}: ${error.message}`);
             }
 
             if (processedEntries % 1000 === 0) {
@@ -100,27 +105,22 @@ async function fetchAndParseSDNList() {
             }
         }
 
-        // Print detailed summary
         console.log('\n=== Processing Summary ===');
-        console.log(`Raw "Digital Currency Address" mentions in XML: ${rawMatches.length}`);
+        console.log(`Raw "Digital Currency Address" mentions: ${rawMatches.length}`);
         console.log(`Total Digital Currency IDs found: ${totalDigitalCurrencyIds}`);
         console.log(`Valid addresses processed: ${foundAddresses}`);
         console.log(`Unique addresses saved: ${Object.keys(addresses).length}`);
 
         console.log('\n=== Addresses by Type ===');
-        Object.entries(addressesByType).forEach(([type, count]) => {
-            console.log(`${type}: ${count}`);
-        });
+        Object.entries(addressesByType)
+            .sort((a, b) => b[1] - a[1])
+            .forEach(([type, count]) => {
+                console.log(`${type}: ${count}`);
+            });
 
-        if (missingAddresses.size > 0) {
-            console.log('\n=== Missing/Invalid Addresses ===');
-            missingAddresses.forEach(addr => console.log(addr));
-        }
-
-        if (totalDigitalCurrencyIds !== rawMatches.length) {
-            console.log('\n!!! Warning: Count mismatch !!!');
-            console.log(`Raw mentions: ${rawMatches.length}`);
-            console.log(`Processed IDs: ${totalDigitalCurrencyIds}`);
+        if (problematicEntries.size > 0) {
+            console.log('\n=== Problematic Entries ===');
+            problematicEntries.forEach(entry => console.log(entry));
         }
 
         return addresses;
