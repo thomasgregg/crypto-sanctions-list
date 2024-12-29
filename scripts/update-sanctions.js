@@ -25,12 +25,12 @@ async function fetchAndParseSDNList() {
         const parser = new XMLParser({
             ignoreAttributes: false,
             attributeNamePrefix: '',
-            parseAttributeValue: false,  // Changed to false to preserve original values
+            parseAttributeValue: false,
             allowBooleanAttributes: true,
             textNodeName: 'text',
             ignoreDeclaration: true,
             ignorePiTags: true,
-            parseTagValue: false,  // Changed to false to preserve original values
+            parseTagValue: false,
             trimValues: true,
             processEntities: true,
             removeNSPrefix: true,
@@ -46,7 +46,6 @@ async function fetchAndParseSDNList() {
         console.log(`Found ${sdnEntries.length} SDN entries to process...`);
 
         const addresses = {};
-        const problematicEntries = new Set();
         let processedEntries = 0;
         let totalDigitalCurrencyIds = 0;
         let foundAddresses = 0;
@@ -62,9 +61,14 @@ async function fetchAndParseSDNList() {
                     `${entry.firstName} ${entry.lastName || ''}` : 
                     (entry.lastName || 'Unknown Entity');
 
+                // Get AKA list if available
+                const akas = entry.akaList?.aka || [];
+                const akaNames = akas.map(aka => 
+                    aka.firstName ? `${aka.firstName} ${aka.lastName || ''}` : aka.lastName
+                ).filter(Boolean);
+
                 // Process IDs
                 for (const id of ids) {
-                    // Skip if no ID type
                     if (!id || !id.idType || typeof id.idType !== 'string') continue;
 
                     if (id.idType.includes('Digital Currency')) {
@@ -72,7 +76,6 @@ async function fetchAndParseSDNList() {
                         digitalCurrencyTypes.add(id.idType);
                         addressesByType[id.idType] = (addressesByType[id.idType] || 0) + 1;
 
-                        // Handle idNumber carefully
                         let address = '';
                         if (typeof id.idNumber === 'string') {
                             address = id.idNumber.toLowerCase();
@@ -80,24 +83,35 @@ async function fetchAndParseSDNList() {
                             address = String(id.idNumber).toLowerCase();
                         }
 
-                        if (!address || address.length < 10) {
-                            problematicEntries.add(`Entry ${entry.uid}: ${entityName} - ${id.idType} - Invalid address: ${address}`);
-                            continue;
-                        }
+                        if (!address || address.length < 10) continue;
 
                         foundAddresses++;
 
-                        addresses[address] = {
+                        // Create entry object
+                        const entryDetails = {
                             entity: entityName.trim(),
                             program: (entry.programList?.program || []).join(', '),
                             type: id.idType,
                             uid: entry.uid
                         };
+
+                        // Add AKAs if available
+                        if (akaNames.length > 0) {
+                            entryDetails.akas = akaNames;
+                        }
+
+                        // Add entry info to address
+                        if (!addresses[address]) {
+                            addresses[address] = {
+                                type: id.idType,
+                                entries: []
+                            };
+                        }
+                        addresses[address].entries.push(entryDetails);
                     }
                 }
             } catch (error) {
                 console.error(`Error processing entry ${processedEntries} (${entry.uid}):`, error.message);
-                problematicEntries.add(`Entry ${entry.uid}: ${error.message}`);
             }
 
             if (processedEntries % 1000 === 0) {
@@ -111,6 +125,10 @@ async function fetchAndParseSDNList() {
         console.log(`Valid addresses processed: ${foundAddresses}`);
         console.log(`Unique addresses saved: ${Object.keys(addresses).length}`);
 
+        // Count total entries across all addresses
+        const totalEntries = Object.values(addresses).reduce((sum, addr) => sum + addr.entries.length, 0);
+        console.log(`Total entries (including duplicates): ${totalEntries}`);
+
         console.log('\n=== Addresses by Type ===');
         Object.entries(addressesByType)
             .sort((a, b) => b[1] - a[1])
@@ -118,9 +136,17 @@ async function fetchAndParseSDNList() {
                 console.log(`${type}: ${count}`);
             });
 
-        if (problematicEntries.size > 0) {
-            console.log('\n=== Problematic Entries ===');
-            problematicEntries.forEach(entry => console.log(entry));
+        // Log addresses with multiple entries
+        const multipleEntries = Object.entries(addresses).filter(([_, data]) => data.entries.length > 1);
+        if (multipleEntries.length > 0) {
+            console.log('\n=== Addresses with Multiple Entries ===');
+            multipleEntries.forEach(([address, data]) => {
+                console.log(`\nAddress: ${address} (${data.type})`);
+                data.entries.forEach(entry => {
+                    console.log(`- Entity: ${entry.entity}${entry.akas ? ' (AKAs: ' + entry.akas.join(', ') + ')' : ''}`);
+                    console.log(`  Program: ${entry.program}`);
+                });
+            });
         }
 
         return addresses;
@@ -140,6 +166,7 @@ async function updateSanctionsList() {
                 lastUpdated: new Date().toISOString(),
                 source: 'OFAC SDN List',
                 totalAddresses: Object.keys(addresses).length,
+                totalEntries: Object.values(addresses).reduce((sum, addr) => sum + addr.entries.length, 0),
                 url: SDN_LIST_URL
             },
             addresses: addresses
@@ -150,6 +177,7 @@ async function updateSanctionsList() {
 
         console.log('\nSuccessfully updated sanctions list');
         console.log(`Total addresses saved: ${Object.keys(addresses).length}`);
+        console.log(`Total entries saved: ${sanctionsData.metadata.totalEntries}`);
 
         return sanctionsData;
     } catch (error) {
