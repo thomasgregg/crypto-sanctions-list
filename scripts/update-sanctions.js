@@ -52,6 +52,13 @@ async function fetchAndParseSDNList() {
         let digitalCurrencyTypes = new Set();
         const addressesByType = {};
 
+        // Get SDN list publication date
+        let sdnDate = 'Unknown';
+        const publishDateMatch = xmlContent.match(/<pubDate>([^<]+)<\/pubDate>/);
+        if (publishDateMatch && publishDateMatch[1]) {
+            sdnDate = publishDateMatch[1].trim();
+        }
+
         for (const entry of sdnEntries) {
             processedEntries++;
             
@@ -125,31 +132,12 @@ async function fetchAndParseSDNList() {
         console.log(`Valid addresses processed: ${foundAddresses}`);
         console.log(`Unique addresses saved: ${Object.keys(addresses).length}`);
 
-        // Count total entries across all addresses
-        const totalEntries = Object.values(addresses).reduce((sum, addr) => sum + addr.entries.length, 0);
-        console.log(`Total entries (including duplicates): ${totalEntries}`);
-
-        console.log('\n=== Addresses by Type ===');
-        Object.entries(addressesByType)
-            .sort((a, b) => b[1] - a[1])
-            .forEach(([type, count]) => {
-                console.log(`${type}: ${count}`);
-            });
-
-        // Log addresses with multiple entries
-        const multipleEntries = Object.entries(addresses).filter(([_, data]) => data.entries.length > 1);
-        if (multipleEntries.length > 0) {
-            console.log('\n=== Addresses with Multiple Entries ===');
-            multipleEntries.forEach(([address, data]) => {
-                console.log(`\nAddress: ${address} (${data.type})`);
-                data.entries.forEach(entry => {
-                    console.log(`- Entity: ${entry.entity}${entry.akas ? ' (AKAs: ' + entry.akas.join(', ') + ')' : ''}`);
-                    console.log(`  Program: ${entry.program}`);
-                });
-            });
-        }
-
-        return addresses;
+        // Return both addresses and metadata
+        return {
+            addresses,
+            sdnDate,
+            totalEntries: foundAddresses
+        };
 
     } catch (error) {
         console.error('Error fetching or parsing SDN list:', error.message);
@@ -159,14 +147,15 @@ async function fetchAndParseSDNList() {
 
 async function updateSanctionsList() {
     try {
-        const addresses = await fetchAndParseSDNList();
+        const { addresses, sdnDate, totalEntries } = await fetchAndParseSDNList();
 
         const sanctionsData = {
             metadata: {
                 lastUpdated: new Date().toISOString(),
+                sdnListDate: sdnDate,
                 source: 'OFAC SDN List',
                 totalAddresses: Object.keys(addresses).length,
-                totalEntries: Object.values(addresses).reduce((sum, addr) => sum + addr.entries.length, 0),
+                totalEntries: totalEntries,
                 url: SDN_LIST_URL
             },
             addresses: addresses
@@ -177,7 +166,7 @@ async function updateSanctionsList() {
 
         console.log('\nSuccessfully updated sanctions list');
         console.log(`Total addresses saved: ${Object.keys(addresses).length}`);
-        console.log(`Total entries saved: ${sanctionsData.metadata.totalEntries}`);
+        console.log(`SDN List date: ${sdnDate}`);
 
         return sanctionsData;
     } catch (error) {
