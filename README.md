@@ -39,8 +39,6 @@ The script in this repository automates the following processes:
 2. Extracts cryptocurrency wallet addresses and saves them in a structured file (`data/sanctioned_addresses.json`).
 3. Updates the data folder daily to ensure the information remains current and accurate.
 
-<img width="675" alt="image" src="https://github.com/user-attachments/assets/8d00f66f-77d0-4fa1-b8c0-f48512b32c30" />
-
 Users do not need to manually update the data; the repository handles this automatically.
 
 ## Usage
