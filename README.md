@@ -54,7 +54,8 @@ This repository is useful for:
 ### Accessing the Data
 
 The generated file, `data/sanctioned_addresses.json`, contains all wallet addresses identified by OFAC. This file is updated daily, ensuring users always have access to the most current data.
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/e7f60d24-9a2b-4d69-a9d8-bf93a2efa002" />
+
+<img width="370" alt="image" src="https://github.com/user-attachments/assets/e7f60d24-9a2b-4d69-a9d8-bf93a2efa002"/>
 
 
 ## Tools and Extensions
