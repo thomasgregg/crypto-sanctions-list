@@ -53,6 +53,14 @@ This repository is useful for:
 
 The generated file, `data/sanctioned_addresses.json`, contains all wallet addresses identified by OFAC. This file is updated daily, ensuring users always have access to the most current data.
 
+## Tools and Extensions
+
+To make interacting with the generated sanctions data more accessible, a dedicated Chrome extension is available: [OFAC Sanctions Checker](https://chrome.google.com/webstore/detail/ofac-sanctions-checker/mnoloocipppkmboojjogmnjongaeljlm?authuser=0&hl=en)
+
+This extension provides an easy-to-use interface for checking cryptocurrency addresses against the OFAC sanctions list directly from your browser. It streamlines the process and reduces the need for manual data handling, ensuring compliance is efficient and user-friendly.
+
+<img width="370" alt="image" src="https://github.com/user-attachments/assets/e7f60d24-9a2b-4d69-a9d8-bf93a2efa002"/>
+
 ## Contributing
 
 Contributions are not accepted at this time to maintain data integrity. The repository strictly uses the official OFAC source to ensure accuracy.
