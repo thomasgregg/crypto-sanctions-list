@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-02-24T04:29:39.505Z",
-    "sdnListDate": "02/20/2025",
-    "sdnRecordCount": 17593,
+    "lastUpdated": "2025-02-25T04:29:54.833Z",
+    "sdnListDate": "02/24/2025",
+    "sdnRecordCount": 17628,
     "source": "OFAC SDN List",
     "totalAddresses": 652,
     "totalEntries": 668,
@@ -8942,6 +8942,54 @@
         }
       ]
     },
+    "3q8h2zwmtc4r1m3mkmhntjcoyktecfigdp": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - XBT",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
+    "0xe950dc316b836e4eefb8308bf32bf7c72a1358ff": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
+    "0x21b8d56bda776bbe68655a16895afd96f5534fed": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
     "ttgcttnbnufdbrhvbjmzvrdu5kalyzdapw": {
       "type": "Digital Currency Address - USDT",
       "entries": [
@@ -9013,54 +9061,6 @@
           "entity": "GAZA NOW",
           "program": "SDGT",
           "type": "Digital Currency Address - USDT",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "3q8h2zwmtc4r1m3mkmhntjcoyktecfigdp": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - XBT",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "0xe950dc316b836e4eefb8308bf32bf7c72a1358ff": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "0x21b8d56bda776bbe68655a16895afd96f5534fed": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
           "uid": "47635",
           "akas": [
             "GNNANOW",
