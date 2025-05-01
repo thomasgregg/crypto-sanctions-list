@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-04-30T04:31:50.022Z",
-    "sdnListDate": "04/29/2025",
-    "sdnRecordCount": 17844,
+    "lastUpdated": "2025-05-01T04:34:10.585Z",
+    "sdnListDate": "04/30/2025",
+    "sdnRecordCount": 17852,
     "source": "OFAC SDN List",
     "totalAddresses": 619,
     "totalEntries": 635,
@@ -7730,6 +7730,20 @@
         }
       ]
     },
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Xingbiao SHEN",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
+          "uid": "45312",
+          "akas": [
+            "SHEN, Mike"
+          ]
+        }
+      ]
+    },
     "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -7758,23 +7772,26 @@
         }
       ]
     },
-    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
-      "type": "Digital Currency Address - USDT",
+    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
+      "type": "Digital Currency Address - XBT",
       "entries": [
         {
-          "entity": "Xingbiao SHEN",
+          "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45312",
-          "akas": [
-            "SHEN, Mike"
-          ]
+          "type": "Digital Currency Address - XBT",
+          "uid": "45314"
         }
       ]
     },
     "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
-      "type": "Digital Currency Address - USDT",
+      "type": "Digital Currency Address - ETH",
       "entries": [
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - ETH",
+          "uid": "45314"
+        },
         {
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
@@ -7785,23 +7802,6 @@
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - USDC",
-          "uid": "45314"
-        },
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - ETH",
-          "uid": "45314"
-        }
-      ]
-    },
-    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
           "uid": "45314"
         }
       ]
