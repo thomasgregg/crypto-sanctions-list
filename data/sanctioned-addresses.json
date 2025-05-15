@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-05-14T04:33:38.529Z",
-    "sdnListDate": "05/13/2025",
-    "sdnRecordCount": 17903,
+    "lastUpdated": "2025-05-15T04:33:32.183Z",
+    "sdnListDate": "05/14/2025",
+    "sdnRecordCount": 17918,
     "source": "OFAC SDN List",
     "totalAddresses": 619,
     "totalEntries": 635,
@@ -7861,6 +7861,17 @@
         }
       ]
     },
+    "trbacioxdrdsyezhvjwiudzcmdbppee5ub": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Wei ZHANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "45391"
+        }
+      ]
+    },
     "3nu9zkd8ccvgvmynnnsn7pbu9ssfqbm5uv": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -7880,28 +7891,6 @@
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
           "uid": "45391"
-        }
-      ]
-    },
-    "trbacioxdrdsyezhvjwiudzcmdbppee5ub": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Wei ZHANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "45391"
-        }
-      ]
-    },
-    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Mingming WANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45404"
         }
       ]
     },
@@ -7934,6 +7923,17 @@
           "entity": "Mingming WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - XBT",
+          "uid": "45404"
+        }
+      ]
+    },
+    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Mingming WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
           "uid": "45404"
         }
       ]
