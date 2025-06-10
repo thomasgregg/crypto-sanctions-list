@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-06-09T04:39:59.206Z",
-    "sdnListDate": "06/06/2025",
-    "sdnRecordCount": 17964,
+    "lastUpdated": "2025-06-10T04:37:21.569Z",
+    "sdnListDate": "06/09/2025",
+    "sdnRecordCount": 17978,
     "source": "OFAC SDN List",
     "totalAddresses": 621,
     "totalEntries": 637,
@@ -163,17 +163,6 @@
         }
       ]
     },
-    "laizkts5duhpup1ntqcc83ms7hwk6vk85z": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Guanghua ZHENG",
-          "program": "SDNTK",
-          "type": "Digital Currency Address - LTC",
-          "uid": "26323"
-        }
-      ]
-    },
     "33kja69sqvc8kozpop7qw6hftgxhkiwztz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -203,6 +192,17 @@
           "entity": "Guanghua ZHENG",
           "program": "SDNTK",
           "type": "Digital Currency Address - XBT",
+          "uid": "26323"
+        }
+      ]
+    },
+    "laizkts5duhpup1ntqcc83ms7hwk6vk85z": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Guanghua ZHENG",
+          "program": "SDNTK",
+          "type": "Digital Currency Address - LTC",
           "uid": "26323"
         }
       ]
@@ -1394,6 +1394,21 @@
         }
       ]
     },
+    "dffjhnqnzf8rf67tynespu7mugupytzv7z": {
+      "type": "Digital Currency Address - XVG",
+      "entries": [
+        {
+          "entity": "Mujtaba Ali RAZA",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - XVG",
+          "uid": "30520",
+          "akas": [
+            "Mujtaba RAZA",
+            "Mujtaba Ali LILANI"
+          ]
+        }
+      ]
+    },
     "1ksabh5trmctzwhinsuuqvfttsstt8zqrk": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -1416,21 +1431,6 @@
           "entity": "Mujtaba Ali RAZA",
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - XBT",
-          "uid": "30520",
-          "akas": [
-            "Mujtaba RAZA",
-            "Mujtaba Ali LILANI"
-          ]
-        }
-      ]
-    },
-    "dffjhnqnzf8rf67tynespu7mugupytzv7z": {
-      "type": "Digital Currency Address - XVG",
-      "entries": [
-        {
-          "entity": "Mujtaba Ali RAZA",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - XVG",
           "uid": "30520",
           "akas": [
             "Mujtaba RAZA",
@@ -1463,6 +1463,51 @@
           "uid": "31164",
           "akas": [
             "AFRIC"
+          ]
+        }
+      ]
+    },
+    "qpf2cphc5dkuclkqur7lhj2yuqq9pk3hmukle77vhq": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SOUTHFRONT",
+          "program": "CYBER2, ELECTION-EO13848, NPWMD",
+          "type": "Digital Currency Address - BCH",
+          "uid": "31212",
+          "akas": [
+            "SOUTH FRONT",
+            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
+          ]
+        }
+      ]
+    },
+    "qzjv8hrdvz6edu4gkzpnd4w6jc7zf296g5e9kkq4lx": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SOUTHFRONT",
+          "program": "CYBER2, ELECTION-EO13848, NPWMD",
+          "type": "Digital Currency Address - BCH",
+          "uid": "31212",
+          "akas": [
+            "SOUTH FRONT",
+            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
+          ]
+        }
+      ]
+    },
+    "qq3vlashthktqpeppuv7trmw070e3mydgq63zq348v": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SOUTHFRONT",
+          "program": "CYBER2, ELECTION-EO13848, NPWMD",
+          "type": "Digital Currency Address - BCH",
+          "uid": "31212",
+          "akas": [
+            "SOUTH FRONT",
+            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
           ]
         }
       ]
@@ -1564,51 +1609,6 @@
           "entity": "SOUTHFRONT",
           "program": "CYBER2, ELECTION-EO13848, NPWMD",
           "type": "Digital Currency Address - ETH",
-          "uid": "31212",
-          "akas": [
-            "SOUTH FRONT",
-            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
-          ]
-        }
-      ]
-    },
-    "qpf2cphc5dkuclkqur7lhj2yuqq9pk3hmukle77vhq": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SOUTHFRONT",
-          "program": "CYBER2, ELECTION-EO13848, NPWMD",
-          "type": "Digital Currency Address - BCH",
-          "uid": "31212",
-          "akas": [
-            "SOUTH FRONT",
-            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
-          ]
-        }
-      ]
-    },
-    "qzjv8hrdvz6edu4gkzpnd4w6jc7zf296g5e9kkq4lx": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SOUTHFRONT",
-          "program": "CYBER2, ELECTION-EO13848, NPWMD",
-          "type": "Digital Currency Address - BCH",
-          "uid": "31212",
-          "akas": [
-            "SOUTH FRONT",
-            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
-          ]
-        }
-      ]
-    },
-    "qq3vlashthktqpeppuv7trmw070e3mydgq63zq348v": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SOUTHFRONT",
-          "program": "CYBER2, ELECTION-EO13848, NPWMD",
-          "type": "Digital Currency Address - BCH",
           "uid": "31212",
           "akas": [
             "SOUTH FRONT",
@@ -8551,20 +8551,6 @@
         }
       ]
     },
-    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
     "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -8586,6 +8572,20 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
