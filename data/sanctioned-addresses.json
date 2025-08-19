@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-08-18T04:47:15.482Z",
-    "sdnListDate": "08/14/2025",
-    "sdnRecordCount": 17782,
+    "lastUpdated": "2025-08-19T04:32:58.318Z",
+    "sdnListDate": "08/18/2025",
+    "sdnRecordCount": 17787,
     "source": "OFAC SDN List",
     "totalAddresses": 640,
     "totalEntries": 656,
@@ -163,17 +163,6 @@
         }
       ]
     },
-    "laizkts5duhpup1ntqcc83ms7hwk6vk85z": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Guanghua ZHENG",
-          "program": "SDNTK",
-          "type": "Digital Currency Address - LTC",
-          "uid": "26323"
-        }
-      ]
-    },
     "33kja69sqvc8kozpop7qw6hftgxhkiwztz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -203,6 +192,17 @@
           "entity": "Guanghua ZHENG",
           "program": "SDNTK",
           "type": "Digital Currency Address - XBT",
+          "uid": "26323"
+        }
+      ]
+    },
+    "laizkts5duhpup1ntqcc83ms7hwk6vk85z": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Guanghua ZHENG",
+          "program": "SDNTK",
+          "type": "Digital Currency Address - LTC",
           "uid": "26323"
         }
       ]
@@ -8087,54 +8087,6 @@
         }
       ]
     },
-    "3q8h2zwmtc4r1m3mkmhntjcoyktecfigdp": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - XBT",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "0xe950dc316b836e4eefb8308bf32bf7c72a1358ff": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "0x21b8d56bda776bbe68655a16895afd96f5534fed": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
     "ttgcttnbnufdbrhvbjmzvrdu5kalyzdapw": {
       "type": "Digital Currency Address - USDT",
       "entries": [
@@ -8206,6 +8158,54 @@
           "entity": "GAZA NOW",
           "program": "SDGT",
           "type": "Digital Currency Address - USDT",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
+    "3q8h2zwmtc4r1m3mkmhntjcoyktecfigdp": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - XBT",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
+    "0xe950dc316b836e4eefb8308bf32bf7c72a1358ff": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
+    "0x21b8d56bda776bbe68655a16895afd96f5534fed": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
           "uid": "47635",
           "akas": [
             "GNNANOW",
@@ -8619,6 +8619,17 @@
         }
       ]
     },
+    "tfdtr9c3bqqrzkbxqsxjfazfth8uwbafsg": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "OKO DESIGN BUREAU",
+          "program": "RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
+          "uid": "48432"
+        }
+      ]
+    },
     "13fhnkmpbbwxuqucjd6efwvxdej78dkavk": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -8637,17 +8648,6 @@
           "entity": "OKO DESIGN BUREAU",
           "program": "RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
-          "uid": "48432"
-        }
-      ]
-    },
-    "tfdtr9c3bqqrzkbxqsxjfazfth8uwbafsg": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "OKO DESIGN BUREAU",
-          "program": "RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
           "uid": "48432"
         }
       ]
@@ -9704,20 +9704,6 @@
         }
       ]
     },
-    "tcfd8n3vm5b4gr5f1kkajqsodrvnyyaq1d": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "OLD VECTOR LLC",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - TRX",
-          "uid": "55046",
-          "akas": [
-            "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU OLD VEKTOR"
-          ]
-        }
-      ]
-    },
     "0x12de548f79a50d2bd05481c8515c1ef5183666a9": {
       "type": "Digital Currency Address - ETH",
       "entries": [
@@ -9725,6 +9711,20 @@
           "entity": "OLD VECTOR LLC",
           "program": "CYBER4",
           "type": "Digital Currency Address - ETH",
+          "uid": "55046",
+          "akas": [
+            "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU OLD VEKTOR"
+          ]
+        }
+      ]
+    },
+    "tcfd8n3vm5b4gr5f1kkajqsodrvnyyaq1d": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "OLD VECTOR LLC",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - TRX",
           "uid": "55046",
           "akas": [
             "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU OLD VEKTOR"
