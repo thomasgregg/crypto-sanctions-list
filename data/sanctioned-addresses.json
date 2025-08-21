@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-08-20T04:33:35.815Z",
-    "sdnListDate": "08/18/2025",
-    "sdnRecordCount": 17787,
+    "lastUpdated": "2025-08-21T04:33:03.837Z",
+    "sdnListDate": "08/20/2025",
+    "sdnRecordCount": 17791,
     "source": "OFAC SDN List",
     "totalAddresses": 640,
     "totalEntries": 656,
@@ -8087,6 +8087,54 @@
         }
       ]
     },
+    "3q8h2zwmtc4r1m3mkmhntjcoyktecfigdp": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - XBT",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
+    "0xe950dc316b836e4eefb8308bf32bf7c72a1358ff": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
+    "0x21b8d56bda776bbe68655a16895afd96f5534fed": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "GAZA NOW",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "47635",
+          "akas": [
+            "GNNANOW",
+            "GAZAALAN",
+            "GAZAALANNET"
+          ]
+        }
+      ]
+    },
     "ttgcttnbnufdbrhvbjmzvrdu5kalyzdapw": {
       "type": "Digital Currency Address - USDT",
       "entries": [
@@ -8158,54 +8206,6 @@
           "entity": "GAZA NOW",
           "program": "SDGT",
           "type": "Digital Currency Address - USDT",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "3q8h2zwmtc4r1m3mkmhntjcoyktecfigdp": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - XBT",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "0xe950dc316b836e4eefb8308bf32bf7c72a1358ff": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "47635",
-          "akas": [
-            "GNNANOW",
-            "GAZAALAN",
-            "GAZAALANNET"
-          ]
-        }
-      ]
-    },
-    "0x21b8d56bda776bbe68655a16895afd96f5534fed": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "GAZA NOW",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
           "uid": "47635",
           "akas": [
             "GNNANOW",
@@ -8619,17 +8619,6 @@
         }
       ]
     },
-    "tfdtr9c3bqqrzkbxqsxjfazfth8uwbafsg": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "OKO DESIGN BUREAU",
-          "program": "RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
-          "uid": "48432"
-        }
-      ]
-    },
     "13fhnkmpbbwxuqucjd6efwvxdej78dkavk": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -8648,6 +8637,17 @@
           "entity": "OKO DESIGN BUREAU",
           "program": "RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
+          "uid": "48432"
+        }
+      ]
+    },
+    "tfdtr9c3bqqrzkbxqsxjfazfth8uwbafsg": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "OKO DESIGN BUREAU",
+          "program": "RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
           "uid": "48432"
         }
       ]
