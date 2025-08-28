@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "lastUpdated": "2025-08-27T04:32:24.048Z",
-    "sdnListDate": "08/21/2025",
-    "sdnRecordCount": 17811,
+    "lastUpdated": "2025-08-28T04:31:54.570Z",
+    "sdnListDate": "08/27/2025",
+    "sdnRecordCount": 17815,
     "source": "OFAC SDN List",
-    "totalAddresses": 640,
-    "totalEntries": 656,
+    "totalAddresses": 641,
+    "totalEntries": 657,
     "url": "https://www.treasury.gov/ofac/downloads/sdn.xml"
   },
   "addresses": {
@@ -7865,6 +7865,20 @@
         }
       ]
     },
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Xingbiao SHEN",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
+          "uid": "45312",
+          "akas": [
+            "SHEN, Mike"
+          ]
+        }
+      ]
+    },
     "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -7893,23 +7907,26 @@
         }
       ]
     },
-    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
-      "type": "Digital Currency Address - USDT",
+    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
+      "type": "Digital Currency Address - XBT",
       "entries": [
         {
-          "entity": "Xingbiao SHEN",
+          "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45312",
-          "akas": [
-            "SHEN, Mike"
-          ]
+          "type": "Digital Currency Address - XBT",
+          "uid": "45314"
         }
       ]
     },
     "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
-      "type": "Digital Currency Address - USDT",
+      "type": "Digital Currency Address - ETH",
       "entries": [
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - ETH",
+          "uid": "45314"
+        },
         {
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
@@ -7920,23 +7937,6 @@
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - USDC",
-          "uid": "45314"
-        },
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - ETH",
-          "uid": "45314"
-        }
-      ]
-    },
-    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
           "uid": "45314"
         }
       ]
@@ -9729,6 +9729,17 @@
           "akas": [
             "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU OLD VEKTOR"
           ]
+        }
+      ]
+    },
+    "1hmqvgsxuves1jn4tqpzk9dxo1ne8wim2t": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Vitaliy Sergeyevich ANDREYEV",
+          "program": "DPRK2",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55065"
         }
       ]
     }
