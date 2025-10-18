@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-10-17T04:32:18.926Z",
-    "sdnListDate": "10/14/2025",
-    "sdnRecordCount": 18245,
+    "lastUpdated": "2025-10-18T04:30:29.862Z",
+    "sdnListDate": "10/17/2025",
+    "sdnRecordCount": 18243,
     "source": "OFAC SDN List",
     "totalAddresses": 654,
     "totalEntries": 670,
@@ -9769,6 +9769,20 @@
         }
       ]
     },
+    "tsxaao67vtdgkt537evxxdogkjtk9c6ojz": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Alireza DERAKHSHAN",
+          "program": "IFSR, SDGT",
+          "type": "Digital Currency Address - TRX",
+          "uid": "55484",
+          "akas": [
+            "Alireza Mohammad Javad DERAKHSHAN"
+          ]
+        }
+      ]
+    },
     "0xdb2720ebad55399117ddb4c4a4afd9a4ccada8fe": {
       "type": "Digital Currency Address - ETH",
       "entries": [
@@ -9783,17 +9797,25 @@
         }
       ]
     },
-    "tsxaao67vtdgkt537evxxdogkjtk9c6ojz": {
-      "type": "Digital Currency Address - TRX",
+    "0xe3d35f68383732649669aa990832e017340dbca5": {
+      "type": "Digital Currency Address - ETH",
       "entries": [
         {
-          "entity": "Alireza DERAKHSHAN",
+          "entity": "Arash Estaki ALIVAND",
           "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - TRX",
-          "uid": "55484",
-          "akas": [
-            "Alireza Mohammad Javad DERAKHSHAN"
-          ]
+          "type": "Digital Currency Address - ETH",
+          "uid": "55502"
+        }
+      ]
+    },
+    "0x532b77b33a040587e9fd1800088225f99b8b0e8a": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "Arash Estaki ALIVAND",
+          "program": "IFSR, SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "55502"
         }
       ]
     },
@@ -9826,28 +9848,6 @@
           "entity": "Arash Estaki ALIVAND",
           "program": "IFSR, SDGT",
           "type": "Digital Currency Address - TRX",
-          "uid": "55502"
-        }
-      ]
-    },
-    "0xe3d35f68383732649669aa990832e017340dbca5": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "Arash Estaki ALIVAND",
-          "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "55502"
-        }
-      ]
-    },
-    "0x532b77b33a040587e9fd1800088225f99b8b0e8a": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "Arash Estaki ALIVAND",
-          "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - ETH",
           "uid": "55502"
         }
       ]
