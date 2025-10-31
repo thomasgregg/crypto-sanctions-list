@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "lastUpdated": "2025-10-30T04:32:35.575Z",
-    "sdnListDate": "10/29/2025",
-    "sdnRecordCount": 18235,
+    "lastUpdated": "2025-10-31T04:34:26.902Z",
+    "sdnListDate": "10/30/2025",
+    "sdnRecordCount": 18256,
     "source": "OFAC SDN List",
-    "totalAddresses": 654,
-    "totalEntries": 670,
+    "totalAddresses": 679,
+    "totalEntries": 695,
     "url": "https://www.treasury.gov/ofac/downloads/sdn.xml"
   },
   "addresses": {
@@ -6278,13 +6278,13 @@
         }
       ]
     },
-    "0x39d908dac893cbcb53cc86e0ecc369aa4def1a29": {
-      "type": "Digital Currency Address - ETH",
+    "bc1qfg4gfg0y6t6xjnpmlhuwx5k0wlw6nmfzxn2psc": {
+      "type": "Digital Currency Address - XBT",
       "entries": [
         {
           "entity": "Jonatan ZIMENKOV",
           "program": "RUSSIA-EO14024",
-          "type": "Digital Currency Address - ETH",
+          "type": "Digital Currency Address - XBT",
           "uid": "40488",
           "akas": [
             "Natan Igorevich ZIMENKOV",
@@ -6293,13 +6293,13 @@
         }
       ]
     },
-    "bc1qfg4gfg0y6t6xjnpmlhuwx5k0wlw6nmfzxn2psc": {
-      "type": "Digital Currency Address - XBT",
+    "0x39d908dac893cbcb53cc86e0ecc369aa4def1a29": {
+      "type": "Digital Currency Address - ETH",
       "entries": [
         {
           "entity": "Jonatan ZIMENKOV",
           "program": "RUSSIA-EO14024",
-          "type": "Digital Currency Address - XBT",
+          "type": "Digital Currency Address - ETH",
           "uid": "40488",
           "akas": [
             "Natan Igorevich ZIMENKOV",
@@ -6575,8 +6575,17 @@
       ]
     },
     "0x4f47bc496083c727c5fbe3ce9cdf2b0f6496270c": {
-      "type": "Digital Currency Address - ARB",
+      "type": "Digital Currency Address - ETH",
       "entries": [
+        {
+          "entity": "Hyon Sop SIM",
+          "program": "NPWMD",
+          "type": "Digital Currency Address - ETH",
+          "uid": "42498",
+          "akas": [
+            "Hyo'n-so'p SIM"
+          ]
+        },
         {
           "entity": "Hyon Sop SIM",
           "program": "NPWMD",
@@ -6594,15 +6603,6 @@
           "akas": [
             "Hyo'n-so'p SIM"
           ]
-        },
-        {
-          "entity": "Hyon Sop SIM",
-          "program": "NPWMD",
-          "type": "Digital Currency Address - ETH",
-          "uid": "42498",
-          "akas": [
-            "Hyo'n-so'p SIM"
-          ]
         }
       ]
     },
@@ -6614,6 +6614,38 @@
           "program": "RUSSIA-EO14024",
           "type": "Digital Currency Address - USDT",
           "uid": "43085"
+        }
+      ]
+    },
+    "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Sang Man KIM",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - USDT",
+          "uid": "43377",
+          "akas": [
+            "Sangman KIM"
+          ]
+        },
+        {
+          "entity": "Sang Man KIM",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - USDC",
+          "uid": "43377",
+          "akas": [
+            "Sangman KIM"
+          ]
+        },
+        {
+          "entity": "Sang Man KIM",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - ETH",
+          "uid": "43377",
+          "akas": [
+            "Sangman KIM"
+          ]
         }
       ]
     },
@@ -6659,38 +6691,6 @@
         }
       ]
     },
-    "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "Sang Man KIM",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - ETH",
-          "uid": "43377",
-          "akas": [
-            "Sangman KIM"
-          ]
-        },
-        {
-          "entity": "Sang Man KIM",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - USDT",
-          "uid": "43377",
-          "akas": [
-            "Sangman KIM"
-          ]
-        },
-        {
-          "entity": "Sang Man KIM",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - USDC",
-          "uid": "43377",
-          "akas": [
-            "Sangman KIM"
-          ]
-        }
-      ]
-    },
     "lnf2jdiuunbz7gmdkfyhn4rq5mexwxiwfb": {
       "type": "Digital Currency Address - LTC",
       "entries": [
@@ -6698,25 +6698,6 @@
           "entity": "Yunhe WANG",
           "program": "CYBER2",
           "type": "Digital Currency Address - LTC",
-          "uid": "43421",
-          "akas": [
-            "Jack WAN",
-            "Jack WANG",
-            "Jack WONG",
-            "TRAFFICCASH",
-            "TRAFFICCARB",
-            "William WILSON"
-          ]
-        }
-      ]
-    },
-    "tbhtjqay4dhhhmt3dncejynrz4sdloflre": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Yunhe WANG",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - TRX",
           "uid": "43421",
           "akas": [
             "Jack WAN",
@@ -7622,6 +7603,25 @@
         }
       ]
     },
+    "tbhtjqay4dhhhmt3dncejynrz4sdloflre": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Yunhe WANG",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - TRX",
+          "uid": "43421",
+          "akas": [
+            "Jack WAN",
+            "Jack WANG",
+            "Jack WONG",
+            "TRAFFICCASH",
+            "TRAFFICCARB",
+            "William WILSON"
+          ]
+        }
+      ]
+    },
     "0x9c2bc757b66f24d60f016b6237f8cdd414a879fa": {
       "type": "Digital Currency Address - ETH",
       "entries": [
@@ -7865,6 +7865,20 @@
         }
       ]
     },
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Xingbiao SHEN",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
+          "uid": "45312",
+          "akas": [
+            "SHEN, Mike"
+          ]
+        }
+      ]
+    },
     "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -7893,17 +7907,26 @@
         }
       ]
     },
-    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+    "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
       "type": "Digital Currency Address - USDT",
       "entries": [
         {
-          "entity": "Xingbiao SHEN",
+          "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - USDT",
-          "uid": "45312",
-          "akas": [
-            "SHEN, Mike"
-          ]
+          "uid": "45314"
+        },
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDC",
+          "uid": "45314"
+        },
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - ETH",
+          "uid": "45314"
         }
       ]
     },
@@ -7918,26 +7941,14 @@
         }
       ]
     },
-    "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
-      "type": "Digital Currency Address - ETH",
+    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
+      "type": "Digital Currency Address - XBT",
       "entries": [
         {
-          "entity": "VALERIAN LABS, INC.",
+          "entity": "Jiantong WANG",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - ETH",
-          "uid": "45314"
-        },
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45314"
-        },
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDC",
-          "uid": "45314"
+          "type": "Digital Currency Address - XBT",
+          "uid": "45349"
         }
       ]
     },
@@ -7952,14 +7963,14 @@
         }
       ]
     },
-    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
-      "type": "Digital Currency Address - XBT",
+    "ttknv2s1295urpr7n67tp9yknl7xx2z4uj": {
+      "type": "Digital Currency Address - TRX",
       "entries": [
         {
-          "entity": "Jiantong WANG",
+          "entity": "Fengbing XIA",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
-          "uid": "45349"
+          "type": "Digital Currency Address - TRX",
+          "uid": "45350"
         }
       ]
     },
@@ -7985,28 +7996,6 @@
         }
       ]
     },
-    "ttknv2s1295urpr7n67tp9yknl7xx2z4uj": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Fengbing XIA",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "45350"
-        }
-      ]
-    },
-    "trbacioxdrdsyezhvjwiudzcmdbppee5ub": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Wei ZHANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "45391"
-        }
-      ]
-    },
     "3nu9zkd8ccvgvmynnnsn7pbu9ssfqbm5uv": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -8029,14 +8018,14 @@
         }
       ]
     },
-    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
-      "type": "Digital Currency Address - USDT",
+    "trbacioxdrdsyezhvjwiudzcmdbppee5ub": {
+      "type": "Digital Currency Address - TRX",
       "entries": [
         {
-          "entity": "Mingming WANG",
+          "entity": "Wei ZHANG",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45404"
+          "type": "Digital Currency Address - TRX",
+          "uid": "45391"
         }
       ]
     },
@@ -8069,6 +8058,17 @@
           "entity": "Mingming WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - XBT",
+          "uid": "45404"
+        }
+      ]
+    },
+    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Mingming WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
           "uid": "45404"
         }
       ]
@@ -9769,6 +9769,20 @@
         }
       ]
     },
+    "tsxaao67vtdgkt537evxxdogkjtk9c6ojz": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Alireza DERAKHSHAN",
+          "program": "IFSR, SDGT",
+          "type": "Digital Currency Address - TRX",
+          "uid": "55484",
+          "akas": [
+            "Alireza Mohammad Javad DERAKHSHAN"
+          ]
+        }
+      ]
+    },
     "0xdb2720ebad55399117ddb4c4a4afd9a4ccada8fe": {
       "type": "Digital Currency Address - ETH",
       "entries": [
@@ -9783,17 +9797,25 @@
         }
       ]
     },
-    "tsxaao67vtdgkt537evxxdogkjtk9c6ojz": {
-      "type": "Digital Currency Address - TRX",
+    "0xe3d35f68383732649669aa990832e017340dbca5": {
+      "type": "Digital Currency Address - ETH",
       "entries": [
         {
-          "entity": "Alireza DERAKHSHAN",
+          "entity": "Arash Estaki ALIVAND",
           "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - TRX",
-          "uid": "55484",
-          "akas": [
-            "Alireza Mohammad Javad DERAKHSHAN"
-          ]
+          "type": "Digital Currency Address - ETH",
+          "uid": "55502"
+        }
+      ]
+    },
+    "0x532b77b33a040587e9fd1800088225f99b8b0e8a": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "Arash Estaki ALIVAND",
+          "program": "IFSR, SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "55502"
         }
       ]
     },
@@ -9826,28 +9848,6 @@
           "entity": "Arash Estaki ALIVAND",
           "program": "IFSR, SDGT",
           "type": "Digital Currency Address - TRX",
-          "uid": "55502"
-        }
-      ]
-    },
-    "0xe3d35f68383732649669aa990832e017340dbca5": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "Arash Estaki ALIVAND",
-          "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "55502"
-        }
-      ]
-    },
-    "0x532b77b33a040587e9fd1800088225f99b8b0e8a": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "Arash Estaki ALIVAND",
-          "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - ETH",
           "uid": "55502"
         }
       ]
@@ -9886,6 +9886,281 @@
       ]
     },
     "bc1qw4fxztd5u3sl7vrcqwk2a8v5zh5dllvckx3tlt": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "3eynpfpogtpxu9m5bpaedeuxuanzh7vgqp": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "3fod1f6tfnq3s8myhgjqfpwv9curtudbsv": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "3mkxkqpxf6vxtlkvsxudkzatizzaz5amik": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "386sphhbblidzpnoxuh74jiiykhytobefq": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "35irs2au6pvgenybwvmrz22avdblc9xmkd": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "36ia8qae1k1pkqepdxencm1yklxxzyvnnc": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "374rguzdmnw5zh5ouw3khkdcrerkusmsuk": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "3cuqlrzwn5oce6drscdrwifv8txcahrsg3": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "3mnwigeokahttrbjuuxpvsryjsnvmyjswe": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "39hjb4x6w5qukfeuv1tfcfnvelrjtzcc12": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "3l1pscgfpkjafqczcokfbvwf1fbmwm1bbs": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "3d44e2z3pcla868gebnip5e2gptfvluluj": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qnq3pzsw3elkecrw8pqrz70r7zuse6cwyxa6dhc": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qeaxuj8vamvnxqveleaqgmae33x904xuzj836p3": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1q66y45cq78ke25kz7rpe94l84avt7zetglzeeqg": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qu8mcqffx3jpdwnap88h85u5l5l0xq97438tz2x": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qw75cxmxz4e2v265mue9wmqgq2m0qdyr25l2ufl": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1q7des766x6c0zkycz6dz6rfv066n3fcg4kggtrt": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qlwtksgusw8pp3k3a39mkmwvswujhhgn0ulp3uj": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qu4p4eynzu8vwwcv0yxq74gth00exjyech05uf0": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qw0pswznckx7s6tjmd2f5hrx4q6kc5nyrdxku50": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1q9kja7t2zxz0ze4lcgxf0l07pygpc69ws528lj9": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qea942uw640l7nvtf3vplv6jd6wvuy06c58cd4k": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1q6qze6uj6jncgnva4eghxn3tr4pm2frh77ad3k9": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Zhi CHEN",
+          "program": "TCO",
+          "type": "Digital Currency Address - XBT",
+          "uid": "55505"
+        }
+      ]
+    },
+    "bc1qcx8vxxrld2s7qvz64qp75s3508rkzaxj65l60q": {
       "type": "Digital Currency Address - XBT",
       "entries": [
         {
