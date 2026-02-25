@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-02-24T05:34:20.026Z",
-    "sdnListDate": "02/19/2026",
-    "sdnRecordCount": 18664,
+    "lastUpdated": "2026-02-25T05:35:52.461Z",
+    "sdnListDate": "02/24/2026",
+    "sdnRecordCount": 18671,
     "source": "OFAC SDN List",
     "totalAddresses": 751,
     "totalEntries": 767,
@@ -1539,6 +1539,20 @@
         }
       ]
     },
+    "lnwgtmxckuq51dw7bql1ypqjbvzh6qeqsd": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Dmitrii KARASAVIDI",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - LTC",
+          "uid": "29585",
+          "akas": [
+            "Dmitriy KARASAVIDI"
+          ]
+        }
+      ]
+    },
     "1q6sanmqkkyfb9mfr68ck8f7dp7dtopf2w": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -1646,20 +1660,6 @@
         }
       ]
     },
-    "lnwgtmxckuq51dw7bql1ypqjbvzh6qeqsd": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Dmitrii KARASAVIDI",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - LTC",
-          "uid": "29585",
-          "akas": [
-            "Dmitriy KARASAVIDI"
-          ]
-        }
-      ]
-    },
     "leo3j36nn1jcsuqruytqhfudcdch5yhmr3": {
       "type": "Digital Currency Address - LTC",
       "entries": [
@@ -1723,6 +1723,28 @@
           "program": "ELECTION-EO13848, CYBER2",
           "type": "Digital Currency Address - ETH",
           "uid": "29702"
+        }
+      ]
+    },
+    "lwnbjlyufqeokfbwm4fcu7uk2fp2dsxuws": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Anton Nikolaeyvich ANDREYEV",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "29703"
+        }
+      ]
+    },
+    "layuy1dgfvsusf5kbphblrm8krotqiwujn": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Anton Nikolaeyvich ANDREYEV",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "29703"
         }
       ]
     },
@@ -1869,28 +1891,6 @@
         }
       ]
     },
-    "lwnbjlyufqeokfbwm4fcu7uk2fp2dsxuws": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Anton Nikolaeyvich ANDREYEV",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - LTC",
-          "uid": "29703"
-        }
-      ]
-    },
-    "layuy1dgfvsusf5kbphblrm8krotqiwujn": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Anton Nikolaeyvich ANDREYEV",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - LTC",
-          "uid": "29703"
-        }
-      ]
-    },
     "t1wskwcdl1qyrrurccknes5tdlhtgvyu9km": {
       "type": "Digital Currency Address - ZEC",
       "entries": [
@@ -1961,6 +1961,20 @@
           "akas": [
             "Mujtaba RAZA",
             "Mujtaba Ali LILANI"
+          ]
+        }
+      ]
+    },
+    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - BCH",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
           ]
         }
       ]
@@ -2175,16 +2189,17 @@
         }
       ]
     },
-    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
-      "type": "Digital Currency Address - BCH",
+    "dffjhnqnzf8rf67tynespu7mugupytzv7z": {
+      "type": "Digital Currency Address - XVG",
       "entries": [
         {
-          "entity": "SECONDEYE SOLUTION",
+          "entity": "Mujtaba Ali RAZA",
           "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - BCH",
-          "uid": "30518",
+          "type": "Digital Currency Address - XVG",
+          "uid": "30520",
           "akas": [
-            "FORWARDERZ"
+            "Mujtaba RAZA",
+            "Mujtaba Ali LILANI"
           ]
         }
       ]
@@ -2219,21 +2234,6 @@
         }
       ]
     },
-    "dffjhnqnzf8rf67tynespu7mugupytzv7z": {
-      "type": "Digital Currency Address - XVG",
-      "entries": [
-        {
-          "entity": "Mujtaba Ali RAZA",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - XVG",
-          "uid": "30520",
-          "akas": [
-            "Mujtaba RAZA",
-            "Mujtaba Ali LILANI"
-          ]
-        }
-      ]
-    },
     "t1mmxtbrsp1xg38lx9cepcnucjj5vdwfuwl": {
       "type": "Digital Currency Address - ZEC",
       "entries": [
@@ -2258,51 +2258,6 @@
           "uid": "31164",
           "akas": [
             "AFRIC"
-          ]
-        }
-      ]
-    },
-    "qpf2cphc5dkuclkqur7lhj2yuqq9pk3hmukle77vhq": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SOUTHFRONT",
-          "program": "CYBER2, ELECTION-EO13848, NPWMD",
-          "type": "Digital Currency Address - BCH",
-          "uid": "31212",
-          "akas": [
-            "SOUTH FRONT",
-            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
-          ]
-        }
-      ]
-    },
-    "qzjv8hrdvz6edu4gkzpnd4w6jc7zf296g5e9kkq4lx": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SOUTHFRONT",
-          "program": "CYBER2, ELECTION-EO13848, NPWMD",
-          "type": "Digital Currency Address - BCH",
-          "uid": "31212",
-          "akas": [
-            "SOUTH FRONT",
-            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
-          ]
-        }
-      ]
-    },
-    "qq3vlashthktqpeppuv7trmw070e3mydgq63zq348v": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SOUTHFRONT",
-          "program": "CYBER2, ELECTION-EO13848, NPWMD",
-          "type": "Digital Currency Address - BCH",
-          "uid": "31212",
-          "akas": [
-            "SOUTH FRONT",
-            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
           ]
         }
       ]
@@ -2404,6 +2359,51 @@
           "entity": "SOUTHFRONT",
           "program": "CYBER2, ELECTION-EO13848, NPWMD",
           "type": "Digital Currency Address - XMR",
+          "uid": "31212",
+          "akas": [
+            "SOUTH FRONT",
+            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
+          ]
+        }
+      ]
+    },
+    "qpf2cphc5dkuclkqur7lhj2yuqq9pk3hmukle77vhq": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SOUTHFRONT",
+          "program": "CYBER2, ELECTION-EO13848, NPWMD",
+          "type": "Digital Currency Address - BCH",
+          "uid": "31212",
+          "akas": [
+            "SOUTH FRONT",
+            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
+          ]
+        }
+      ]
+    },
+    "qzjv8hrdvz6edu4gkzpnd4w6jc7zf296g5e9kkq4lx": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SOUTHFRONT",
+          "program": "CYBER2, ELECTION-EO13848, NPWMD",
+          "type": "Digital Currency Address - BCH",
+          "uid": "31212",
+          "akas": [
+            "SOUTH FRONT",
+            "SOUTHFRONT: ANALYSIS & INTELLIGENCE"
+          ]
+        }
+      ]
+    },
+    "qq3vlashthktqpeppuv7trmw070e3mydgq63zq348v": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SOUTHFRONT",
+          "program": "CYBER2, ELECTION-EO13848, NPWMD",
+          "type": "Digital Currency Address - BCH",
           "uid": "31212",
           "akas": [
             "SOUTH FRONT",
@@ -3193,6 +3193,23 @@
         }
       ]
     },
+    "0xfec8a60023265364d066a1212fde3930f6ae8da7": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Yevgeniy Igorevich POLYANIN",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33858",
+          "akas": [
+            "Evegnii Igorevich POLIANIN",
+            "Evgeniy POLYANIN",
+            "Evgeniy Igorevich POLYANIN",
+            "Evgenii Igorevich POLYANIN"
+          ]
+        }
+      ]
+    },
     "158trevzbgmbthoaympxccpdzptqufyrt9": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -3295,23 +3312,6 @@
         }
       ]
     },
-    "0xfec8a60023265364d066a1212fde3930f6ae8da7": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Yevgeniy Igorevich POLYANIN",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
-          "uid": "33858",
-          "akas": [
-            "Evegnii Igorevich POLIANIN",
-            "Evgeniy POLYANIN",
-            "Evgeniy Igorevich POLYANIN",
-            "Evgenii Igorevich POLYANIN"
-          ]
-        }
-      ]
-    },
     "35qplwykvd3alhjbge5bk2kd7hfhycdmu3": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -3353,62 +3353,6 @@
           "program": "CYBER2",
           "type": "Digital Currency Address - XBT",
           "uid": "33859"
-        }
-      ]
-    },
-    "3e6zckrrsdpc35cha9eftp1h3dlw18nfnv": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "GARANTEX EUROPE OU",
-          "program": "CYBER4, RUSSIA-EO14024",
-          "type": "Digital Currency Address - USDT",
-          "uid": "36025",
-          "akas": [
-            "GARANTEX"
-          ]
-        }
-      ]
-    },
-    "tfwjpscajrcbswvaywe1s1wgaugsnyyubd": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "GARANTEX EUROPE OU",
-          "program": "CYBER4, RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
-          "uid": "36025",
-          "akas": [
-            "GARANTEX"
-          ]
-        }
-      ]
-    },
-    "tjkbr9tz1xbejof7rnwqyembyqvj6fxxhr": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "GARANTEX EUROPE OU",
-          "program": "CYBER4, RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
-          "uid": "36025",
-          "akas": [
-            "GARANTEX"
-          ]
-        }
-      ]
-    },
-    "tndjh6wglyywmkh8vfu42bxvhuqfnq3rdq": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "GARANTEX EUROPE OU",
-          "program": "CYBER4, RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
-          "uid": "36025",
-          "akas": [
-            "GARANTEX"
-          ]
         }
       ]
     },
@@ -3517,6 +3461,62 @@
           "entity": "GARANTEX EUROPE OU",
           "program": "CYBER4, RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
+          "uid": "36025",
+          "akas": [
+            "GARANTEX"
+          ]
+        }
+      ]
+    },
+    "3e6zckrrsdpc35cha9eftp1h3dlw18nfnv": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "GARANTEX EUROPE OU",
+          "program": "CYBER4, RUSSIA-EO14024",
+          "type": "Digital Currency Address - USDT",
+          "uid": "36025",
+          "akas": [
+            "GARANTEX"
+          ]
+        }
+      ]
+    },
+    "tfwjpscajrcbswvaywe1s1wgaugsnyyubd": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "GARANTEX EUROPE OU",
+          "program": "CYBER4, RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
+          "uid": "36025",
+          "akas": [
+            "GARANTEX"
+          ]
+        }
+      ]
+    },
+    "tjkbr9tz1xbejof7rnwqyembyqvj6fxxhr": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "GARANTEX EUROPE OU",
+          "program": "CYBER4, RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
+          "uid": "36025",
+          "akas": [
+            "GARANTEX"
+          ]
+        }
+      ]
+    },
+    "tndjh6wglyywmkh8vfu42bxvhuqfnq3rdq": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "GARANTEX EUROPE OU",
+          "program": "CYBER4, RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
           "uid": "36025",
           "akas": [
             "GARANTEX"
@@ -6153,6 +6153,24 @@
         }
       ]
     },
+    "tx5gv4dyfxnb3rpkzzjhmqz1efvml4reqg": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "TASK FORCE RUSICH",
+          "program": "RUSSIA-EO14024",
+          "type": "Digital Currency Address - USDT",
+          "uid": "38665",
+          "akas": [
+            "RUSICH SABOTAGE AND ASSAULT RECONNAISSANCE GROUP",
+            "SABOTAGE AND ASSAULT RECONNAISSANCE GROUP RUSICH",
+            "RUSICH TASK FORCE",
+            "MILITARY-PATRIOTIC CLUB RUSICH",
+            "DSHRG RUSICH"
+          ]
+        }
+      ]
+    },
     "bc1ql7dlyh8xz6tpqk92vztrhqh88dmjvcwrmsemrm": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -6221,39 +6239,6 @@
             "RUSICH TASK FORCE",
             "MILITARY-PATRIOTIC CLUB RUSICH",
             "DSHRG RUSICH"
-          ]
-        }
-      ]
-    },
-    "tx5gv4dyfxnb3rpkzzjhmqz1efvml4reqg": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "TASK FORCE RUSICH",
-          "program": "RUSSIA-EO14024",
-          "type": "Digital Currency Address - USDT",
-          "uid": "38665",
-          "akas": [
-            "RUSICH SABOTAGE AND ASSAULT RECONNAISSANCE GROUP",
-            "SABOTAGE AND ASSAULT RECONNAISSANCE GROUP RUSICH",
-            "RUSICH TASK FORCE",
-            "MILITARY-PATRIOTIC CLUB RUSICH",
-            "DSHRG RUSICH"
-          ]
-        }
-      ]
-    },
-    "qpusmp64rajses77x95g9ah825mtyyv74smwwkxhx3": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "Alex Adrianus Martinus PEIJNENBURG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - BCH",
-          "uid": "39585",
-          "akas": [
-            "PEIJNENBURG, Aam",
-            "Alex Adrianus Martin PEIJNENBURG"
           ]
         }
       ]
@@ -6633,25 +6618,18 @@
         }
       ]
     },
-    "qqyuc9s700plhzr6awzru7g5z2d2p906uyrm6ht0r0": {
+    "qpusmp64rajses77x95g9ah825mtyyv74smwwkxhx3": {
       "type": "Digital Currency Address - BCH",
       "entries": [
         {
-          "entity": "Matthew Simon GRIMM",
+          "entity": "Alex Adrianus Martinus PEIJNENBURG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - BCH",
-          "uid": "39593"
-        }
-      ]
-    },
-    "qz9f2vz3033sg5vc5mf7m7xshmj0jugy4ummf05jk8": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "Matthew Simon GRIMM",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - BCH",
-          "uid": "39593"
+          "uid": "39585",
+          "akas": [
+            "PEIJNENBURG, Aam",
+            "Alex Adrianus Martin PEIJNENBURG"
+          ]
         }
       ]
     },
@@ -7069,6 +7047,28 @@
           "entity": "Matthew Simon GRIMM",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
+          "uid": "39593"
+        }
+      ]
+    },
+    "qqyuc9s700plhzr6awzru7g5z2d2p906uyrm6ht0r0": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "Matthew Simon GRIMM",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - BCH",
+          "uid": "39593"
+        }
+      ]
+    },
+    "qz9f2vz3033sg5vc5mf7m7xshmj0jugy4ummf05jk8": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "Matthew Simon GRIMM",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - BCH",
           "uid": "39593"
         }
       ]
@@ -10365,13 +10365,13 @@
         }
       ]
     },
-    "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510": {
-      "type": "Digital Currency Address - ETH",
+    "tnmrfnsuxzowwzxcddbf95egqyxt1mjdt8": {
+      "type": "Digital Currency Address - TRX",
       "entries": [
         {
           "entity": "FUNNULL TECHNOLOGY INC",
           "program": "CYBER3",
-          "type": "Digital Currency Address - ETH",
+          "type": "Digital Currency Address - TRX",
           "uid": "53953",
           "akas": [
             "FUNNULL",
@@ -10383,13 +10383,13 @@
         }
       ]
     },
-    "tnmrfnsuxzowwzxcddbf95egqyxt1mjdt8": {
-      "type": "Digital Currency Address - TRX",
+    "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510": {
+      "type": "Digital Currency Address - ETH",
       "entries": [
         {
           "entity": "FUNNULL TECHNOLOGY INC",
           "program": "CYBER3",
-          "type": "Digital Currency Address - TRX",
+          "type": "Digital Currency Address - ETH",
           "uid": "53953",
           "akas": [
             "FUNNULL",
