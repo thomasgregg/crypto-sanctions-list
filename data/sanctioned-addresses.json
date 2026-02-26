@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-02-25T05:35:52.461Z",
-    "sdnListDate": "02/24/2026",
-    "sdnRecordCount": 18671,
+    "lastUpdated": "2026-02-26T05:23:29.549Z",
+    "sdnListDate": "02/25/2026",
+    "sdnRecordCount": 18703,
     "source": "OFAC SDN List",
     "totalAddresses": 751,
     "totalEntries": 767,
@@ -1660,28 +1660,6 @@
         }
       ]
     },
-    "leo3j36nn1jcsuqruytqhfudcdch5yhmr3": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Artem Mikhaylovich LIFSHITS",
-          "program": "ELECTION-EO13848, CYBER2",
-          "type": "Digital Currency Address - LTC",
-          "uid": "29702"
-        }
-      ]
-    },
-    "xs3vzqmnvaxra3xo8xzqqub3bmgb9eogf4": {
-      "type": "Digital Currency Address - DASH",
-      "entries": [
-        {
-          "entity": "Artem Mikhaylovich LIFSHITS",
-          "program": "ELECTION-EO13848, CYBER2",
-          "type": "Digital Currency Address - DASH",
-          "uid": "29702"
-        }
-      ]
-    },
     "12udabs2tkx7nxcsj6kpqxfakje52zplhz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -1726,25 +1704,25 @@
         }
       ]
     },
-    "lwnbjlyufqeokfbwm4fcu7uk2fp2dsxuws": {
-      "type": "Digital Currency Address - LTC",
+    "xs3vzqmnvaxra3xo8xzqqub3bmgb9eogf4": {
+      "type": "Digital Currency Address - DASH",
       "entries": [
         {
-          "entity": "Anton Nikolaeyvich ANDREYEV",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - LTC",
-          "uid": "29703"
+          "entity": "Artem Mikhaylovich LIFSHITS",
+          "program": "ELECTION-EO13848, CYBER2",
+          "type": "Digital Currency Address - DASH",
+          "uid": "29702"
         }
       ]
     },
-    "layuy1dgfvsusf5kbphblrm8krotqiwujn": {
+    "leo3j36nn1jcsuqruytqhfudcdch5yhmr3": {
       "type": "Digital Currency Address - LTC",
       "entries": [
         {
-          "entity": "Anton Nikolaeyvich ANDREYEV",
-          "program": "CYBER2, ELECTION-EO13848",
+          "entity": "Artem Mikhaylovich LIFSHITS",
+          "program": "ELECTION-EO13848, CYBER2",
           "type": "Digital Currency Address - LTC",
-          "uid": "29703"
+          "uid": "29702"
         }
       ]
     },
@@ -1891,6 +1869,28 @@
         }
       ]
     },
+    "lwnbjlyufqeokfbwm4fcu7uk2fp2dsxuws": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Anton Nikolaeyvich ANDREYEV",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "29703"
+        }
+      ]
+    },
+    "layuy1dgfvsusf5kbphblrm8krotqiwujn": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Anton Nikolaeyvich ANDREYEV",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "29703"
+        }
+      ]
+    },
     "t1wskwcdl1qyrrurccknes5tdlhtgvyu9km": {
       "type": "Digital Currency Address - ZEC",
       "entries": [
@@ -1910,6 +1910,20 @@
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - BSV",
           "uid": "29703"
+        }
+      ]
+    },
+    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - BCH",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
         }
       ]
     },
@@ -1961,20 +1975,6 @@
           "akas": [
             "Mujtaba RAZA",
             "Mujtaba Ali LILANI"
-          ]
-        }
-      ]
-    },
-    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - BCH",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
           ]
         }
       ]
@@ -6243,6 +6243,21 @@
         }
       ]
     },
+    "qpusmp64rajses77x95g9ah825mtyyv74smwwkxhx3": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "Alex Adrianus Martinus PEIJNENBURG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - BCH",
+          "uid": "39585",
+          "akas": [
+            "PEIJNENBURG, Aam",
+            "Alex Adrianus Martin PEIJNENBURG"
+          ]
+        }
+      ]
+    },
     "1dbvk8p6imbulcwh2vruis4xsub8yawjqf": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -6610,21 +6625,6 @@
           "entity": "Alex Adrianus Martinus PEIJNENBURG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
-          "uid": "39585",
-          "akas": [
-            "PEIJNENBURG, Aam",
-            "Alex Adrianus Martin PEIJNENBURG"
-          ]
-        }
-      ]
-    },
-    "qpusmp64rajses77x95g9ah825mtyyv74smwwkxhx3": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "Alex Adrianus Martinus PEIJNENBURG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - BCH",
           "uid": "39585",
           "akas": [
             "PEIJNENBURG, Aam",
@@ -11024,39 +11024,6 @@
         }
       ]
     },
-    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
-      "type": "Digital Currency Address - SOL",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - SOL",
-          "uid": "56360"
-        }
-      ]
-    },
     "37fkfzqgmqdbkjsuub1jcdwggshwv9vxfz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -11108,6 +11075,39 @@
           "entity": "Rolan SOKOLOVSKI",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
+          "uid": "56360"
+        }
+      ]
+    },
+    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
+      "type": "Digital Currency Address - SOL",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - SOL",
           "uid": "56360"
         }
       ]
