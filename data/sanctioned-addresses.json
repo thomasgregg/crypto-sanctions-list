@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-13T05:16:45.719Z",
-    "sdnListDate": "03/12/2026",
-    "sdnRecordCount": 18718,
+    "lastUpdated": "2026-03-14T05:14:40.293Z",
+    "sdnListDate": "03/13/2026",
+    "sdnRecordCount": 18712,
     "source": "OFAC SDN List",
     "totalAddresses": 772,
     "totalEntries": 788,
@@ -1660,6 +1660,17 @@
         }
       ]
     },
+    "leo3j36nn1jcsuqruytqhfudcdch5yhmr3": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Artem Mikhaylovich LIFSHITS",
+          "program": "ELECTION-EO13848, CYBER2",
+          "type": "Digital Currency Address - LTC",
+          "uid": "29702"
+        }
+      ]
+    },
     "xs3vzqmnvaxra3xo8xzqqub3bmgb9eogf4": {
       "type": "Digital Currency Address - DASH",
       "entries": [
@@ -1715,17 +1726,6 @@
         }
       ]
     },
-    "leo3j36nn1jcsuqruytqhfudcdch5yhmr3": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Artem Mikhaylovich LIFSHITS",
-          "program": "ELECTION-EO13848, CYBER2",
-          "type": "Digital Currency Address - LTC",
-          "uid": "29702"
-        }
-      ]
-    },
     "lwnbjlyufqeokfbwm4fcu7uk2fp2dsxuws": {
       "type": "Digital Currency Address - LTC",
       "entries": [
@@ -1744,28 +1744,6 @@
           "entity": "Anton Nikolaeyvich ANDREYEV",
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - LTC",
-          "uid": "29703"
-        }
-      ]
-    },
-    "t1wskwcdl1qyrrurccknes5tdlhtgvyu9km": {
-      "type": "Digital Currency Address - ZEC",
-      "entries": [
-        {
-          "entity": "Anton Nikolaeyvich ANDREYEV",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - ZEC",
-          "uid": "29703"
-        }
-      ]
-    },
-    "12sjrrhofesednrhtgwvvrqjfth8fztdx9": {
-      "type": "Digital Currency Address - BSV",
-      "entries": [
-        {
-          "entity": "Anton Nikolaeyvich ANDREYEV",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - BSV",
           "uid": "29703"
         }
       ]
@@ -1910,6 +1888,94 @@
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - ETH",
           "uid": "29703"
+        }
+      ]
+    },
+    "t1wskwcdl1qyrrurccknes5tdlhtgvyu9km": {
+      "type": "Digital Currency Address - ZEC",
+      "entries": [
+        {
+          "entity": "Anton Nikolaeyvich ANDREYEV",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - ZEC",
+          "uid": "29703"
+        }
+      ]
+    },
+    "12sjrrhofesednrhtgwvvrqjfth8fztdx9": {
+      "type": "Digital Currency Address - BSV",
+      "entries": [
+        {
+          "entity": "Anton Nikolaeyvich ANDREYEV",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - BSV",
+          "uid": "29703"
+        }
+      ]
+    },
+    "lqahywwk5ar1jqiqpr7vu8pu4b6qcxxvnb": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
+        }
+      ]
+    },
+    "lgwmgynrau2ubwhvfudgamfcpyj5yw8c9l": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
+        }
+      ]
+    },
+    "lekvndnezgqkzvvnrdv3fau2dsf1nlsnw6": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
+        },
+        {
+          "entity": "Mujtaba Ali RAZA",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - LTC",
+          "uid": "30520",
+          "akas": [
+            "Mujtaba RAZA",
+            "Mujtaba Ali LILANI"
+          ]
+        }
+      ]
+    },
+    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - BCH",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
         }
       ]
     },
@@ -2123,64 +2189,13 @@
         }
       ]
     },
-    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
-      "type": "Digital Currency Address - BCH",
+    "dffjhnqnzf8rf67tynespu7mugupytzv7z": {
+      "type": "Digital Currency Address - XVG",
       "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - BCH",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
-          ]
-        }
-      ]
-    },
-    "lqahywwk5ar1jqiqpr7vu8pu4b6qcxxvnb": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - LTC",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
-          ]
-        }
-      ]
-    },
-    "lgwmgynrau2ubwhvfudgamfcpyj5yw8c9l": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - LTC",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
-          ]
-        }
-      ]
-    },
-    "lekvndnezgqkzvvnrdv3fau2dsf1nlsnw6": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - LTC",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
-          ]
-        },
         {
           "entity": "Mujtaba Ali RAZA",
           "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - LTC",
+          "type": "Digital Currency Address - XVG",
           "uid": "30520",
           "akas": [
             "Mujtaba RAZA",
@@ -2211,21 +2226,6 @@
           "entity": "Mujtaba Ali RAZA",
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - XBT",
-          "uid": "30520",
-          "akas": [
-            "Mujtaba RAZA",
-            "Mujtaba Ali LILANI"
-          ]
-        }
-      ]
-    },
-    "dffjhnqnzf8rf67tynespu7mugupytzv7z": {
-      "type": "Digital Currency Address - XVG",
-      "entries": [
-        {
-          "entity": "Mujtaba Ali RAZA",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - XVG",
           "uid": "30520",
           "akas": [
             "Mujtaba RAZA",
@@ -7566,38 +7566,6 @@
         }
       ]
     },
-    "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Sang Man KIM",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - USDT",
-          "uid": "43377",
-          "akas": [
-            "Sangman KIM"
-          ]
-        },
-        {
-          "entity": "Sang Man KIM",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - USDC",
-          "uid": "43377",
-          "akas": [
-            "Sangman KIM"
-          ]
-        },
-        {
-          "entity": "Sang Man KIM",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - ETH",
-          "uid": "43377",
-          "akas": [
-            "Sangman KIM"
-          ]
-        }
-      ]
-    },
     "1d6gg9ikehpittcwrjiniuj1jym2hneafj": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -7633,6 +7601,38 @@
           "entity": "Sang Man KIM",
           "program": "DPRK4",
           "type": "Digital Currency Address - ETH",
+          "uid": "43377",
+          "akas": [
+            "Sangman KIM"
+          ]
+        }
+      ]
+    },
+    "0xb6f5ec1a0a9cd1526536d3f0426c429529471f40": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "Sang Man KIM",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - ETH",
+          "uid": "43377",
+          "akas": [
+            "Sangman KIM"
+          ]
+        },
+        {
+          "entity": "Sang Man KIM",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - USDT",
+          "uid": "43377",
+          "akas": [
+            "Sangman KIM"
+          ]
+        },
+        {
+          "entity": "Sang Man KIM",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - USDC",
           "uid": "43377",
           "akas": [
             "Sangman KIM"
@@ -8814,6 +8814,20 @@
         }
       ]
     },
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Xingbiao SHEN",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
+          "uid": "45312",
+          "akas": [
+            "SHEN, Mike"
+          ]
+        }
+      ]
+    },
     "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -8842,23 +8856,26 @@
         }
       ]
     },
-    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
-      "type": "Digital Currency Address - USDT",
+    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
+      "type": "Digital Currency Address - XBT",
       "entries": [
         {
-          "entity": "Xingbiao SHEN",
+          "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45312",
-          "akas": [
-            "SHEN, Mike"
-          ]
+          "type": "Digital Currency Address - XBT",
+          "uid": "45314"
         }
       ]
     },
     "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
-      "type": "Digital Currency Address - USDT",
+      "type": "Digital Currency Address - ETH",
       "entries": [
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - ETH",
+          "uid": "45314"
+        },
         {
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
@@ -8869,23 +8886,6 @@
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - USDC",
-          "uid": "45314"
-        },
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - ETH",
-          "uid": "45314"
-        }
-      ]
-    },
-    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
           "uid": "45314"
         }
       ]
@@ -9649,20 +9649,6 @@
         }
       ]
     },
-    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - LTC",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
     "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -9684,6 +9670,20 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - LTC",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
@@ -10519,13 +10519,13 @@
         }
       ]
     },
-    "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510": {
-      "type": "Digital Currency Address - ETH",
+    "tnmrfnsuxzowwzxcddbf95egqyxt1mjdt8": {
+      "type": "Digital Currency Address - TRX",
       "entries": [
         {
           "entity": "FUNNULL TECHNOLOGY INC",
           "program": "CYBER3",
-          "type": "Digital Currency Address - ETH",
+          "type": "Digital Currency Address - TRX",
           "uid": "53953",
           "akas": [
             "FUNNULL",
@@ -10537,13 +10537,13 @@
         }
       ]
     },
-    "tnmrfnsuxzowwzxcddbf95egqyxt1mjdt8": {
-      "type": "Digital Currency Address - TRX",
+    "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510": {
+      "type": "Digital Currency Address - ETH",
       "entries": [
         {
           "entity": "FUNNULL TECHNOLOGY INC",
           "program": "CYBER3",
-          "type": "Digital Currency Address - TRX",
+          "type": "Digital Currency Address - ETH",
           "uid": "53953",
           "akas": [
             "FUNNULL",
@@ -11178,6 +11178,39 @@
         }
       ]
     },
+    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
+      "type": "Digital Currency Address - SOL",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - SOL",
+          "uid": "56360"
+        }
+      ]
+    },
     "37fkfzqgmqdbkjsuub1jcdwggshwv9vxfz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -11229,39 +11262,6 @@
           "entity": "Rolan SOKOLOVSKI",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
-          "uid": "56360"
-        }
-      ]
-    },
-    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
-      "type": "Digital Currency Address - SOL",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - SOL",
           "uid": "56360"
         }
       ]
@@ -11382,57 +11382,6 @@
         }
       ]
     },
-    "0xcb74874f1e06fcf80a306e06e5379a44b488ba2d": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - ETH",
-          "uid": "57056",
-          "akas": [
-            "KOREA AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
-            "KOREA APROKGANG TECHNOLOGY COMPANY",
-            "YALU RIVER TECHNOLOGY DEVELOPMENT COMPANY",
-            "AMNOKGANG TECHNOLOGY DEVELOPMENT CORPORATION"
-          ]
-        }
-      ]
-    },
-    "0x0330070fd38ec3bb94f58fa55d40368271e9e54a": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - ETH",
-          "uid": "57056",
-          "akas": [
-            "KOREA AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
-            "KOREA APROKGANG TECHNOLOGY COMPANY",
-            "YALU RIVER TECHNOLOGY DEVELOPMENT COMPANY",
-            "AMNOKGANG TECHNOLOGY DEVELOPMENT CORPORATION"
-          ]
-        }
-      ]
-    },
-    "0x9be599d7867f5e1a2d7ec6db9710df2b98a15573": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
-          "program": "DPRK4",
-          "type": "Digital Currency Address - ETH",
-          "uid": "57056",
-          "akas": [
-            "KOREA AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
-            "KOREA APROKGANG TECHNOLOGY COMPANY",
-            "YALU RIVER TECHNOLOGY DEVELOPMENT COMPANY",
-            "AMNOKGANG TECHNOLOGY DEVELOPMENT CORPORATION"
-          ]
-        }
-      ]
-    },
     "tnrx2fwrhkoo4xacgkmszqek4pdnkyn6z7": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -11491,6 +11440,57 @@
           "entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
           "program": "DPRK4",
           "type": "Digital Currency Address - TRX",
+          "uid": "57056",
+          "akas": [
+            "KOREA AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+            "KOREA APROKGANG TECHNOLOGY COMPANY",
+            "YALU RIVER TECHNOLOGY DEVELOPMENT COMPANY",
+            "AMNOKGANG TECHNOLOGY DEVELOPMENT CORPORATION"
+          ]
+        }
+      ]
+    },
+    "0xcb74874f1e06fcf80a306e06e5379a44b488ba2d": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - ETH",
+          "uid": "57056",
+          "akas": [
+            "KOREA AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+            "KOREA APROKGANG TECHNOLOGY COMPANY",
+            "YALU RIVER TECHNOLOGY DEVELOPMENT COMPANY",
+            "AMNOKGANG TECHNOLOGY DEVELOPMENT CORPORATION"
+          ]
+        }
+      ]
+    },
+    "0x0330070fd38ec3bb94f58fa55d40368271e9e54a": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - ETH",
+          "uid": "57056",
+          "akas": [
+            "KOREA AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+            "KOREA APROKGANG TECHNOLOGY COMPANY",
+            "YALU RIVER TECHNOLOGY DEVELOPMENT COMPANY",
+            "AMNOKGANG TECHNOLOGY DEVELOPMENT CORPORATION"
+          ]
+        }
+      ]
+    },
+    "0x9be599d7867f5e1a2d7ec6db9710df2b98a15573": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+          "program": "DPRK4",
+          "type": "Digital Currency Address - ETH",
           "uid": "57056",
           "akas": [
             "KOREA AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
