@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-06-23T07:55:45.570Z",
-    "sdnListDate": "06/22/2026",
-    "sdnRecordCount": 19082,
+    "lastUpdated": "2026-06-24T07:51:22.416Z",
+    "sdnListDate": "06/23/2026",
+    "sdnRecordCount": 19119,
     "source": "OFAC SDN List",
     "totalAddresses": 782,
     "totalEntries": 798,
@@ -1945,6 +1945,20 @@
         }
       ]
     },
+    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - BCH",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
+        }
+      ]
+    },
     "1ne2nighhbkfpseynwwj7hkghgdedbtsrq": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -2148,20 +2162,6 @@
           "entity": "SECONDEYE SOLUTION",
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - ETH",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
-          ]
-        }
-      ]
-    },
-    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - BCH",
           "uid": "30518",
           "akas": [
             "FORWARDERZ"
@@ -7691,6 +7691,25 @@
         }
       ]
     },
+    "tbhtjqay4dhhhmt3dncejynrz4sdloflre": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Yunhe WANG",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - TRX",
+          "uid": "43421",
+          "akas": [
+            "Jack WAN",
+            "Jack WANG",
+            "Jack WONG",
+            "TRAFFICCASH",
+            "TRAFFICCARB",
+            "William WILSON"
+          ]
+        }
+      ]
+    },
     "bc1q4namcagg5wljs0u20z6h2sqgsq4q5lts8rt2rr": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -8584,25 +8603,6 @@
         }
       ]
     },
-    "tbhtjqay4dhhhmt3dncejynrz4sdloflre": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Yunhe WANG",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - TRX",
-          "uid": "43421",
-          "akas": [
-            "Jack WAN",
-            "Jack WANG",
-            "Jack WONG",
-            "TRAFFICCASH",
-            "TRAFFICCARB",
-            "William WILSON"
-          ]
-        }
-      ]
-    },
     "0x9c2bc757b66f24d60f016b6237f8cdd414a879fa": {
       "type": "Digital Currency Address - ETH",
       "entries": [
@@ -8922,17 +8922,6 @@
         }
       ]
     },
-    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "Jiantong WANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
-          "uid": "45349"
-        }
-      ]
-    },
     "tmstbg5fgb4utv7fk1geyf9hkazp3sipsg": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -8940,6 +8929,17 @@
           "entity": "Jiantong WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - TRX",
+          "uid": "45349"
+        }
+      ]
+    },
+    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Jiantong WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - XBT",
           "uid": "45349"
         }
       ]
@@ -9010,17 +9010,6 @@
         }
       ]
     },
-    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Mingming WANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45404"
-        }
-      ]
-    },
     "1mlpqwaffubzeptjpr3nxrok19cv9mpcc7": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -9050,6 +9039,17 @@
           "entity": "Mingming WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - XBT",
+          "uid": "45404"
+        }
+      ]
+    },
+    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Mingming WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
           "uid": "45404"
         }
       ]
@@ -9667,34 +9667,6 @@
         }
       ]
     },
-    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
-    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - LTC",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
     "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -9716,6 +9688,34 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - LTC",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
@@ -10712,20 +10712,6 @@
         }
       ]
     },
-    "0x12de548f79a50d2bd05481c8515c1ef5183666a9": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "OLD VECTOR LLC",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - ETH",
-          "uid": "55046",
-          "akas": [
-            "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU OLD VEKTOR"
-          ]
-        }
-      ]
-    },
     "tcfd8n3vm5b4gr5f1kkajqsodrvnyyaq1d": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -10733,6 +10719,20 @@
           "entity": "OLD VECTOR LLC",
           "program": "CYBER4",
           "type": "Digital Currency Address - TRX",
+          "uid": "55046",
+          "akas": [
+            "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU OLD VEKTOR"
+          ]
+        }
+      ]
+    },
+    "0x12de548f79a50d2bd05481c8515c1ef5183666a9": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "OLD VECTOR LLC",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - ETH",
           "uid": "55046",
           "akas": [
             "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU OLD VEKTOR"
@@ -11210,39 +11210,6 @@
         }
       ]
     },
-    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
-      "type": "Digital Currency Address - SOL",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - SOL",
-          "uid": "56360"
-        }
-      ]
-    },
     "37fkfzqgmqdbkjsuub1jcdwggshwv9vxfz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -11294,6 +11261,39 @@
           "entity": "Rolan SOKOLOVSKI",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
+          "uid": "56360"
+        }
+      ]
+    },
+    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
+      "type": "Digital Currency Address - SOL",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - SOL",
           "uid": "56360"
         }
       ]
