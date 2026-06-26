@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-06-25T07:52:17.576Z",
-    "sdnListDate": "06/24/2026",
-    "sdnRecordCount": 19108,
+    "lastUpdated": "2026-06-26T08:00:07.687Z",
+    "sdnListDate": "06/25/2026",
+    "sdnRecordCount": 19114,
     "source": "OFAC SDN List",
     "totalAddresses": 782,
     "totalEntries": 798,
@@ -8846,20 +8846,6 @@
         }
       ]
     },
-    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Xingbiao SHEN",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45312",
-          "akas": [
-            "SHEN, Mike"
-          ]
-        }
-      ]
-    },
     "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -8881,6 +8867,20 @@
           "entity": "Xingbiao SHEN",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
+          "uid": "45312",
+          "akas": [
+            "SHEN, Mike"
+          ]
+        }
+      ]
+    },
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Xingbiao SHEN",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
           "uid": "45312",
           "akas": [
             "SHEN, Mike"
@@ -9010,6 +9010,17 @@
         }
       ]
     },
+    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Mingming WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
+          "uid": "45404"
+        }
+      ]
+    },
     "1mlpqwaffubzeptjpr3nxrok19cv9mpcc7": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -9039,17 +9050,6 @@
           "entity": "Mingming WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - XBT",
-          "uid": "45404"
-        }
-      ]
-    },
-    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Mingming WANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
           "uid": "45404"
         }
       ]
