@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-07-10T07:47:21.872Z",
-    "sdnListDate": "07/01/2026",
-    "sdnRecordCount": 19129,
+    "lastUpdated": "2026-07-11T06:23:07.599Z",
+    "sdnListDate": "07/10/2026",
+    "sdnRecordCount": 19143,
     "source": "OFAC SDN List",
     "totalAddresses": 916,
     "totalEntries": 932,
@@ -5161,6 +5161,20 @@
         }
       ]
     },
+    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - BCH",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
+        }
+      ]
+    },
     "1ne2nighhbkfpseynwwj7hkghgdedbtsrq": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -5364,20 +5378,6 @@
           "entity": "SECONDEYE SOLUTION",
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - ETH",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
-          ]
-        }
-      ]
-    },
-    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - BCH",
           "uid": "30518",
           "akas": [
             "FORWARDERZ"
@@ -12883,34 +12883,6 @@
         }
       ]
     },
-    "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - XBT",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
-    "0x0931ca4d13bb4ba75d9b7132ab690265d749a5e7": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - ETH",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
     "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -12932,6 +12904,34 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - LTC",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - XBT",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "0x0931ca4d13bb4ba75d9b7132ab690265d749a5e7": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - ETH",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
