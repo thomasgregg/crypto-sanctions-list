@@ -4,19 +4,62 @@ const path = require('path');
 const { XMLParser } = require('fast-xml-parser');
 
 const OUTPUT_FILE = path.join(__dirname, '..', 'data', 'sanctioned-addresses.json');
-const SDN_LIST_URL = 'https://www.treasury.gov/ofac/downloads/sdn.xml';
+const SDN_LIST_URL = 'https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML';
+const REQUEST_USER_AGENT = 'Mozilla/5.0 (compatible; crypto-sanctions-list/1.0; +https://github.com/thomasgregg/crypto-sanctions-list)';
+const MAX_FETCH_ATTEMPTS = 3;
+const RETRY_DELAY_MS = 10000;
+
+const sleep = (milliseconds) => new Promise(resolve => setTimeout(resolve, milliseconds));
+
+async function fetchSDNList() {
+    let lastError;
+
+    for (let attempt = 1; attempt <= MAX_FETCH_ATTEMPTS; attempt++) {
+        try {
+            const response = await axios.get(SDN_LIST_URL, {
+                headers: {
+                    // OFAC requires automated downloads to identify themselves with a
+                    // browser-compatible User-Agent or it responds with HTTP 403.
+                    'User-Agent': REQUEST_USER_AGENT,
+                    'Accept': 'application/xml,text/xml;q=0.9,*/*;q=0.8'
+                },
+                maxContentLength: Infinity,
+                maxBodyLength: Infinity,
+                responseType: 'text',
+                decompress: true,
+                timeout: 60000,
+                validateStatus: () => true
+            });
+
+            const xmlContent = response.data;
+
+            // OFAC may return an empty HTTP 202 AWS WAF challenge. Never parse or
+            // write that response because it would replace valid data with emptiness.
+            if (response.status === 200 && typeof xmlContent === 'string' && xmlContent.includes('<sdnList')) {
+                return xmlContent;
+            }
+
+            const wafAction = response.headers['x-amzn-waf-action'];
+            const detail = wafAction ? ` (AWS WAF action: ${wafAction})` : '';
+            lastError = new Error(`OFAC returned an invalid SDN response: HTTP ${response.status}${detail}`);
+        } catch (error) {
+            lastError = error;
+        }
+
+        if (attempt < MAX_FETCH_ATTEMPTS) {
+            console.warn(`${lastError.message}; retrying in ${RETRY_DELAY_MS / 1000} seconds (${attempt}/${MAX_FETCH_ATTEMPTS})...`);
+            await sleep(RETRY_DELAY_MS);
+        }
+    }
+
+    throw lastError;
+}
 
 async function fetchAndParseSDNList() {
     try {
         console.log('Fetching OFAC SDN XML...');
-        const response = await axios.get(SDN_LIST_URL, {
-            maxContentLength: Infinity,
-            maxBodyLength: Infinity,
-            responseType: 'text',
-            decompress: true
-        });
+        const xmlContent = await fetchSDNList();
 
-        const xmlContent = response.data;
         console.log('Received XML data, size:', Buffer.byteLength(xmlContent, 'utf8') / 1024 / 1024, 'MB');
 
         const rawMatches = xmlContent.match(/Digital Currency Address/g) || [];
