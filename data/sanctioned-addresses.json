@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "lastUpdated": "2026-07-30T06:36:49.673Z",
-    "sdnListDate": "07/29/2026",
-    "sdnRecordCount": 19175,
+    "lastUpdated": "2026-08-01T06:37:47.048Z",
+    "sdnListDate": "07/30/2026",
+    "sdnRecordCount": 19181,
     "source": "OFAC SDN List",
     "totalAddresses": 947,
     "totalEntries": 963,
-    "url": "https://www.treasury.gov/ofac/downloads/sdn.xml"
+    "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML"
   },
   "addresses": {
     "tniq9axbp9ejuqhdhrwrfvaa8u3guqzh81": {
@@ -12947,34 +12947,6 @@
         }
       ]
     },
-    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
-    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - LTC",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
     "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -12996,6 +12968,34 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - LTC",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
