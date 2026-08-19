@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-08-18T04:45:47.599Z",
-    "sdnListDate": "08/07/2026",
-    "sdnRecordCount": 19199,
+    "lastUpdated": "2026-08-19T04:46:40.626Z",
+    "sdnListDate": "08/18/2026",
+    "sdnRecordCount": 19202,
     "source": "OFAC SDN List",
     "totalAddresses": 961,
     "totalEntries": 977,
@@ -12168,26 +12168,9 @@
         }
       ]
     },
-    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
-          "uid": "45314"
-        }
-      ]
-    },
     "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
-      "type": "Digital Currency Address - ETH",
+      "type": "Digital Currency Address - USDT",
       "entries": [
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - ETH",
-          "uid": "45314"
-        },
         {
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
@@ -12198,6 +12181,23 @@
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - USDC",
+          "uid": "45314"
+        },
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - ETH",
+          "uid": "45314"
+        }
+      ]
+    },
+    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - XBT",
           "uid": "45314"
         }
       ]
@@ -12947,20 +12947,6 @@
         }
       ]
     },
-    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - LTC",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
     "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -12968,6 +12954,20 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - TRX",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "m8yfl6sfc6treategtyusykdfdrbisdpt3": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - LTC",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
@@ -15408,6 +15408,22 @@
         }
       ]
     },
+    "tpgxjjb6ajemsqfngbum6dmmxpha9getya": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Siavash KAYVANPOUR",
+          "program": "SDGT, IRGC",
+          "type": "Digital Currency Address - TRX",
+          "uid": "58284",
+          "akas": [
+            "HASHEM, Siavash",
+            "KAIVANPOUR, Siavash",
+            "KIWAN PORT, Siyawesh"
+          ]
+        }
+      ]
+    },
     "15zt2mkuq5qy6dexfdcbtsevneogqqxrs4": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -15456,18 +15472,30 @@
         }
       ]
     },
-    "tpgxjjb6ajemsqfngbum6dmmxpha9getya": {
+    "txn3hvukebhyyr31ypcyd7ajavmuexu1ab": {
       "type": "Digital Currency Address - TRX",
       "entries": [
         {
-          "entity": "Siavash KAYVANPOUR",
-          "program": "SDGT, IRGC",
+          "entity": "SHPS SHELBIT",
+          "program": "SDGT",
           "type": "Digital Currency Address - TRX",
-          "uid": "58284",
+          "uid": "58287",
           "akas": [
-            "HASHEM, Siavash",
-            "KAIVANPOUR, Siavash",
-            "KIWAN PORT, Siyawesh"
+            "SHELBIT EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "6wjqwwra8ombzaw6vhrg5xpq972jcyf6bbhifcbwmr4u": {
+      "type": "Digital Currency Address - SOL",
+      "entries": [
+        {
+          "entity": "SHPS SHELBIT",
+          "program": "SDGT",
+          "type": "Digital Currency Address - SOL",
+          "uid": "58287",
+          "akas": [
+            "SHELBIT EXCHANGE"
           ]
         }
       ]
@@ -15521,34 +15549,6 @@
           "entity": "SHPS SHELBIT",
           "program": "SDGT",
           "type": "Digital Currency Address - ETH",
-          "uid": "58287",
-          "akas": [
-            "SHELBIT EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "txn3hvukebhyyr31ypcyd7ajavmuexu1ab": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "SHPS SHELBIT",
-          "program": "SDGT",
-          "type": "Digital Currency Address - TRX",
-          "uid": "58287",
-          "akas": [
-            "SHELBIT EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "6wjqwwra8ombzaw6vhrg5xpq972jcyf6bbhifcbwmr4u": {
-      "type": "Digital Currency Address - SOL",
-      "entries": [
-        {
-          "entity": "SHPS SHELBIT",
-          "program": "SDGT",
-          "type": "Digital Currency Address - SOL",
           "uid": "58287",
           "akas": [
             "SHELBIT EXCHANGE"
