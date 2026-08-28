@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-08-27T15:08:28.241Z",
-    "sdnListDate": "08/26/2026",
-    "sdnRecordCount": 19319,
+    "lastUpdated": "2026-08-28T16:32:51.381Z",
+    "sdnListDate": "08/28/2026",
+    "sdnRecordCount": 19321,
     "source": "OFAC SDN List",
     "totalAddresses": 991,
     "totalEntries": 1007,
@@ -15264,6 +15264,38 @@
         }
       ]
     },
+    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "FIRST VPN SERVICE",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57975",
+          "akas": [
+            "1VPNS",
+            "FVPNS",
+            "FIRSTVPN"
+          ]
+        }
+      ]
+    },
+    "tuuaxbawfa5nmsqnfycxyrzevz4a5gjmgy": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "FIRST VPN SERVICE",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - TRX",
+          "uid": "57975",
+          "akas": [
+            "1VPNS",
+            "FVPNS",
+            "FIRSTVPN"
+          ]
+        }
+      ]
+    },
     "bc1qdnr88f4d2yqunnc4mjsguezm6g3mlwe44z5dw8": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -15312,34 +15344,42 @@
         }
       ]
     },
-    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
+    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
       "type": "Digital Currency Address - LTC",
       "entries": [
         {
-          "entity": "FIRST VPN SERVICE",
+          "entity": "Dmytro RASHEVSKYI",
           "program": "CYBER4",
           "type": "Digital Currency Address - LTC",
-          "uid": "57975",
+          "uid": "57978",
           "akas": [
-            "1VPNS",
-            "FVPNS",
-            "FIRSTVPN"
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
           ]
         }
       ]
     },
-    "tuuaxbawfa5nmsqnfycxyrzevz4a5gjmgy": {
-      "type": "Digital Currency Address - TRX",
+    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
+      "type": "Digital Currency Address - LTC",
       "entries": [
         {
-          "entity": "FIRST VPN SERVICE",
+          "entity": "Dmytro RASHEVSKYI",
           "program": "CYBER4",
-          "type": "Digital Currency Address - TRX",
-          "uid": "57975",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57978",
           "akas": [
-            "1VPNS",
-            "FVPNS",
-            "FIRSTVPN"
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
           ]
         }
       ]
@@ -15411,46 +15451,6 @@
           "entity": "Dmytro RASHEVSKYI",
           "program": "CYBER4",
           "type": "Digital Currency Address - ETH",
-          "uid": "57978",
-          "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
-          ]
-        }
-      ]
-    },
-    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Dmytro RASHEVSKYI",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57978",
-          "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
-          ]
-        }
-      ]
-    },
-    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Dmytro RASHEVSKYI",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
           "uid": "57978",
           "akas": [
             "Dmitry RASHEVSKY",
@@ -15721,28 +15721,6 @@
         }
       ]
     },
-    "1g1v1b9s9upsfcnl15ibzk44xsvygksp2u": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "CRYPTO HOME DMCC",
-          "program": "SDGT",
-          "type": "Digital Currency Address - XBT",
-          "uid": "58258"
-        }
-      ]
-    },
-    "0xbb69e01921b17cd22080968bcc96ba6115da6062": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "CRYPTO HOME DMCC",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "58258"
-        }
-      ]
-    },
     "bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23": {
       "type": "Digital Currency Address - BNB",
       "entries": [
@@ -15761,6 +15739,28 @@
           "entity": "CRYPTO HOME DMCC",
           "program": "SDGT",
           "type": "Digital Currency Address - TRX",
+          "uid": "58258"
+        }
+      ]
+    },
+    "1g1v1b9s9upsfcnl15ibzk44xsvygksp2u": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "CRYPTO HOME DMCC",
+          "program": "SDGT",
+          "type": "Digital Currency Address - XBT",
+          "uid": "58258"
+        }
+      ]
+    },
+    "0xbb69e01921b17cd22080968bcc96ba6115da6062": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "CRYPTO HOME DMCC",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
           "uid": "58258"
         }
       ]
