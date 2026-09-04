@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-09-03T08:52:38.779Z",
-    "sdnListDate": "08/28/2026",
-    "sdnRecordCount": 19321,
+    "lastUpdated": "2026-09-04T08:48:20.321Z",
+    "sdnListDate": "09/03/2026",
+    "sdnRecordCount": 19326,
     "source": "OFAC SDN List",
     "totalAddresses": 991,
     "totalEntries": 1007,
@@ -12318,20 +12318,6 @@
         }
       ]
     },
-    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Xingbiao SHEN",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45312",
-          "akas": [
-            "SHEN, Mike"
-          ]
-        }
-      ]
-    },
     "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -12353,6 +12339,20 @@
           "entity": "Xingbiao SHEN",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
+          "uid": "45312",
+          "akas": [
+            "SHEN, Mike"
+          ]
+        }
+      ]
+    },
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Xingbiao SHEN",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
           "uid": "45312",
           "akas": [
             "SHEN, Mike"
@@ -13139,34 +13139,6 @@
         }
       ]
     },
-    "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - XBT",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
-    "0x0931ca4d13bb4ba75d9b7132ab690265d749a5e7": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - ETH",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
     "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -13188,6 +13160,34 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - LTC",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - XBT",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
+    "0x0931ca4d13bb4ba75d9b7132ab690265d749a5e7": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - ETH",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
@@ -15264,38 +15264,6 @@
         }
       ]
     },
-    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "FIRST VPN SERVICE",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57975",
-          "akas": [
-            "1VPNS",
-            "FVPNS",
-            "FIRSTVPN"
-          ]
-        }
-      ]
-    },
-    "tuuaxbawfa5nmsqnfycxyrzevz4a5gjmgy": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "FIRST VPN SERVICE",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - TRX",
-          "uid": "57975",
-          "akas": [
-            "1VPNS",
-            "FVPNS",
-            "FIRSTVPN"
-          ]
-        }
-      ]
-    },
     "bc1qdnr88f4d2yqunnc4mjsguezm6g3mlwe44z5dw8": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -15344,42 +15312,34 @@
         }
       ]
     },
-    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
+    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
       "type": "Digital Currency Address - LTC",
       "entries": [
         {
-          "entity": "Dmytro RASHEVSKYI",
+          "entity": "FIRST VPN SERVICE",
           "program": "CYBER4",
           "type": "Digital Currency Address - LTC",
-          "uid": "57978",
+          "uid": "57975",
           "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
+            "1VPNS",
+            "FVPNS",
+            "FIRSTVPN"
           ]
         }
       ]
     },
-    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
-      "type": "Digital Currency Address - LTC",
+    "tuuaxbawfa5nmsqnfycxyrzevz4a5gjmgy": {
+      "type": "Digital Currency Address - TRX",
       "entries": [
         {
-          "entity": "Dmytro RASHEVSKYI",
+          "entity": "FIRST VPN SERVICE",
           "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57978",
+          "type": "Digital Currency Address - TRX",
+          "uid": "57975",
           "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
+            "1VPNS",
+            "FVPNS",
+            "FIRSTVPN"
           ]
         }
       ]
@@ -15631,6 +15591,46 @@
           "entity": "Dmytro RASHEVSKYI",
           "program": "CYBER4",
           "type": "Digital Currency Address - SOL",
+          "uid": "57978",
+          "akas": [
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
+          ]
+        }
+      ]
+    },
+    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Dmytro RASHEVSKYI",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57978",
+          "akas": [
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
+          ]
+        }
+      ]
+    },
+    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Dmytro RASHEVSKYI",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
           "uid": "57978",
           "akas": [
             "Dmitry RASHEVSKY",
