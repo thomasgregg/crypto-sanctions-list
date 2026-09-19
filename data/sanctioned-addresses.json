@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-09-18T08:57:47.639Z",
-    "sdnListDate": "09/17/2026",
-    "sdnRecordCount": 19399,
+    "lastUpdated": "2026-09-19T08:44:57.723Z",
+    "sdnListDate": "09/18/2026",
+    "sdnRecordCount": 19393,
     "source": "OFAC SDN List",
     "totalAddresses": 1043,
     "totalEntries": 1059,
@@ -101,78 +101,6 @@
             "CENTRAL BANK OF THE ISLAMIC REPUBLIC OF IRAN",
             "BANK MARKAZI IRAN",
             "CENTRAL BANK OF IRAN"
-          ]
-        }
-      ]
-    },
-    "44dzuj7w1t3fkavfw8xyxuvoagsbfvxef2wcbnsjnkgwyorpljbjth5vksfhlgkpykjb2j341tdzhbnbpv72wl7e8zuxfr2": {
-      "type": "Digital Currency Address - XMR",
-      "entries": [
-        {
-          "entity": "ISIL KHORASAN",
-          "program": "FTO, SDGT",
-          "type": "Digital Currency Address - XMR",
-          "uid": "18647",
-          "akas": [
-            "ISLAMIC STATE'S KHORASAN PROVINCE",
-            "ISIS WILAYAT KHORASAN",
-            "ISIL'S SOUTH ASIA BRANCH",
-            "SOUTH ASIAN CHAPTER OF ISIL",
-            "THE ISLAMIC STATE OF IRAQ AND ASH-SHAM - KHORASAN PROVINCE",
-            "THE ISLAMIC STATE OF IRAQ AND SYRIA - KHORASAN",
-            "ISLAMIC STATE OF IRAQ AND LEVANT IN KHORASAN PROVINCE",
-            "ISLAMIC STATE KHURASAN",
-            "ISISK",
-            "ISIS-K",
-            "IS-KHORASAN"
-          ]
-        }
-      ]
-    },
-    "45ezvpejnskyntjhyyeb7fbfzi1sxyqozc5ffseh8jpgw4jzqqvxykntfk5ugfiij7hp3qpv3t5hcr7f3fnmz2mze1akqwo": {
-      "type": "Digital Currency Address - XMR",
-      "entries": [
-        {
-          "entity": "ISIL KHORASAN",
-          "program": "FTO, SDGT",
-          "type": "Digital Currency Address - XMR",
-          "uid": "18647",
-          "akas": [
-            "ISLAMIC STATE'S KHORASAN PROVINCE",
-            "ISIS WILAYAT KHORASAN",
-            "ISIL'S SOUTH ASIA BRANCH",
-            "SOUTH ASIAN CHAPTER OF ISIL",
-            "THE ISLAMIC STATE OF IRAQ AND ASH-SHAM - KHORASAN PROVINCE",
-            "THE ISLAMIC STATE OF IRAQ AND SYRIA - KHORASAN",
-            "ISLAMIC STATE OF IRAQ AND LEVANT IN KHORASAN PROVINCE",
-            "ISLAMIC STATE KHURASAN",
-            "ISISK",
-            "ISIS-K",
-            "IS-KHORASAN"
-          ]
-        }
-      ]
-    },
-    "47fvhkrkwgnls81ubqgy8ui6axab1627hjjky2qpnwxmbgfx7387kcy6rzschggmqaah6cbxkxas4862ts2fhs9brdmuyav": {
-      "type": "Digital Currency Address - XMR",
-      "entries": [
-        {
-          "entity": "ISIL KHORASAN",
-          "program": "FTO, SDGT",
-          "type": "Digital Currency Address - XMR",
-          "uid": "18647",
-          "akas": [
-            "ISLAMIC STATE'S KHORASAN PROVINCE",
-            "ISIS WILAYAT KHORASAN",
-            "ISIL'S SOUTH ASIA BRANCH",
-            "SOUTH ASIAN CHAPTER OF ISIL",
-            "THE ISLAMIC STATE OF IRAQ AND ASH-SHAM - KHORASAN PROVINCE",
-            "THE ISLAMIC STATE OF IRAQ AND SYRIA - KHORASAN",
-            "ISLAMIC STATE OF IRAQ AND LEVANT IN KHORASAN PROVINCE",
-            "ISLAMIC STATE KHURASAN",
-            "ISISK",
-            "ISIS-K",
-            "IS-KHORASAN"
           ]
         }
       ]
@@ -3304,6 +3232,78 @@
           "entity": "ISIL KHORASAN",
           "program": "FTO, SDGT",
           "type": "Digital Currency Address - TRX",
+          "uid": "18647",
+          "akas": [
+            "ISLAMIC STATE'S KHORASAN PROVINCE",
+            "ISIS WILAYAT KHORASAN",
+            "ISIL'S SOUTH ASIA BRANCH",
+            "SOUTH ASIAN CHAPTER OF ISIL",
+            "THE ISLAMIC STATE OF IRAQ AND ASH-SHAM - KHORASAN PROVINCE",
+            "THE ISLAMIC STATE OF IRAQ AND SYRIA - KHORASAN",
+            "ISLAMIC STATE OF IRAQ AND LEVANT IN KHORASAN PROVINCE",
+            "ISLAMIC STATE KHURASAN",
+            "ISISK",
+            "ISIS-K",
+            "IS-KHORASAN"
+          ]
+        }
+      ]
+    },
+    "44dzuj7w1t3fkavfw8xyxuvoagsbfvxef2wcbnsjnkgwyorpljbjth5vksfhlgkpykjb2j341tdzhbnbpv72wl7e8zuxfr2": {
+      "type": "Digital Currency Address - XMR",
+      "entries": [
+        {
+          "entity": "ISIL KHORASAN",
+          "program": "FTO, SDGT",
+          "type": "Digital Currency Address - XMR",
+          "uid": "18647",
+          "akas": [
+            "ISLAMIC STATE'S KHORASAN PROVINCE",
+            "ISIS WILAYAT KHORASAN",
+            "ISIL'S SOUTH ASIA BRANCH",
+            "SOUTH ASIAN CHAPTER OF ISIL",
+            "THE ISLAMIC STATE OF IRAQ AND ASH-SHAM - KHORASAN PROVINCE",
+            "THE ISLAMIC STATE OF IRAQ AND SYRIA - KHORASAN",
+            "ISLAMIC STATE OF IRAQ AND LEVANT IN KHORASAN PROVINCE",
+            "ISLAMIC STATE KHURASAN",
+            "ISISK",
+            "ISIS-K",
+            "IS-KHORASAN"
+          ]
+        }
+      ]
+    },
+    "45ezvpejnskyntjhyyeb7fbfzi1sxyqozc5ffseh8jpgw4jzqqvxykntfk5ugfiij7hp3qpv3t5hcr7f3fnmz2mze1akqwo": {
+      "type": "Digital Currency Address - XMR",
+      "entries": [
+        {
+          "entity": "ISIL KHORASAN",
+          "program": "FTO, SDGT",
+          "type": "Digital Currency Address - XMR",
+          "uid": "18647",
+          "akas": [
+            "ISLAMIC STATE'S KHORASAN PROVINCE",
+            "ISIS WILAYAT KHORASAN",
+            "ISIL'S SOUTH ASIA BRANCH",
+            "SOUTH ASIAN CHAPTER OF ISIL",
+            "THE ISLAMIC STATE OF IRAQ AND ASH-SHAM - KHORASAN PROVINCE",
+            "THE ISLAMIC STATE OF IRAQ AND SYRIA - KHORASAN",
+            "ISLAMIC STATE OF IRAQ AND LEVANT IN KHORASAN PROVINCE",
+            "ISLAMIC STATE KHURASAN",
+            "ISISK",
+            "ISIS-K",
+            "IS-KHORASAN"
+          ]
+        }
+      ]
+    },
+    "47fvhkrkwgnls81ubqgy8ui6axab1627hjjky2qpnwxmbgfx7387kcy6rzschggmqaah6cbxkxas4862ts2fhs9brdmuyav": {
+      "type": "Digital Currency Address - XMR",
+      "entries": [
+        {
+          "entity": "ISIL KHORASAN",
+          "program": "FTO, SDGT",
+          "type": "Digital Currency Address - XMR",
           "uid": "18647",
           "akas": [
             "ISLAMIC STATE'S KHORASAN PROVINCE",
@@ -9747,21 +9747,6 @@
         }
       ]
     },
-    "qpusmp64rajses77x95g9ah825mtyyv74smwwkxhx3": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "Alex Adrianus Martinus PEIJNENBURG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - BCH",
-          "uid": "39585",
-          "akas": [
-            "PEIJNENBURG, Aam",
-            "Alex Adrianus Martin PEIJNENBURG"
-          ]
-        }
-      ]
-    },
     "1dbvk8p6imbulcwh2vruis4xsub8yawjqf": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -10129,6 +10114,21 @@
           "entity": "Alex Adrianus Martinus PEIJNENBURG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
+          "uid": "39585",
+          "akas": [
+            "PEIJNENBURG, Aam",
+            "Alex Adrianus Martin PEIJNENBURG"
+          ]
+        }
+      ]
+    },
+    "qpusmp64rajses77x95g9ah825mtyyv74smwwkxhx3": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "Alex Adrianus Martinus PEIJNENBURG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - BCH",
           "uid": "39585",
           "akas": [
             "PEIJNENBURG, Aam",
@@ -12360,26 +12360,9 @@
         }
       ]
     },
-    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
-          "uid": "45314"
-        }
-      ]
-    },
     "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
-      "type": "Digital Currency Address - ETH",
+      "type": "Digital Currency Address - USDT",
       "entries": [
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - ETH",
-          "uid": "45314"
-        },
         {
           "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
@@ -12391,17 +12374,23 @@
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - USDC",
           "uid": "45314"
+        },
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - ETH",
+          "uid": "45314"
         }
       ]
     },
-    "tmstbg5fgb4utv7fk1geyf9hkazp3sipsg": {
-      "type": "Digital Currency Address - TRX",
+    "bc1qardcxz845jw83vgfvcmewhuxa0ag9gchjwmcfd": {
+      "type": "Digital Currency Address - XBT",
       "entries": [
         {
-          "entity": "Jiantong WANG",
+          "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "45349"
+          "type": "Digital Currency Address - XBT",
+          "uid": "45314"
         }
       ]
     },
@@ -12416,14 +12405,14 @@
         }
       ]
     },
-    "ttknv2s1295urpr7n67tp9yknl7xx2z4uj": {
+    "tmstbg5fgb4utv7fk1geyf9hkazp3sipsg": {
       "type": "Digital Currency Address - TRX",
       "entries": [
         {
-          "entity": "Fengbing XIA",
+          "entity": "Jiantong WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - TRX",
-          "uid": "45350"
+          "uid": "45349"
         }
       ]
     },
@@ -12445,6 +12434,17 @@
           "entity": "Fengbing XIA",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - XBT",
+          "uid": "45350"
+        }
+      ]
+    },
+    "ttknv2s1295urpr7n67tp9yknl7xx2z4uj": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Fengbing XIA",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
           "uid": "45350"
         }
       ]
@@ -12482,6 +12482,17 @@
         }
       ]
     },
+    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Mingming WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
+          "uid": "45404"
+        }
+      ]
+    },
     "1mlpqwaffubzeptjpr3nxrok19cv9mpcc7": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -12511,17 +12522,6 @@
           "entity": "Mingming WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - XBT",
-          "uid": "45404"
-        }
-      ]
-    },
-    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Mingming WANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
           "uid": "45404"
         }
       ]
