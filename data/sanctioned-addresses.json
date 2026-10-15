@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-10-14T09:26:41.913Z",
-    "sdnListDate": "10/13/2026",
-    "sdnRecordCount": 19431,
+    "lastUpdated": "2026-10-15T09:05:03.640Z",
+    "sdnListDate": "10/14/2026",
+    "sdnRecordCount": 19430,
     "source": "OFAC SDN List",
     "totalAddresses": 1050,
     "totalEntries": 1066,
@@ -12394,17 +12394,6 @@
         }
       ]
     },
-    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "Jiantong WANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
-          "uid": "45349"
-        }
-      ]
-    },
     "tmstbg5fgb4utv7fk1geyf9hkazp3sipsg": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -12412,6 +12401,17 @@
           "entity": "Jiantong WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - TRX",
+          "uid": "45349"
+        }
+      ]
+    },
+    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Jiantong WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - XBT",
           "uid": "45349"
         }
       ]
@@ -13139,6 +13139,20 @@
         }
       ]
     },
+    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "CRYPTEX",
+          "program": "CYBER2, RUSSIA-EO14024",
+          "type": "Digital Currency Address - TRX",
+          "uid": "50641",
+          "akas": [
+            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
+          ]
+        }
+      ]
+    },
     "13jtx4h7g5zunk5mfudkgq9dhlvvmfunuz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -13160,20 +13174,6 @@
           "entity": "CRYPTEX",
           "program": "CYBER2, RUSSIA-EO14024",
           "type": "Digital Currency Address - ETH",
-          "uid": "50641",
-          "akas": [
-            "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
-          ]
-        }
-      ]
-    },
-    "ttudyvhhpcc1xjopmwzdjlazeopwbsabdr": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "CRYPTEX",
-          "program": "CYBER2, RUSSIA-EO14024",
-          "type": "Digital Currency Address - TRX",
           "uid": "50641",
           "akas": [
             "INTERNATIONAL PAYMENT SERVICE PROVIDER LLC"
@@ -15264,6 +15264,22 @@
         }
       ]
     },
+    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "FIRST VPN SERVICE",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57975",
+          "akas": [
+            "1VPNS",
+            "FVPNS",
+            "FIRSTVPN"
+          ]
+        }
+      ]
+    },
     "bc1qdnr88f4d2yqunnc4mjsguezm6g3mlwe44z5dw8": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -15303,22 +15319,6 @@
           "entity": "FIRST VPN SERVICE",
           "program": "CYBER4",
           "type": "Digital Currency Address - ETH",
-          "uid": "57975",
-          "akas": [
-            "1VPNS",
-            "FVPNS",
-            "FIRSTVPN"
-          ]
-        }
-      ]
-    },
-    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "FIRST VPN SERVICE",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
           "uid": "57975",
           "akas": [
             "1VPNS",
@@ -15484,6 +15484,46 @@
         }
       ]
     },
+    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Dmytro RASHEVSKYI",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57978",
+          "akas": [
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
+          ]
+        }
+      ]
+    },
+    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Dmytro RASHEVSKYI",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57978",
+          "akas": [
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
+          ]
+        }
+      ]
+    },
     "1mtndg4k51rrmvkzyvguahnqpimlnxfgzm": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -15564,47 +15604,7 @@
         }
       ]
     },
-    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Dmytro RASHEVSKYI",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57978",
-          "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
-          ]
-        }
-      ]
-    },
-    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Dmytro RASHEVSKYI",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57978",
-          "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
-          ]
-        }
-      ]
-    },
-    "fc1ewquzyteagadva1uthxccznyg1x2plt2dfnu1cjdh": {
+    "fucc7goywt5tsntjwl23xx9ukcvc18chjmefpl3vjdcc": {
       "type": "Digital Currency Address - SOL",
       "entries": [
         {
@@ -15624,7 +15624,7 @@
         }
       ]
     },
-    "fucc7goywt5tsntjwl23xx9ukcvc18chjmefpl3vjdcc": {
+    "fc1ewquzyteagadva1uthxccznyg1x2plt2dfnu1cjdh": {
       "type": "Digital Currency Address - SOL",
       "entries": [
         {
@@ -15780,28 +15780,6 @@
         }
       ]
     },
-    "1g1v1b9s9upsfcnl15ibzk44xsvygksp2u": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "CRYPTO HOME DMCC",
-          "program": "SDGT",
-          "type": "Digital Currency Address - XBT",
-          "uid": "58258"
-        }
-      ]
-    },
-    "0xbb69e01921b17cd22080968bcc96ba6115da6062": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "CRYPTO HOME DMCC",
-          "program": "SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "58258"
-        }
-      ]
-    },
     "bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23": {
       "type": "Digital Currency Address - BNB",
       "entries": [
@@ -15820,6 +15798,28 @@
           "entity": "CRYPTO HOME DMCC",
           "program": "SDGT",
           "type": "Digital Currency Address - TRX",
+          "uid": "58258"
+        }
+      ]
+    },
+    "1g1v1b9s9upsfcnl15ibzk44xsvygksp2u": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "CRYPTO HOME DMCC",
+          "program": "SDGT",
+          "type": "Digital Currency Address - XBT",
+          "uid": "58258"
+        }
+      ]
+    },
+    "0xbb69e01921b17cd22080968bcc96ba6115da6062": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "CRYPTO HOME DMCC",
+          "program": "SDGT",
+          "type": "Digital Currency Address - ETH",
           "uid": "58258"
         }
       ]
@@ -15843,6 +15843,22 @@
           "program": "SDGT, TCO",
           "type": "Digital Currency Address - TRX",
           "uid": "58262"
+        }
+      ]
+    },
+    "tpgxjjb6ajemsqfngbum6dmmxpha9getya": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Siavash KAYVANPOUR",
+          "program": "SDGT, IRGC",
+          "type": "Digital Currency Address - TRX",
+          "uid": "58284",
+          "akas": [
+            "HASHEM, Siavash",
+            "KAIVANPOUR, Siavash",
+            "KIWAN PORT, Siyawesh"
+          ]
         }
       ]
     },
@@ -15890,50 +15906,6 @@
             "HASHEM, Siavash",
             "KAIVANPOUR, Siavash",
             "KIWAN PORT, Siyawesh"
-          ]
-        }
-      ]
-    },
-    "tpgxjjb6ajemsqfngbum6dmmxpha9getya": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Siavash KAYVANPOUR",
-          "program": "SDGT, IRGC",
-          "type": "Digital Currency Address - TRX",
-          "uid": "58284",
-          "akas": [
-            "HASHEM, Siavash",
-            "KAIVANPOUR, Siavash",
-            "KIWAN PORT, Siyawesh"
-          ]
-        }
-      ]
-    },
-    "txn3hvukebhyyr31ypcyd7ajavmuexu1ab": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "SHPS SHELBIT",
-          "program": "SDGT",
-          "type": "Digital Currency Address - TRX",
-          "uid": "58287",
-          "akas": [
-            "SHELBIT EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "6wjqwwra8ombzaw6vhrg5xpq972jcyf6bbhifcbwmr4u": {
-      "type": "Digital Currency Address - SOL",
-      "entries": [
-        {
-          "entity": "SHPS SHELBIT",
-          "program": "SDGT",
-          "type": "Digital Currency Address - SOL",
-          "uid": "58287",
-          "akas": [
-            "SHELBIT EXCHANGE"
           ]
         }
       ]
@@ -15987,6 +15959,34 @@
           "entity": "SHPS SHELBIT",
           "program": "SDGT",
           "type": "Digital Currency Address - ETH",
+          "uid": "58287",
+          "akas": [
+            "SHELBIT EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "txn3hvukebhyyr31ypcyd7ajavmuexu1ab": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "SHPS SHELBIT",
+          "program": "SDGT",
+          "type": "Digital Currency Address - TRX",
+          "uid": "58287",
+          "akas": [
+            "SHELBIT EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "6wjqwwra8ombzaw6vhrg5xpq972jcyf6bbhifcbwmr4u": {
+      "type": "Digital Currency Address - SOL",
+      "entries": [
+        {
+          "entity": "SHPS SHELBIT",
+          "program": "SDGT",
+          "type": "Digital Currency Address - SOL",
           "uid": "58287",
           "akas": [
             "SHELBIT EXCHANGE"
