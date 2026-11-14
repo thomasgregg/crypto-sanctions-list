@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-11-13T12:04:40.703Z",
-    "sdnListDate": "11/09/2026",
-    "sdnRecordCount": 19563,
+    "lastUpdated": "2026-11-14T11:22:53.546Z",
+    "sdnListDate": "11/13/2026",
+    "sdnRecordCount": 19565,
     "source": "OFAC SDN List",
     "totalAddresses": 1064,
     "totalEntries": 1081,
@@ -6058,6 +6058,158 @@
         }
       ]
     },
+    "0x2f389ce8bd8ff92de3402ffce4691d17fc4f6535": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        },
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - ETH",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "0x19aa5fe80d33a56d56c78e82ea5e50e5d80b4dff": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        },
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - ETH",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "1kuujpkydhamzxgpsyxqngc3x1qpxtdhgz": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        },
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - XBT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "1cf46rfbp97absrs7zb7dffzs6qbxum9ep": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        },
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - XBT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "1lrxsrd7znuxpjcl5rttnoejfy1y4affyy": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        },
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - XBT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "1df883c96lvauvsx9fegnsourd8delwcuq": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        },
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - XBT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        }
+      ]
+    },
+    "16iwn2j1mcqjtoylhssays6en3qa8yq91h": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "SUEX OTC, S.R.O.",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33151",
+          "akas": [
+            "SUCCESSFUL EXCHANGE"
+          ]
+        }
+      ]
+    },
     "12hqdsicffsbaydj6bhne22sfjtesmmzkx": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -6170,98 +6322,6 @@
         }
       ]
     },
-    "1lrxsrd7znuxpjcl5rttnoejfy1y4affyy": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - XBT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        },
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "1kuujpkydhamzxgpsyxqngc3x1qpxtdhgz": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - XBT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        },
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "1cf46rfbp97absrs7zb7dffzs6qbxum9ep": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - XBT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        },
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "1df883c96lvauvsx9fegnsourd8delwcuq": {
-      "type": "Digital Currency Address - XBT",
-      "entries": [
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - XBT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        },
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        }
-      ]
-    },
     "bc1qdt3gml5z5n50y5hm04u2yjdphefkm0fl2zdj68": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -6290,52 +6350,6 @@
         }
       ]
     },
-    "0x2f389ce8bd8ff92de3402ffce4691d17fc4f6535": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - ETH",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        },
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "0x19aa5fe80d33a56d56c78e82ea5e50e5d80b4dff": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - ETH",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        },
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        }
-      ]
-    },
     "0xe7aa314c77f4233c18c6cc84384a9247c0cf367b": {
       "type": "Digital Currency Address - ETH",
       "entries": [
@@ -6357,20 +6371,6 @@
           "entity": "SUEX OTC, S.R.O.",
           "program": "CYBER2",
           "type": "Digital Currency Address - ETH",
-          "uid": "33151",
-          "akas": [
-            "SUCCESSFUL EXCHANGE"
-          ]
-        }
-      ]
-    },
-    "16iwn2j1mcqjtoylhssays6en3qa8yq91h": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "SUEX OTC, S.R.O.",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
           "uid": "33151",
           "akas": [
             "SUCCESSFUL EXCHANGE"
@@ -12318,20 +12318,6 @@
         }
       ]
     },
-    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Xingbiao SHEN",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45312",
-          "akas": [
-            "SHEN, Mike"
-          ]
-        }
-      ]
-    },
     "3b7s6zrgxqvquhtu8wstm23tb9afe7ojux": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -12360,26 +12346,17 @@
         }
       ]
     },
-    "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
+    "teaqwfmhxlaomxhz8kemhx3njgmqednsur": {
       "type": "Digital Currency Address - USDT",
       "entries": [
         {
-          "entity": "VALERIAN LABS, INC.",
+          "entity": "Xingbiao SHEN",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - USDT",
-          "uid": "45314"
-        },
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDC",
-          "uid": "45314"
-        },
-        {
-          "entity": "VALERIAN LABS, INC.",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - ETH",
-          "uid": "45314"
+          "uid": "45312",
+          "akas": [
+            "SHEN, Mike"
+          ]
         }
       ]
     },
@@ -12394,14 +12371,26 @@
         }
       ]
     },
-    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
-      "type": "Digital Currency Address - XBT",
+    "0x983a81ca6fb1e441266d2fbcb7d8e530ac2e05a2": {
+      "type": "Digital Currency Address - ETH",
       "entries": [
         {
-          "entity": "Jiantong WANG",
+          "entity": "VALERIAN LABS, INC.",
           "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - XBT",
-          "uid": "45349"
+          "type": "Digital Currency Address - ETH",
+          "uid": "45314"
+        },
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
+          "uid": "45314"
+        },
+        {
+          "entity": "VALERIAN LABS, INC.",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDC",
+          "uid": "45314"
         }
       ]
     },
@@ -12413,6 +12402,28 @@
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - TRX",
           "uid": "45349"
+        }
+      ]
+    },
+    "3nncbbcmzokpb2jc2dxyuzrpgcetvygejn": {
+      "type": "Digital Currency Address - XBT",
+      "entries": [
+        {
+          "entity": "Jiantong WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - XBT",
+          "uid": "45349"
+        }
+      ]
+    },
+    "ttknv2s1295urpr7n67tp9yknl7xx2z4uj": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Fengbing XIA",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "45350"
         }
       ]
     },
@@ -12438,14 +12449,14 @@
         }
       ]
     },
-    "ttknv2s1295urpr7n67tp9yknl7xx2z4uj": {
+    "trbacioxdrdsyezhvjwiudzcmdbppee5ub": {
       "type": "Digital Currency Address - TRX",
       "entries": [
         {
-          "entity": "Fengbing XIA",
+          "entity": "Wei ZHANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - TRX",
-          "uid": "45350"
+          "uid": "45391"
         }
       ]
     },
@@ -12468,28 +12479,6 @@
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
           "uid": "45391"
-        }
-      ]
-    },
-    "trbacioxdrdsyezhvjwiudzcmdbppee5ub": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Wei ZHANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "45391"
-        }
-      ]
-    },
-    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Mingming WANG",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - USDT",
-          "uid": "45404"
         }
       ]
     },
@@ -12522,6 +12511,17 @@
           "entity": "Mingming WANG",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - XBT",
+          "uid": "45404"
+        }
+      ]
+    },
+    "0xfac583c0cf07ea434052c49115a4682172ab6b4f": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Mingming WANG",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - USDT",
           "uid": "45404"
         }
       ]
