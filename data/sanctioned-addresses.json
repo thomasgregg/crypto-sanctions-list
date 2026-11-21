@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-11-20T12:44:25.621Z",
-    "sdnListDate": "11/19/2026",
-    "sdnRecordCount": 19595,
+    "lastUpdated": "2026-11-21T12:30:37.326Z",
+    "sdnListDate": "11/20/2026",
+    "sdnRecordCount": 19599,
     "source": "OFAC SDN List",
     "totalAddresses": 1065,
     "totalEntries": 1082,
@@ -5435,20 +5435,6 @@
         }
       ]
     },
-    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
-      "type": "Digital Currency Address - BCH",
-      "entries": [
-        {
-          "entity": "SECONDEYE SOLUTION",
-          "program": "CYBER2, ELECTION-EO13848",
-          "type": "Digital Currency Address - BCH",
-          "uid": "30518",
-          "akas": [
-            "FORWARDERZ"
-          ]
-        }
-      ]
-    },
     "1ne2nighhbkfpseynwwj7hkghgdedbtsrq": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -5652,6 +5638,20 @@
           "entity": "SECONDEYE SOLUTION",
           "program": "CYBER2, ELECTION-EO13848",
           "type": "Digital Currency Address - ETH",
+          "uid": "30518",
+          "akas": [
+            "FORWARDERZ"
+          ]
+        }
+      ]
+    },
+    "18m8bjwmzwhdbmxolqjhhaffdry4srzkfb": {
+      "type": "Digital Currency Address - BCH",
+      "entries": [
+        {
+          "entity": "SECONDEYE SOLUTION",
+          "program": "CYBER2, ELECTION-EO13848",
+          "type": "Digital Currency Address - BCH",
           "uid": "30518",
           "akas": [
             "FORWARDERZ"
@@ -6697,6 +6697,23 @@
         }
       ]
     },
+    "0xfec8a60023265364d066a1212fde3930f6ae8da7": {
+      "type": "Digital Currency Address - USDT",
+      "entries": [
+        {
+          "entity": "Yevgeniy Igorevich POLYANIN",
+          "program": "CYBER2",
+          "type": "Digital Currency Address - USDT",
+          "uid": "33858",
+          "akas": [
+            "Evegnii Igorevich POLIANIN",
+            "Evgeniy POLYANIN",
+            "Evgeniy Igorevich POLYANIN",
+            "Evgenii Igorevich POLYANIN"
+          ]
+        }
+      ]
+    },
     "158trevzbgmbthoaympxccpdzptqufyrt9": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -6789,23 +6806,6 @@
           "entity": "Yevgeniy Igorevich POLYANIN",
           "program": "CYBER2",
           "type": "Digital Currency Address - XBT",
-          "uid": "33858",
-          "akas": [
-            "Evegnii Igorevich POLIANIN",
-            "Evgeniy POLYANIN",
-            "Evgeniy Igorevich POLYANIN",
-            "Evgenii Igorevich POLYANIN"
-          ]
-        }
-      ]
-    },
-    "0xfec8a60023265364d066a1212fde3930f6ae8da7": {
-      "type": "Digital Currency Address - USDT",
-      "entries": [
-        {
-          "entity": "Yevgeniy Igorevich POLYANIN",
-          "program": "CYBER2",
-          "type": "Digital Currency Address - USDT",
           "uid": "33858",
           "akas": [
             "Evegnii Igorevich POLIANIN",
@@ -14023,13 +14023,13 @@
         }
       ]
     },
-    "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510": {
-      "type": "Digital Currency Address - ETH",
+    "tnmrfnsuxzowwzxcddbf95egqyxt1mjdt8": {
+      "type": "Digital Currency Address - TRX",
       "entries": [
         {
           "entity": "FUNNULL TECHNOLOGY INC",
           "program": "CYBER3",
-          "type": "Digital Currency Address - ETH",
+          "type": "Digital Currency Address - TRX",
           "uid": "53953",
           "akas": [
             "FUNNULL",
@@ -14041,13 +14041,13 @@
         }
       ]
     },
-    "tnmrfnsuxzowwzxcddbf95egqyxt1mjdt8": {
-      "type": "Digital Currency Address - TRX",
+    "0xd5ed34b52ac4ab84d8fa8a231a3218bbf01ed510": {
+      "type": "Digital Currency Address - ETH",
       "entries": [
         {
           "entity": "FUNNULL TECHNOLOGY INC",
           "program": "CYBER3",
-          "type": "Digital Currency Address - TRX",
+          "type": "Digital Currency Address - ETH",
           "uid": "53953",
           "akas": [
             "FUNNULL",
@@ -14266,6 +14266,28 @@
         }
       ]
     },
+    "0xe3d35f68383732649669aa990832e017340dbca5": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "Arash Estaki ALIVAND",
+          "program": "IFSR, SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "55502"
+        }
+      ]
+    },
+    "0x532b77b33a040587e9fd1800088225f99b8b0e8a": {
+      "type": "Digital Currency Address - ETH",
+      "entries": [
+        {
+          "entity": "Arash Estaki ALIVAND",
+          "program": "IFSR, SDGT",
+          "type": "Digital Currency Address - ETH",
+          "uid": "55502"
+        }
+      ]
+    },
     "tyduutyn4ylkupet7tg27yyqw6knvlq9qz": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -14295,28 +14317,6 @@
           "entity": "Arash Estaki ALIVAND",
           "program": "IFSR, SDGT",
           "type": "Digital Currency Address - TRX",
-          "uid": "55502"
-        }
-      ]
-    },
-    "0xe3d35f68383732649669aa990832e017340dbca5": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "Arash Estaki ALIVAND",
-          "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - ETH",
-          "uid": "55502"
-        }
-      ]
-    },
-    "0x532b77b33a040587e9fd1800088225f99b8b0e8a": {
-      "type": "Digital Currency Address - ETH",
-      "entries": [
-        {
-          "entity": "Arash Estaki ALIVAND",
-          "program": "IFSR, SDGT",
-          "type": "Digital Currency Address - ETH",
           "uid": "55502"
         }
       ]
@@ -14682,6 +14682,39 @@
         }
       ]
     },
+    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - TRX",
+          "uid": "56360"
+        }
+      ]
+    },
+    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
+      "type": "Digital Currency Address - SOL",
+      "entries": [
+        {
+          "entity": "Rolan SOKOLOVSKI",
+          "program": "ILLICIT-DRUGS-EO14059",
+          "type": "Digital Currency Address - SOL",
+          "uid": "56360"
+        }
+      ]
+    },
     "37fkfzqgmqdbkjsuub1jcdwggshwv9vxfz": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -14733,39 +14766,6 @@
           "entity": "Rolan SOKOLOVSKI",
           "program": "ILLICIT-DRUGS-EO14059",
           "type": "Digital Currency Address - ETH",
-          "uid": "56360"
-        }
-      ]
-    },
-    "tcu5onczxuqxjvvzdb2tr4fluf66d4yrqf": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "tbclqqqyzjnj1ptuxfgj5h768nhnu5ndyn": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - TRX",
-          "uid": "56360"
-        }
-      ]
-    },
-    "42rlpacwzpx3vyymxsueqsogfynbdqxk298edsnoyohi": {
-      "type": "Digital Currency Address - SOL",
-      "entries": [
-        {
-          "entity": "Rolan SOKOLOVSKI",
-          "program": "ILLICIT-DRUGS-EO14059",
-          "type": "Digital Currency Address - SOL",
           "uid": "56360"
         }
       ]
@@ -15264,38 +15264,6 @@
         }
       ]
     },
-    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "FIRST VPN SERVICE",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57975",
-          "akas": [
-            "1VPNS",
-            "FVPNS",
-            "FIRSTVPN"
-          ]
-        }
-      ]
-    },
-    "tuuaxbawfa5nmsqnfycxyrzevz4a5gjmgy": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "FIRST VPN SERVICE",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - TRX",
-          "uid": "57975",
-          "akas": [
-            "1VPNS",
-            "FVPNS",
-            "FIRSTVPN"
-          ]
-        }
-      ]
-    },
     "bc1qdnr88f4d2yqunnc4mjsguezm6g3mlwe44z5dw8": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -15335,6 +15303,38 @@
           "entity": "FIRST VPN SERVICE",
           "program": "CYBER4",
           "type": "Digital Currency Address - ETH",
+          "uid": "57975",
+          "akas": [
+            "1VPNS",
+            "FVPNS",
+            "FIRSTVPN"
+          ]
+        }
+      ]
+    },
+    "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "FIRST VPN SERVICE",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57975",
+          "akas": [
+            "1VPNS",
+            "FVPNS",
+            "FIRSTVPN"
+          ]
+        }
+      ]
+    },
+    "tuuaxbawfa5nmsqnfycxyrzevz4a5gjmgy": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "FIRST VPN SERVICE",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - TRX",
           "uid": "57975",
           "akas": [
             "1VPNS",
@@ -15411,6 +15411,46 @@
           "entity": "Dmytro RASHEVSKYI",
           "program": "CYBER4",
           "type": "Digital Currency Address - ETH",
+          "uid": "57978",
+          "akas": [
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
+          ]
+        }
+      ]
+    },
+    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Dmytro RASHEVSKYI",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
+          "uid": "57978",
+          "akas": [
+            "Dmitry RASHEVSKY",
+            "Maksim SORIN",
+            "Roman CHABANENKO",
+            "WALKER, Johny",
+            "JOHNYW255",
+            "JOBBERJOBBER777",
+            "RASHDV7"
+          ]
+        }
+      ]
+    },
+    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
+      "type": "Digital Currency Address - LTC",
+      "entries": [
+        {
+          "entity": "Dmytro RASHEVSKYI",
+          "program": "CYBER4",
+          "type": "Digital Currency Address - LTC",
           "uid": "57978",
           "akas": [
             "Dmitry RASHEVSKY",
@@ -15604,46 +15644,6 @@
         }
       ]
     },
-    "lcp1dumxknjbbtsyd3xxafsj2nzr5hldpm": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Dmytro RASHEVSKYI",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57978",
-          "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
-          ]
-        }
-      ]
-    },
-    "lbpaqhvemzbv3pvaqiatdnz3u1t6ezial1": {
-      "type": "Digital Currency Address - LTC",
-      "entries": [
-        {
-          "entity": "Dmytro RASHEVSKYI",
-          "program": "CYBER4",
-          "type": "Digital Currency Address - LTC",
-          "uid": "57978",
-          "akas": [
-            "Dmitry RASHEVSKY",
-            "Maksim SORIN",
-            "Roman CHABANENKO",
-            "WALKER, Johny",
-            "JOHNYW255",
-            "JOBBERJOBBER777",
-            "RASHDV7"
-          ]
-        }
-      ]
-    },
     "tjjran9kliyh8h6gjbjayjkfdkskgzfyw9": {
       "type": "Digital Currency Address - TRX",
       "entries": [
@@ -15780,28 +15780,6 @@
         }
       ]
     },
-    "bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23": {
-      "type": "Digital Currency Address - BNB",
-      "entries": [
-        {
-          "entity": "CRYPTO HOME DMCC",
-          "program": "SDGT",
-          "type": "Digital Currency Address - BNB",
-          "uid": "58258"
-        }
-      ]
-    },
-    "ttvjuxwcusaurrpnshiypauageh1n4crxv": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "CRYPTO HOME DMCC",
-          "program": "SDGT",
-          "type": "Digital Currency Address - TRX",
-          "uid": "58258"
-        }
-      ]
-    },
     "1g1v1b9s9upsfcnl15ibzk44xsvygksp2u": {
       "type": "Digital Currency Address - XBT",
       "entries": [
@@ -15820,6 +15798,28 @@
           "entity": "CRYPTO HOME DMCC",
           "program": "SDGT",
           "type": "Digital Currency Address - ETH",
+          "uid": "58258"
+        }
+      ]
+    },
+    "bnb136ns6lfw4zs5hg4n85vdthaad7hq5m4gtkgf23": {
+      "type": "Digital Currency Address - BNB",
+      "entries": [
+        {
+          "entity": "CRYPTO HOME DMCC",
+          "program": "SDGT",
+          "type": "Digital Currency Address - BNB",
+          "uid": "58258"
+        }
+      ]
+    },
+    "ttvjuxwcusaurrpnshiypauageh1n4crxv": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "CRYPTO HOME DMCC",
+          "program": "SDGT",
+          "type": "Digital Currency Address - TRX",
           "uid": "58258"
         }
       ]
@@ -16751,28 +16751,6 @@
         }
       ]
     },
-    "tqkodq5acrwaciintete5pdyvn38i4qfn1": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Ilya Aleksandrovich BOYKOV",
-          "program": "DPRK2",
-          "type": "Digital Currency Address - TRX",
-          "uid": "58886"
-        }
-      ]
-    },
-    "txmrnvgsqcmjncyhtxchuj5z111bxsj4g3": {
-      "type": "Digital Currency Address - TRX",
-      "entries": [
-        {
-          "entity": "Ilya Aleksandrovich BOYKOV",
-          "program": "DPRK2",
-          "type": "Digital Currency Address - TRX",
-          "uid": "58886"
-        }
-      ]
-    },
     "0x12ea80238c7d805d003ce793594e92d84a6f4e8d": {
       "type": "Digital Currency Address - ETH",
       "entries": [
@@ -16798,6 +16776,28 @@
           "program": "DPRK2",
           "type": "Digital Currency Address - ETH",
           "uid": "58889"
+        }
+      ]
+    },
+    "tqkodq5acrwaciintete5pdyvn38i4qfn1": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Ilya Aleksandrovich BOYKOV",
+          "program": "DPRK2",
+          "type": "Digital Currency Address - TRX",
+          "uid": "58886"
+        }
+      ]
+    },
+    "txmrnvgsqcmjncyhtxchuj5z111bxsj4g3": {
+      "type": "Digital Currency Address - TRX",
+      "entries": [
+        {
+          "entity": "Ilya Aleksandrovich BOYKOV",
+          "program": "DPRK2",
+          "type": "Digital Currency Address - TRX",
+          "uid": "58886"
         }
       ]
     },
